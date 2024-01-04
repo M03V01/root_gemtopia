@@ -182,15 +182,18 @@ body{
 .row-waves{
     margin-top:-5vh ;
 }
+
 .waves {
     position: relative;
     width: 100%;
     height: 20vh;
     margin-bottom: 7px;
+    z-index: 1;
     /*Fix for safari gap*/
     min-height: 100px;
     max-height: 400px;
 }
+
 .parallax>use {
     animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
 }
@@ -210,6 +213,7 @@ body{
     animation-delay: -5s;
     animation-duration: 20s;
 }
+
 @keyframes move-forever {
     0% {
         transform: translate3d(-90px, 0, 0);
@@ -221,7 +225,7 @@ body{
 /*Shrinking for mobile*/
 @media only screen and (max-width: 768px) {
     .waves {
-        height: 40px;
+        height: 60px;
         min-height: 40px;
     }
     .content {
@@ -235,9 +239,14 @@ body{
     padding-left:0px;
     padding-right:0px;
     background-color: rgba(255, 255, 255, 0.20);
-
 }
 
+.unique-color-background {
+    background-color: #DB689C;
+
+    /* COLORE SCURO, LO TENIAMO PER ULTERIORI PROVE */
+    /* background: linear-gradient(#cc2c78 40%, rgb(86, 13, 72) 100%); */
+}
 
 /************ Main home **********/
 .quartiere_1{
@@ -271,6 +280,10 @@ body{
     margin-top: 20dvh;
 
 }
+/********** LINEA DEL TEMPO **********/
+
+
+
 
 /********** card home***********/
 .card{
@@ -290,8 +303,6 @@ body{
     overflow: hidden;
     transition: background-color 0.3s;
 }
-
-
 
 #question-text{
     color: #ffffff;
