@@ -242,7 +242,7 @@ body{
 }
 
 .unique-color-background {
-    background-color: #DB689C;
+    background-color: #DB689C !important;
 
     /* COLORE SCURO, LO TENIAMO PER ULTERIORI PROVE */
     /* background: linear-gradient(#cc2c78 40%, rgb(86, 13, 72) 100%); */
