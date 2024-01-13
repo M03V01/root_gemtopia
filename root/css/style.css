@@ -242,7 +242,10 @@ body{
 }
 
 .unique-color-background {
-    background-color: #DB689C !important;
+    /* background-color: #DB689C !important; /*SU MAC OK */
+    /* background-color: #DB689D !important; /*SU MAC OK */
+    /* background-color: #d86a9b !important; /*SU MAC OK */
+   background-color: #d95f9a !important;
 
     /* COLORE SCURO, LO TENIAMO PER ULTERIORI PROVE */
     /* background: linear-gradient(#cc2c78 40%, rgb(86, 13, 72) 100%); */
