@@ -333,6 +333,17 @@ li.active a:hover{
     margin-top: 20px;
 }
 
+/*footer*/
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    .hide-on-mobile {
+        display: none;
+    }
+}
 
 
 /****************GEMTOUR***********/
@@ -355,11 +366,7 @@ li.active a:hover{
 
 
 
-/*footer*/
-.footer {
-    display: flex;
-    justify-content: space-between;
-}
+
 
 
 

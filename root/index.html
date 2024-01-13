@@ -404,7 +404,25 @@
 
         <footer>
             <div class="page-footer mt-lg-0 container-fluid unique-color-background px-lg-5 justify-content-between d-flex">
-                <div class="container my-5">
+                <!-- Sei immagini visibili solo in modalità mobile -->
+                <div class="d-flex flex-column d-lg-none">
+                    <!-- Prima riga di immagini -->
+                    <div class="d-flex justify-content-around justify-content-center">
+                        <img class="img-fluid" src="img/icona_telefono.svg" alt="Image 1">
+                        <img class="img-fluid" src="img/icona_mail.svg" alt="Image 2">
+                        <img class="img-fluid" src="img/icona_mappe.svg" alt="Image 3">
+                    </div>
+                    <!-- Seconda riga di immagini -->
+                    <div class="d-flex justify-content-around ">
+                        <img class="img-fluid" src="img/icona_pinterest.svg" alt="Image 4">
+                        <img class="img-fluid" src="img/icona_insta.svg" alt="Image 5">
+                        <img class="img-fluid" src="img/icona_youtube.svg" alt="Image 6">
+                        <!-- Aggiungi altre immagini qui -->
+                    </div>
+                </div>
+
+                <!-- Testo solo in modalità desktop -->
+                <div class="container my-5 d-none d-lg-flex">
                     <div class="col-12 col-lg-8 mt-3">
                         <h3 class="mb-3">Telefono</h3>
                         <p class="mb-3">Tel. 288488483823</p>
@@ -413,18 +431,18 @@
                         <h3 class="mb-3">Contattaci</h3>
                         <p class="mb-3">Tel. 288488483823</p>
 
-                        <!-- Nuove immagini sotto ai testi -->
-                        <div class="d-flex justify-content-between mt-5 ">
+                        <div class="d-none d-lg-flex justify-content-between mt-5">
                             <img class="img-fluid" src="img/Group%20191.svg" alt="Image 1">
                             <img class="img-fluid" src="img/Group%20192.svg" alt="Image 2">
                             <img class="img-fluid" src="img/Group%20193.svg" alt="Image 3">
                         </div>
+
                     </div>
                 </div>
-                <img class="img-fluid" src="img/Rectangle%2026.svg" alt="">
+                <!-- Immagine solo in modalità desktop -->
+                <img class="img-fluid d-none d-lg-block" src="img/Rectangle%2026.svg" alt="">
             </div>
         </footer>
-
 
 
 
