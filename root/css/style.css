@@ -64,7 +64,7 @@ body{
 
 }
 .cta:hover{
-
+ transform: scale(1.1);
 }
 a{
 
@@ -93,8 +93,7 @@ a:hover{color: var(--bs-btn-secondary);
     backdrop-filter:blur(10px);
 }
 .brand:hover{
-    background: radial-gradient(circle, rgba(219,29,118,0.1012998949579832) 2%, rgba(255,255,255,0) 87%);
-    border-radius:50%;
+    filter: drop-shadow(0 0.4rem 0.45rem rgba(255, 234,255, 0.5));
 }
 .nav-item{
     align-self: center;
