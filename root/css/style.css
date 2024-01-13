@@ -355,6 +355,14 @@ li.active a:hover{
 
 
 
+/*footer*/
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
 
 
 
