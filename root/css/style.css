@@ -151,7 +151,16 @@ li.active a:hover{
 
 /***********FOOTER************/
 
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
 
+@media (max-width: 768px) {
+    .hide-on-mobile {
+        display: none;
+    }
+}
 
 
 /*************** HOME **********/
@@ -333,17 +342,7 @@ li.active a:hover{
     margin-top: 20px;
 }
 
-/*footer*/
-.footer {
-    display: flex;
-    justify-content: space-between;
-}
 
-@media (max-width: 768px) {
-    .hide-on-mobile {
-        display: none;
-    }
-}
 
 
 /****************GEMTOUR***********/
