@@ -236,7 +236,8 @@ li.active a:hover{
     /*background-color: #d95f9a !important; si windows */
        /* COLORE SCURO, LO TENIAMO PER ULTERIORI PROVE */
     /* background: linear-gradient(#cc2c78 40%, rgb(86, 13, 72) 100%); */
-    background-color: #d23380;
+    /*background-color: #d23380;*/
+    background-color: #d23481;
 }
 
 /************ Main home **********/
