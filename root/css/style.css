@@ -151,10 +151,6 @@ li.active a:hover{
 
 /***********FOOTER************/
 
-.footer {
-    display: flex;
-    justify-content: space-between;
-}
 
 @media (max-width: 768px) {
     .hide-on-mobile {
