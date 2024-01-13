@@ -365,6 +365,16 @@ li.active a:hover{
 
 /****************LIVEGEM***********/
 
+/*posizione bimbo*/
+.custom-container {
+    margin-top: -240px;
+}
+
+@media (max-width: 768px) {
+    .custom-container {
+        margin-top: -265px;
+    }
+}
 
 
 /****************ABOUTGEM***********/
