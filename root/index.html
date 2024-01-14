@@ -29,7 +29,7 @@
               <li class="nav-item m-lg-2">
                 <a class="nav-link" href="gemtour.html">GemTour</a>
               </li>
-                <li class="nav-item dropdown ">
+                <li class="nav-item dropdown text-center text-lg-start">
                     <a class="nav-link dropdown-toggle " href="infogem.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
                         InfoGem
                     </a>
@@ -446,7 +446,6 @@
                     </div>
                 </div>
                 <!-- Immagine solo in modalità desktop -->
-            
                 <img class="img-fluid d-none d-lg-block" src="img/Rectangle%2026.svg" alt="">
         </footer><!-- chiusura footer content -->
     </div> <!-- chiusura div footer totale -->
@@ -461,9 +460,12 @@
         $(document).ready(function(){
             $(window).scroll(function() {
                 if ($(document).scrollTop() > 20) {
+                    $(".navbar").css("background", "radial-gradient(20707.45% 141.42% at 0% 0%, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0) 100%)");
+                    $(".navbar").css("box-shadow", "0 3px 15px 0 rgba(36, 4, 59, 0.50)");
+                    $(".navbar").addClass("scrolled");
                     $(".navbar").addClass("scrolled");
                 } else {
-                    $(".navbar").removeClass("scrolled");
+                    $('.navbar').css("background-color", "transparent");
                 }
             });
         });
