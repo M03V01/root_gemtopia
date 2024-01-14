@@ -109,19 +109,21 @@ a:hover{color: var(--bs-btn-secondary);
     color:var(--bs-btn-text);
     text-shadow: 0 0 30px rgba(255, 29, 118, 0.9);
 }
-
 .dropdown-menu > li{
     color:var(--bs-btn-text);
+
 }
 .dropdown-menu{
-    background: radial-gradient(20707.45% 141.42% at 0% 0%, rgba(255, 255, 255, 0.62) 0%, rgba(255, 255, 255, 0) 100%);
-    box-shadow: 0 3px 15px 0 rgba(36, 4, 59, 0.70);
-    backdrop-filter:blur(10px);
+    border-radius: 10px;
+    background: radial-gradient(168.62% 143.28% at 0% 0%, rgba(255, 255, 255, 0.60) 0%, rgba(255, 255, 255, 0.10) 100%);
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(21px);
 }
 
 .dropdown-menu > li > a:hover {
     background-image: none;
     background-color: transparent;
+
 }
 
 
