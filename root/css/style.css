@@ -80,11 +80,32 @@ a:hover{color: var(--bs-btn-secondary);
 }
 
 /***********Nav************/
+.navbar {
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    height: 6.5rem;
+    width: 100%;
+    -webkit-transition: height .5s, line-height .5s; /* Safari */
+    transition: height .5s, line-height .5s;
+}
+.scrolled-nav {
+    height: 3.75rem;
+    }
 
+.counter {
+    width: 1.25rem;
+    height: 1.25rem;
+    position: fixed;
+    top: 7.5rem;
+    right: 0;
+}
 
 .scrolled {
-
     backdrop-filter:blur(10px);
+}
+.shrink_brand .navbar-brand{
+    font-size:1rem;
 }
 .brand:hover{
     filter: drop-shadow(0 0.4rem 0.45rem rgba(255, 234,255, 0.5));
