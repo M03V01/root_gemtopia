@@ -162,6 +162,14 @@ li.active a:hover{
     color:var(--bs-btn-text);
 }
 
+li.active .dropdown-item{
+    color:var(--bs-btn-text);
+
+}
+li.active .dropdown-item:hover{
+    color:var(--bs-btn-secondary);
+    text-shadow: 0 0 30px rgba(255, 29, 118, 0.9);
+}
 
 
 @media only screen and  (max-width:768px){
