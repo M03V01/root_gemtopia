@@ -310,7 +310,7 @@ li.active .dropdown-item:hover{
 .quartiere_1{
     border-radius: 30px;
     border: 2px solid rgba(100, 204, 197, 0.40);
-    background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(100, 204, 197, 0.40) 0%, rgba(255, 255, 255, 0.00) 100%);
+    background: radial-gradient(circle at 100% 100%, rgba(100, 204, 197, 0) 0%, rgba(100, 204, 197,0.4)100%);
     backdrop-filter: blur(10px);
 }
 .quartiere_2{
@@ -332,10 +332,14 @@ li.active .dropdown-item:hover{
     backdrop-filter: blur(10px);
 }
 
-
 .quart1 {
+    margin-top: 10dvh;
+}
+@media only screen and (min-width: 992px) {
+    .quart1 {
 
-    margin-top: 20dvh;
+        margin-top: 20dvh;
+    }
 }
 .arrow{
     transition: all .4s ease-in-out;
