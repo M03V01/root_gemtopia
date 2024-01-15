@@ -125,8 +125,6 @@
           </div>
         </div>
 
-
-
         <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto" style="transform: scaleY(-1);">
           <defs>
             <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
@@ -155,34 +153,36 @@
     </section>
   </header>
 
-  <main class="container my-5 ">
-    <section class="row col-12  ">
-      <div class="col-12 col-lg-8 ">
-        <h3 >It’s all about the gem!</h3>
-        <p>Al centro della nostra città batte il cuore magico delle Gemme Meravigliose che, cariche di un’energia straordinaria, sono al fonte di sostentamento di Gemtopia.<span class="d-none d-lg-inline" >Ognuna di esse emana un potere unico, e la loro energia si fonde in armonia per sostenere la città e mantenerla sospesa su una forza energetica che sfida ogni legge di gravità!  Esplora il mistero di queste gemme, e scopri come la loro magia tiene viva Gemtopia e la rende una città fuori dal comune.</span></p>
+  <!-- MAIN -->
+  <main class="container my-5">
+    <div class="row">
+      <div class="col-12 col-lg-3">
+        <img src="img/gemtour_imgMain.svg" alt=" " class="img-fluid">
       </div>
-    </section>
-    <div class="col-12 text-end  text-lg-start my-3 ">
-      <a href="#"  type="button" class="cta p-2 px-5 rounded"> Scopri di più</a>
+      <div class="col-12 col-lg-9">
+        <h2>Benvenuto nel magico mondo di Gemtopia!</h2>
+        <p>Al centro della città le Gemme Meravigliose pulsano con un’energia unica, sostenendo la città e sfidando le leggi della gravità. Gemtopia è divisa in 4 quartieri, tutti collegati al centro della città grazie all’unione dell’energia delle varie gemme, e ogni quartiere ha una propria magia e un’atmosfera unica. Se vuoi esplorare il mistero di queste gemme e immergerti in un viaggio attraverso i 4 quartieri di Gemtopia, ti trovi nel posto giusto!</p>
+      </div>
     </div>
   </main>
 
 
-  <div class="container">
-    <ul class="nav nav-tabs nav-justified justify-content-between">
+  <section class="container">
+    <ul class="nav nav-tabs justify-content-between">
       <li class="nav-item tab_viola">
-        <a class="nav-link" data-toggle="tab" href="#viola"></a>
+        <a class="nav-link active" id="viola-tab" data-bs-toggle="tab" href="#viola"></a>
       </li>
       <li class="nav-item tab_fuxia">
-        <a class="nav-link" data-toggle="tab" href="#fuxia"></a>
+        <a class="nav-link" id="fuxia-tab" data-bs-toggle="tab" href="#fuxia"></a>
       </li>
       <li class="nav-item tab_arancio">
-        <a class="nav-link" data-toggle="tab" href="#arancione"></a>
+        <a class="nav-link" id="arancione-tab" data-bs-toggle="tab" href="#arancione"></a>
       </li>
       <li class="nav-item tab_blu">
-        <a class="nav-link" data-toggle="tab" href="#blu"></a>
+        <a class="nav-link" id="blu-tab" data-bs-toggle="tab" href="#blu"></a>
       </li>
     </ul>
+
 
     <div class="tab-content">
       <div id="viola" class="container tab-pane active tab_viola pb-5 pt-5 px-lg-5">
@@ -217,36 +217,36 @@
 
       <div id="arancione" class="container tab-pane fade tab_arancio pb-5 pt-5 px-lg-5">
         <div class="row">
-          <div class="col-md-12 text-center pb-5">
-            <h2>Intrepidaria</h2>
-          </div>
-          <div class="col-md-6">
-            <img src="img/tabpanel_arancione.svg" alt=" " class="img-fluid">
-          </div>
-          <div class="col-md-6 px-lg-5">
-            <h3>Vivi l’avventura</h3>
-            <p>Nel quartiere dell’avventura, Intrepidaria, l’emozione ti aspetta ad ogni angolo: il quartiere pulsa di energia ed è il luogo ideale per gli spiriti coraggiosi. Le strade sono animate da sculture dinamiche, murales tridimensionali e pavimentazioni artistiche. Qui si possono trovare diverse attività adrenaliniche e sport estremi mai visti. La gemma gialla simboleggia il calore, l’entusiasmo e l’energia di questo quartiere.</p>
-          </div>
+        <div class="col-md-12 text-center pb-5">
+          <h2>Intrepidaria</h2>
+        </div>
+        <div class="col-md-6">
+          <img src="img/tabpanel_arancione.svg" alt=" " class="img-fluid">
+        </div>
+        <div class="col-md-6 px-lg-5">
+          <h3>Vivi l’avventura</h3>
+          <p>Nel quartiere dell’avventura, Intrepidaria, l’emozione ti aspetta ad ogni angolo: il quartiere pulsa di energia ed è il luogo ideale per gli spiriti coraggiosi. Le strade sono animate da sculture dinamiche, murales tridimensionali e pavimentazioni artistiche. Qui si possono trovare diverse attività adrenaliniche e sport estremi mai visti. La gemma gialla simboleggia il calore, l’entusiasmo e l’energia di questo quartiere.</p>
         </div>
       </div>
+    </div>
 
-      <div id="blu" class="container tab-pane fade tab_blu pb-5 pt-5 px-lg-5">
-        <div class="row">
-          <div class="col-md-12 text-center pb-5">
-            <h2>Dreamstrict</h2>
-          </div>
-          <div class="col-md-6 ">
-            <img src="img/tabpanel_blu.svg" alt=" " class="img-fluid">
-          </div>
-          <div class="col-md-6 px-lg-5">
-            <h3>Un luogo per sognatori</h3>
-            <p>Nel quartiere dei sogni, Dreamstrict, troverai un angolo di pace per i sognatori, dove potersi rigenerare: l’atmosfera è tranquilla e rilassata, le strade sono fiancheggiate da alberi meravigliosi e nuvole morbide e accoglienti sulle quali poter riposare. I negozi offrono prodotti e servizi dedicati al benessere e alla serenità, come massaggi celesti, percorsi delle acque tranquille e caffè delle carezze. La gemma azzurra simboleggia la sensazione di calma e di pace che incoraggia gli abitanti a sognare ad occhi aperti.</p>
-          </div>
+    <div id="blu" class="container tab-pane fade tab_blu pb-5 pt-5 px-lg-5">
+      <div class="row">
+        <div class="col-md-12 text-center pb-5">
+          <h2>Dreamstrict</h2>
+        </div>
+        <div class="col-md-6">
+          <img src="img/tabpanel_blu.svg" alt=" " class="img-fluid">
+        </div>
+        <div class="col-md-6 px-lg-5">
+          <h3>Un luogo per sognatori</h3>
+          <p>Nel quartiere dei sogni, Dreamstrict, troverai un angolo di pace per i sognatori, dove potersi rigenerare: l’atmosfera è tranquilla e rilassata, le strade sono fiancheggiate da alberi meravigliosi e nuvole morbide e accoglienti sulle quali poter riposare. I negozi offrono prodotti e servizi dedicati al benessere e alla serenità, come massaggi celesti, percorsi delle acque tranquille e caffè delle carezze. La gemma azzurra simboleggia la sensazione di calma e di pace che incoraggia gli abitanti a sognare ad occhi aperti.</p>
         </div>
       </div>
-  </div>
-  </div>
+    </div>
 
+    </div>
+  </section>
 
 
 
@@ -289,7 +289,6 @@
   </script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
