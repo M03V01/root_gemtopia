@@ -22,7 +22,7 @@
             </button>
             <div class="collapse navbar-collapse justify-content-center justify-content-xl-end wh" id="navbarTogglerDemo01">
                 <ul class="navbar-nav mb-0 align-items-center ">
-                    <li class="nav-item active m-md-2 fw-bold">
+                    <li class="nav-item  m-md-2">
                         <a data-toggle="tab" class="nav-link" aria-current="page" href="index.html">Gemtopia</a>
                     </li>
                     <li class="nav-item m-md-2">
@@ -37,9 +37,7 @@
                             <li><a class="dropdown-item" href="infogem.html#uffici">Uffici</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item m-md-2">
-                        <a class="nav-link" href="infogem.html">InfoGem</a>
-                    </li>
+
                     <li class="nav-item m-md-2">
                         <a class="nav-link" href="gem-events.html">GemEvents</a>
                     </li>
@@ -59,17 +57,20 @@
 <!-- fine main home -->
 <script src="js/bootstrap.bundle.min.js"></script> <!-- script bootstrap-->
 <!--script background nav scroll-->
-<script>
-    $(document).ready(function(){
-        $(window).scroll(function() {
-            if ($(document).scrollTop() > 20) {
-                $(".navbar").addClass("scrolled");
-            } else {
-                $(".navbar").removeClass("scrolled");
-            }
+    <script>
+        $(document).ready(function(){
+            $(window).scroll(function() {
+                if ($(document).scrollTop() > 20) {
+                    $(".navbar").css("background", "radial-gradient(20707.45% 141.42% at 0% 0%, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0) 100%)");
+                    $(".navbar").css("box-shadow", "0 3px 15px 0 rgba(36, 4, 59, 0.50)");
+                    $(".navbar").addClass("scrolled");
+
+                } else {
+                    $('.navbar').css("background-color", "transparent");
+                }
+            });
         });
-    });
-</script>
+    </script>
 <script>
     $(document).ready(function(){
         var scrollTop = 0;
