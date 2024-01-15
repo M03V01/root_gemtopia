@@ -450,11 +450,37 @@ li.active a:hover{
 
 /****************ABOUTGEM***********/
 
+.tab_viola{
+    background: radial-gradient(346.21% 128.67% at 0% 14%, rgba(148, 11, 146, 0.80) 0%, rgba(148, 11, 146, 0.00) 100%);
+    stroke-width: 2px;
+    stroke: rgba(255, 255, 255, 0.40);
+    backdrop-filter: blur(10px);
+}
+
+.tab_fuxia{
+    background: radial-gradient(345.9% 128.62% at 0% 14.09%, rgba(219, 29, 118, 0.80) 0%, rgba(219, 29, 118, 0.00) 100%);
+    stroke-width: 2px;
+    stroke: rgba(219, 29, 118, 0.40);
+    backdrop-filter: blur(10px);
+}
 
 
 
 
 
+.tab_arancio{
+    background: radial-gradient(345.7% 128.59% at 0% 14.14%, rgba(255, 147, 97, 0.80) 0%, rgba(255, 147, 97, 0.00) 100%);
+    stroke-width: 2px;
+    stroke: rgba(255, 147, 97, 0.40);
+    backdrop-filter: blur(10px);
+}
+
+.tab_blu{
+    background: radial-gradient(345.51% 128.56% at 0% 14.19%, rgba(100, 204, 197, 0.80) 0%, rgba(100, 204, 197, 0.00) 100%);
+    stroke-width: 2px;
+    stroke: rgba(100, 204, 197, 0.40);
+    backdrop-filter: blur(10px);
+}
 
 
 
