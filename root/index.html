@@ -23,31 +23,31 @@
         </button>
         <div class="collapse navbar-collapse justify-content-center justify-content-xl-end wh" id="navbarTogglerDemo01">
             <ul class="navbar-nav mb-0 align-items-center ">
-              <li class="nav-item active m-lg-2 fw-bold">
+              <li class="nav-item active m-md-2 fw-bold">
                 <a data-toggle="tab" class="nav-link" aria-current="page" href="index.html">Gemtopia</a>
               </li>
-              <li class="nav-item m-lg-2">
+              <li class="nav-item m-md-2">
                 <a class="nav-link" href="gemtour.html">GemTour</a>
               </li>
-                <li class="nav-item dropdown text-center text-lg-start">
+                <li class="nav-item dropdown text-center text-md-start">
                     <a class="nav-link dropdown-toggle " href="infogem.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
                         InfoGem
                     </a>
-                    <ul class="dropdown-menu text-center text-lg-start " aria-labelledby="navbarDropdown" >
+                    <ul class="dropdown-menu text-center text-md-start " aria-labelledby="navbarDropdown" >
                         <li><a class="dropdown-item mb-2" href="infogem.html#trasporti">Trasporti</a></li>
                         <li><a class="dropdown-item" href="infogem.html#uffici">Uffici</a></li>
                     </ul>
                 </li>
-              <li class="nav-item m-lg-2">
+              <li class="nav-item m-md-2">
                                   <a class="nav-link" href="infogem.html">InfoGem</a>
               </li>
-              <li class="nav-item m-lg-2">
-                <a class="nav-link" href="gem-events.html">Gem-Events</a>
+              <li class="nav-item m-md-2">
+                <a class="nav-link" href="gem-events.html">GemEvents</a>
               </li>
-              <li class="nav-item m-lg-2">
+              <li class="nav-item m-md-2">
                 <a class="nav-link" href="livegem.html">LiveGem</a>
               </li>
-              <li class="nav-item m-lg-2">
+              <li class="nav-item m-md-2">
                   <a class="nav-link" href="aboutgem.html">AboutGem</a>
               </li>
           </ul>
@@ -479,10 +479,11 @@
 
                 if (scrollTop >= 100) {
                     $('.navbar').addClass('scrolled-nav');
-                    $(".navbar-brand").addClass('col-lg-2')
+                    $(".navbar-brand").addClass('col-lg-2', "img-fluid")
+
                 } else if (scrollTop < 100) {
                     $('.navbar').removeClass('scrolled-nav');
-                    $(".navbar-brand").removeClass('col-lg-2')
+                    $(".navbar-brand").removeClass('col-lg-2', "img-fluid")
                 }
 
             });
