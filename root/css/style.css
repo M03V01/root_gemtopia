@@ -316,19 +316,19 @@ li.active .dropdown-item:hover{
 .quartiere_2{
     border-radius: 30px;
     border: 2px solid rgba(255, 147, 97, 0.40);
-    background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(255, 147, 97, 0.40) 0%, rgba(255, 147, 97, 0.00) 100%);
+    background: radial-gradient(circle at 100% 100%,rgba(255, 147, 97, 0.00)0%, rgba(255, 147, 97, 0.40)100%);
     backdrop-filter: blur(10px);
 }
 .quartiere_3{
     border-radius: 30px;
     border: 2px solid rgba(148, 11, 146, 0.40);
-    background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(148, 11, 146, 0.40) 0%, rgba(148, 11, 146, 0.00) 100%);
+    background: radial-gradient(circle at 100% 100%,  rgba(148, 11, 146, 0.00)0%, rgba(148, 11, 146, 0.40) 100%);
     backdrop-filter: blur(10px);
 }
 .quartiere_4{
     border-radius: 30px;
     border: 2px solid rgba(219, 29, 118, 0.40);
-    background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(219, 29, 118, 0.40) 0%, rgba(219, 29, 118, 0.00) 100%);
+    background: radial-gradient(circle at 100% 100%,  rgba(219, 29, 118, 0.00) 0%, rgba(219, 29, 118, 0.40)100%);
     backdrop-filter: blur(10px);
 }
 
@@ -369,7 +369,7 @@ li.active .dropdown-item:hover{
 }
 
 #question-text{
-    color: #ffffff;
+    color:var(--bs-btn-text);
 }
 
 .btn-container {
