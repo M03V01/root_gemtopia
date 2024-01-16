@@ -105,6 +105,7 @@ a:hover{color: var(--bs-btn-secondary);
 
 .scrolled {
     backdrop-filter:blur(10px);
+    transform: translate3d(0, 0, 0);
 }
 .shrink_brand .navbar-brand{
     font-size:1rem;
@@ -312,29 +313,34 @@ li.active .dropdown-item:hover{
     border: 2px solid rgba(100, 204, 197, 0.40);
     background: radial-gradient(circle at 100% 100%, rgba(100, 204, 197, 0) 0%, rgba(100, 204, 197,0.4)100%);
     backdrop-filter: blur(10px);
+    transform: translate3d(0, 0, 0);
 }
 .quartiere_2{
     border-radius: 30px;
     border: 2px solid rgba(255, 147, 97, 0.40);
     background: radial-gradient(circle at 100% 100%,rgba(255, 147, 97, 0.00)0%, rgba(255, 147, 97, 0.40)100%);
     backdrop-filter: blur(10px);
+    transform: translate3d(0, 0, 0);
 }
 .quartiere_3{
     border-radius: 30px;
     border: 2px solid rgba(148, 11, 146, 0.40);
     background: radial-gradient(circle at 100% 100%,  rgba(148, 11, 146, 0.00)0%, rgba(148, 11, 146, 0.40) 100%);
     backdrop-filter: blur(10px);
+    transform: translate3d(0, 0, 0);
 }
 .quartiere_4{
     border-radius: 30px;
     border: 2px solid rgba(219, 29, 118, 0.40);
     background: radial-gradient(circle at 100% 100%,  rgba(219, 29, 118, 0.00) 0%, rgba(219, 29, 118, 0.40)100%);
     backdrop-filter: blur(10px);
+    transform: translate3d(0, 0, 0);
 }
 
 .quart1 {
     margin-top: 10dvh;
 }
+
 @media only screen and (min-width: 1200px) {
     .quart1 {
         margin-top: 20dvh;
