@@ -335,9 +335,8 @@ li.active .dropdown-item:hover{
 .quart1 {
     margin-top: 10dvh;
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1200px) {
     .quart1 {
-
         margin-top: 20dvh;
     }
 }
