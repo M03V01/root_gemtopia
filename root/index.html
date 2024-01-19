@@ -306,7 +306,7 @@
 
 
     <!----card notizie --->
-    <section class="pt-5 pb-5">
+    <section class="pt-5 pb-5 treno_home">
         <div class="container">
             <div class="row">
                 <div class="col-6">
@@ -378,7 +378,7 @@
 
                                     <div class="col-md-4 mb-3">
                                         <div class="card">
-                                            <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532771098148-525cefe10c23?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3f317c1f7a16116dec454fbc267dd8e4">
+                                            <img class="img-fluid col-10" alt="100%x280" src="https://images.unsplash.com/photo-1532771098148-525cefe10c23?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3f317c1f7a16116dec454fbc267dd8e4">
                                             <div class="card-body">
                                                 <h4 class="card-title">Special title treatment</h4>
                                                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -389,7 +389,7 @@
                                     </div>
                                     <div class="col-md-4 mb-3">
                                         <div class="card">
-                                            <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532715088550-62f09305f765?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ebadb044b374504ef8e81bdec4d0e840">
+                                            <img class="img-fluid col-10" alt="100%x280" src="https://images.unsplash.com/photo-1532715088550-62f09305f765?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ebadb044b374504ef8e81bdec4d0e840">
                                             <div class="card-body">
                                                 <h4 class="card-title">Special title treatment</h4>
                                                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -399,7 +399,7 @@
                                     </div>
                                     <div class="col-md-4 mb-3">
                                         <div class="card">
-                                            <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=0754ab085804ae8a3b562548e6b4aa2e">
+                                            <img class="img-fluid col-10" alt="100%x280" src="https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=0754ab085804ae8a3b562548e6b4aa2e">
                                             <div class="card-body">
                                                 <h4 class="card-title">Special title treatment</h4>
                                                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -453,13 +453,17 @@
     </section>
 
     <!-- quiz-->
-    <div id="quiz-container" class="container col-8">
+    <section class="container d-flex justify-content-center mb-0 quart1">
+    <div id="quiz-container" class="container col-8 mx-0  p-5">
         <div id="question-container" class="row col-12">
-            <p id="question-text"></p>
+            <h3 class=" text-center mb-5" id="question-text"></h3>
         </div>
-        <div id="answer-buttons" class="btn-container"></div>
+        <div id="answer-buttons" class="btn-container pb-5"></div>
     </div>
-
+        <div class="col-5 mb-0">
+            <img src="img/gatto_home.png"  class="img-fluid col-12">
+        </div>
+    </section>
     <button id="result-button" class="btn" style="display: none">NUOVA PAGINA</button>
 
     <!-- footer-->
@@ -477,43 +481,35 @@
         </svg>
 
 
-        <footer class="container-fluid mt-lg-0 unique-color-background px-lg-5 justify-content-between d-flex px-0">
+        <footer class="container-fluid mt-lg-0 unique-color-background px-lg-5 justify-content-center d-flex px-0">
             <!-- Sei immagini visibili solo in modalità mobile -->
-                <div class="d-flex d-lg-none row justify-content-space-around">
-                    <!-- Prima riga di immagini -->
-                    <div class="d-flex flex-row justify-content-around col-12">
-                        <img  src="img/icona_telefono.svg" alt="icona telefono">
-                        <img  src="img/icona_mail.svg" alt="icona mail">
-                        <img  src="img/icona_mappe.svg" alt="icona mappe">
-                    </div>
-                    <!-- Seconda riga di immagini -->
-                    <div class="d-flex flex-row justify-content-between col-12">
-                        <img  class="col-4" src="img/icona_pinterest.svg" alt="icona pinterest">
-                        <img  class="col-3" src="img/icona_insta.svg" alt="icona instagram">
-                        <img  class="col-3" src="img/icona_youtube.svg" alt="icona youtube">
-                    </div>
-                </div>
-
-                <!-- Testo solo in modalità desktop -->
-                <div class="container my-5 d-none d-lg-flex">
-                    <div class="col-12 col-lg-8 mt-3">
-                        <h3 class="mb-3">Telefono</h3>
-                        <p class="mb-3">Tel. 288488483823</p>
-                        <h3 class="mb-3">Via</h3>
-                        <p class="mb-3">Tel. 288488483823</p>
-                        <h3 class="mb-3">Contattaci</h3>
-                        <p class="mb-3">Tel. 288488483823</p>
-
-                        <div class="d-none d-lg-flex justify-content-between mt-5">
-                            <img class="img-fluid" src="img/Group%20191.svg" alt="Image 1">
-                            <img class="img-fluid" src="img/Group%20192.svg" alt="Image 2">
-                            <img class="img-fluid" src="img/Group%20193.svg" alt="Image 3">
+                <div class="col-12 col-md-4 justify-content-space-around mt-5">
+                    <div class="col-12 my-5">
+                        <div >
+                            <h3 class="d-none d-md-block">Telefono</h3>
+                            <a href="tel:288488483823"> <p class=" d-none d-lg-inline">Tel. 288488483823</p><img  src="img/icona_telefono.svg" alt="icona telefono" class="d-lg-none"></a>
                         </div>
+                        <div class="my-4">
+                            <h3 class="d-none d-md-block">Via</h3>
+                            <a href="mailto:gemtopia@g-emme.it"><p class=" d-none d-lg-inline">gemtopia@g-emme.it</p><img  src="img/icona_mail.svg" alt="icona mail" class="d-lg-none"></a>
+                        </div>
+                        <div >
+                            <h3 class=" d-none d-md-block">Dove trovarci</h3>
+                             <a href="https://www.google.com/maps"><p class=" d-none d-lg-inline">Via Quarzo 87, Gemtopia</p> <img  src="img/icona_mappe.svg" alt="icona mappe" class="d-lg-none"></a>
+                         </div>
+                    </div>
 
+                    <!-- Seconda riga di immagini -->
+                    <div class="d-flex flex-row justify-content-between col-12 col-md-10 mb-5">
+                       <a href=""> <img  class=" col-12 col-md-8 icon" src="img/icona_pinterest.svg" alt="icona pinterest"></a>
+                        <a href=""> <img  class=" col-12 col-md-8 icon" src="img/icona_insta.svg" alt="icona instagram"></a>
+                        <a href=""> <img  class="col-12 col-md-8 icon" src="img/icona_youtube.svg" alt="icona youtube"></a>
                     </div>
                 </div>
+            <div class="col-8  justify-content-center d-none d-lg-inline-flex">
                 <!-- Immagine solo in modalità desktop -->
-                <img class="img-fluid d-none d-lg-block" src="img/Rectangle%2026.svg" alt="">
+                <img class="img-fluid" src="img/gemtopia_footer.svg" alt="">
+            </div>
         </footer><!-- chiusura footer content -->
     </div> <!-- chiusura div footer totale -->
 
