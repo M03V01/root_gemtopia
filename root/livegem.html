@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><!--font-->
     <link href="https://fonts.googleapis.com/css2?family=Signika:wght@400;600;700&family=Titan+One&display=swap" rel="stylesheet"> <!--font-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script><!--script jquery-->
+
 </head>
 
 <body>
@@ -150,7 +151,7 @@
 
 
     <div class="container my-5 justify-content-center">
-        <div id="carouselExample" class="carousel slide dimora" data-bs-ride="carousel">
+        <div id="carouselExample" class="carousel slide dimora">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="row">
@@ -169,7 +170,7 @@
     </div>
 
     <div class="container my-5 d-flex justify-content-center">
-        <div id="carouselExample2" class="carousel slide vacanze" data-bs-ride="carousel">
+        <div id="carouselExample2" class="carousel slide vacanze" >
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="row">
@@ -179,11 +180,55 @@
                             <p>Preparati a vivere le vacanze dei tuoi sogni in una città dove ogni angolo è un'opportunità per un'esperienza straordinaria!</p>
                         </div>
                         <div class="col-md-6">
-                            <img src="img/img2_soggiorni_vacanze.svg" class="d-block w-100 pt-5 pb-5 px-lg-5" alt="Immagine">
+                            <img src="img/img2_soggiorni_vacanze.svg" class="img-fluid d-block w-100 pt-5 pb-5 px-lg-5" alt="Immagine">
                         </div>
                     </div>
                 </div>
+
+                <div class="carousel-item">
+                    <div class="row">
+                        <!-- Immagine a sinistra -->
+                        <div class="col-md-4 d-flex align-items-center justify-content-center">
+                            <img src="img/soggiorni_carosello1_blu.svg" class="img-fluid d-block w-100 pt-4 pb-4 px-lg-5" alt="Immagine">
+                        </div>
+
+                        <!-- Testo al centro -->
+                        <div class="col-md-4 px-lg-2 mt-lg-5 align-self-center ">
+                            <h3>Sogno Sereno Retreat</h3>
+                            <p>Alloggio: soggiornerai in “Nuvola di riposo”, un hotel galleggiante tra le nuvole con camere confortevoli e circondate da viste panoramiche mozzafiato.</p>
+                            <p>Itinerario:</p>
+                            <p>    - Giorno 1: passeggiata attraverso il Sentiero dei sogni, tra alberi luminosi e fiori incantanti.</p>
+                            <p>    - Giorno 2: sessione di yoga sospeso tra le nuvole.</p>
+                            <p>    - Giorno 3: relax nella Piscina delle stelle cadenti, mentre il cielo si illumina di colori magici.</p>
+                            <p>Esperienze: nel pacchetto vacanze sono inclusi un trattamento rilassante con l’olio delle stelle e una cena gourmet sull’isola dei cuscini.</p>
+                        </div>
+
+                        <!-- Box a destra -->
+                        <div class="col-md-4 d-flex align-items-center justify-content-center pt-5 pb-5 px-lg-5">
+                            <div class="box vacanzeblurecensione pt-5 pb-5 px-lg-5 d-flex flex-column justify-content-center">
+                                <!-- Immagine in alto -->
+                                <img src="img/200x200.svg" class="img-fluid w-75 " alt="">
+
+                                <!-- Testo sotto -->
+                                <p>“Il Sogno Sereno Retrat è un paradiso. L’atmosfera rilassante ha reso la mia vacanza un sogno ad occhi aperti”</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2"
+                    data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2"
+                    data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
         </div>
     </div>
 
@@ -274,6 +319,14 @@
         </footer><!-- chiusura footer content -->
     </div> <!-- chiusura div footer totale -->
 
+
+    <script>
+        var myCarousel = document.querySelector('#carouselExample2')
+        var carousel = new bootstrap.Carousel(myCarousel)
+    </script>
+
+
+
     <script src="js/quiz_v2.js"></script>
         <!-- fine main home -->
     <script>
@@ -309,5 +362,9 @@
             });
         });
     </script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
