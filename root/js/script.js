@@ -33,8 +33,9 @@ $(function(){
            {
                breakpoint: 0,
                settings: {
-                   slidesToShow: 1,
+                   slidesToShow: 3,
                    slidesToScroll: 1,
+                   centerPadding: '10px',
                }
            }
      ]
@@ -45,8 +46,8 @@ $(function(){
       slidesToScroll: 1,
       arrows: false,
       asNavFor: '.timeline-nav',
-      centerMode: true,     
-
+      centerMode: true,
+       centerPadding: '10px',
        mobileFirst: true,
        speed: 500,
 
@@ -63,6 +64,7 @@ $(function(){
                settings: {
                    slidesToShow: 3,
                    slidesToScroll: 1,
+
                }
            },
          {
@@ -76,7 +78,8 @@ $(function(){
            {
           breakpoint: 768,
           settings: {
-              centerMode: true
+              centerMode: true,
+
           }
         }
      ]
