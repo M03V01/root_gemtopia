@@ -591,7 +591,12 @@ footer a:hover{
 }
 
 /****************INFOGEM***********/
-
+.trasporti_backgroud{
+    border-radius: 1.875rem;
+    border: 2px solid rgba(219, 29, 118, 0.40);
+    background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(219, 29, 118, 0.40) 0%, rgba(219, 29, 118, 0.00) 100%);
+    backdrop-filter: blur(10px);
+}
 
 
 /****************GEM-EVENTS***********/
