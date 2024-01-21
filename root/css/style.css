@@ -20,6 +20,7 @@ p{font-size:1rem;}
     p{font-size:1.2rem;}
     .cta{font-size:1.2rem;}
     .nav-item a{font-size:1.2rem;}
+    li {font-size:1.2rem;}
     }
 @media only screen and (min-width:992px){
     .nav-item a{font-size:1rem;}
@@ -30,8 +31,9 @@ p{font-size:1rem;}
     h3{font-size:2rem;}
     h4{font-size:1.25rem;}
     p{font-size:1.25rem;}
-   .cta{font-size:1rem;}
+    .cta{font-size:1rem;}
     .nav-item a{font-size:1.25rem;}
+    li {font-size:1.25rem;}
 
    }
 body{
@@ -52,6 +54,9 @@ a{text-decoration:none;
 }
 h4{
     color:var(--bs-btn-tertiary);
+}
+ul {
+    font-size: 0.9em;
 }
 /************ body *************/
 body{
@@ -598,6 +603,17 @@ footer a:hover{
     backdrop-filter: blur(10px);
 }
 
+
+
+
+
+
+.elencotelefonico{
+    border-radius: 1.875rem;
+    border: 2px solid rgba(100, 204, 197, 0.40);
+    background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(100, 204, 197, 0.40) 0%, rgba(100, 204, 197, 0.00) 100%);
+    backdrop-filter: blur(10px);
+}
 
 /****************GEM-EVENTS***********/
 
