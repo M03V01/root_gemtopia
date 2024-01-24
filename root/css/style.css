@@ -248,7 +248,7 @@ footer a:hover{
     position: relative;
     width: 100%;
     height: 20vh;
-    z-index: 1;
+    z-index: 2;
     /*Fix for safari gap*/
     min-height: 100px;
     max-height: 400px;
@@ -443,7 +443,7 @@ footer a:hover{
     content: "";
     position: absolute;
     top: 30px;
-    left: 50%;
+    left: 45%;
     width: 0.8rem;
     height: 0.8rem;
     border-radius: 100%;
@@ -454,11 +454,15 @@ footer a:hover{
 .timeline-nav__item.slick-current {
     color: var(--bs-btn-text);
     opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 29, 118, 0.9);
 
 
-    }
+
+}
 .timeline-nav__item.slick-current::before {
-    background-color: var(--bs-btn-text);
+    background-color: var(--bs-btn-secondary);
+    text-shadow: 0 0 30px rgba(255, 29, 118, 0.9);
+
 }
 
 
