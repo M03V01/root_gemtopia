@@ -220,12 +220,12 @@
     <!--chiusura treno home-->
 
     <div class="container  container_timeline mb-2 mb-md-5">
-        <h3>Got a whole lot of history</h3>
-        <div class="timeline ">
-            <div class="timeline-wrapper mb-2">
+        <h3 class="text-md-center">Got a whole lot of history</h3>
+        <div class="timeline d-flex flex-lg-column flex-wrap justify-content-around mt-5">
+            <div class="timeline-wrapper mb-2 col-9 col-lg-12 ">
                 <div class="timeline-slider " >
-                    <div class="timeline-slide d-flex justify-content-center mb-5" data-year="Alba dei tempi ">
-                        <div class="timeline-slide__content col-md-10 mx-5 mx-md-0 d-flex justify-content-center align-self-center ">
+                    <div class="timeline-slide d-flex justify-content-center mb-5" data-year="Pre G.T ">
+                        <div class="timeline-slide__content col-10 mx-5 mx-md-0 d-flex justify-content-center align-self-center ">
                             <p class="timeline-text px-4 align-self-center text-center"> Gli spiriti erranti alla ricerca di un luogo in cui concretizzarsi.</p>
                         </div>
                     </div>
@@ -267,8 +267,8 @@
 
                 </div>
             </div>
-            <div class="timeline-nav">
-                <div class="timeline-nav__item">Alba dei tempi </div>
+            <div class="timeline-nav col-2 col-md-12 order-first order-lg-1 align-self-center">
+                <div class="timeline-nav__item">Pre G-T </div>
                 <div class="timeline-nav__item">0 G.T</div>
                 <div class="timeline-nav__item">1 G.T</div>
                 <div class="timeline-nav__item">10 G.T</div>
@@ -277,7 +277,7 @@
                 <div class="timeline-nav__item">50 G.T</div>
                 <div class="timeline-nav__item">Oggi</div>
             </div>
-            <div class="col-12  text-center my-5 ">
+            <div class="col-12  text-center my-5  order-lg-2">
                 <a href="#"  type="button" class="cta p-2 px-5 rounded"> Scopri di più</a>
             </div>
         </div>
@@ -285,7 +285,33 @@
 
 
 
+
     <!----card notizie --->
+    <div class="container container_timeline-notizie">
+        <h3 class="text-start">Today's news</h3>
+        <div class="timeline-notizie">
+            <div class="timeline-slider-notizie">
+                <div class=" row d-flex justify-content-center  ">
+                    <div class="col-6">
+                         <img class="img-fluid  rounded-5 " alt="" src="img/notizia1.jpg">
+                    </div>
+                    <div class=" col-6  align-self-center">
+                        <h4 class="card-title">Chiusura temporanea della Strada dei cioccolatini</h4>
+                        <p class="card-text">Il caldo estremo colpisce
+                            Cuddlehood – Un improvviso aumento delle temperature mette in crisi la Strada dei cioccolatini. Sono in corso i lavori per la riabilitazione della circolazione.</p>
+                        <a href="#" > Leggi di più <span><img src="img/freccia_cta.png" ></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
     <section class="pt-5 pb-5 treno_home">
         <div class="container">
             <div class="row">
@@ -537,6 +563,36 @@
                     $(".navbar-brand").removeClass('col-lg-2')
                 }
             });
+        });
+    </script>
+    <script>
+        $(function(){
+            $('.timeline-nav-notizie ').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                asNavFor: '.timeline-slider-notizie',
+                centerMode: true,
+                focusOnSelect: true,
+                mobileFirst: true,
+                arrows: false,
+                infinite:true,
+                responsive: [
+                    ]
+            });
+
+            $('.timeline-notizie').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+                asNavFor: '.timeline-notizie',
+                centerMode: true,
+                centerPadding: '10px',
+                mobileFirst: true,
+                speed: 500,
+
+                responsive: [
+                   ]
+
         });
     </script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>

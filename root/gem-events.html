@@ -95,6 +95,10 @@
                     <p class="col-lg-8 pt-5 px-lg-5 fw-bolder ">Benvenuto nel cuore pulsante di Gemtopia, una città unica e straordinaria dove l’insolito diventerà la tua normalità. Qui, il fantastico è di casa, e ogni strada è un viaggio attraverso le meraviglie più stravaganti e sorprendenti. La nostra missione?</p>
                     <h2 class="col-lg-12 pb-5 mb-0 px-lg-5">Trasformare ogni giorno in un’avventura!</h2>
                 </div>
+                <!--Navbar-->
+
+
+
 
                 <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto" style="transform: scaleY(-1);">
                     <defs>
@@ -122,6 +126,29 @@
             </div>
         </section>
     </header>
+
+
+    <main class="main">
+        <ul class="nav-dots" id="js-dots">
+            <li class="nav-dot"></li>
+            <li class="nav-dot"></li>
+            <li class="nav-dot"></li>
+            <li class="nav-dot"></li>
+
+        </ul>
+        <section class="section_grid">
+            <h2 class="section__heading">Scroll up and down</h2>
+        </section>
+        <section class="section_grid">
+            <h2 class="section__heading">Click on the nav dots</h2>
+        </section>
+        <section class="section_grid">
+            <h2 class="section__heading">Smooth scrolling</h2>
+        </section>
+        <section class="section_grid">
+            <h2 class="section__heading">Well done!</h2>
+        </section>
+    </main>
     <!-- footer-->
     <div class="container-fluid px-0 col-12">
         <svg class="waves mb-0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
@@ -210,6 +237,66 @@
                 $(".navbar-brand").removeClass('col-lg-2')
             }
         });
+    });
+</script>
+<script>
+    $(document).ready(function () {
+        $(".full-screen-scroller").fullScreenScroller();
+    });
+</script>
+<script>
+    class Slider {
+        constructor(options) {
+            this.sections = document.querySelectorAll(options.section);
+            this.navigation = document.querySelector(options.dots);
+
+            this.navigation.addEventListener('click', this.scrollToSection.bind(this));
+            window.addEventListener('scroll', this.setDotStatus.bind(this));
+        }
+
+        removeDotStyles() {
+            const dots = this.navigation;
+            const is_active = dots.querySelector('.is-active');
+
+            if (is_active != null) {
+                is_active.classList.remove('is-active');
+            }
+        }
+
+        setDotStatus() {
+            const scroll_position = window.scrollY;
+            const dots = Array.from(this.navigation.children);
+
+            this.sections.forEach((section, index) => {
+                const half_window = window.innerHeight / 2;
+                const section_top = section.offsetTop;
+
+                if (scroll_position > section_top - half_window && scroll_position < section_top + half_window) {
+                    this.removeDotStyles();
+                    dots[index].classList.add('is-active');
+                }
+            })
+        }
+
+        scrollToSection(e) {
+            const dots = Array.from(this.navigation.children);
+            const window_height = window.innerHeight;
+
+            dots.forEach((dot, index) => {
+                if (dot == e.target) {
+
+                    window.scrollTo({
+                        top: window_height * index,
+                        behavior: 'smooth',
+                    });
+                }
+            });
+        }
+    }
+
+    new Slider({
+        section: '.section',
+        dots: '#js-dots',
     });
 </script>
 </body>
