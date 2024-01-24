@@ -176,7 +176,7 @@ li.active .dropdown-item:hover{
 }
 
 
-@media only screen and  (max-width:768px){
+@media only screen and  (max-width:991px){
 
     .navbar-collapse {
         background: linear-gradient(180deg, #2D044A -17.16%, rgba(219, 29, 118,0.85)134.33%);
@@ -252,6 +252,10 @@ footer a:hover{
     /*Fix for safari gap*/
     min-height: 100px;
     max-height: 400px;
+
+}
+.parallax{
+    z-index: 999999;
 }
 
 .parallax>use {
@@ -388,9 +392,7 @@ footer a:hover{
 
     }
 }
-.timeline-wrapper .slick-track {
-    margin-top: 2rem;
-}
+
 
  .timeline .timeline-nav  {
         bottom: auto;
@@ -429,11 +431,17 @@ footer a:hover{
     cursor: pointer;
 }
 .timeline-nav__item {
-    margin-top:4rem ;
+    margin-top:2rem ;
+    margin-bottom:2rem ;
+
+
+
 }
 @media only screen and (min-width: 992px) {
     .timeline-nav__item {
         margin: 1rem 1.3rem ;
+
+
     }
 
 }
@@ -499,14 +507,18 @@ footer a:hover{
     }
     .timeline-slide__content{
         box-shadow: 0 0 30px 10px rgba(250, 153, 198, 0.30);
+        height: 9.3rem;
     }
+
+}
+.timeline-slide__content {
+    transform: scale(0.8);
 }
 .timeline-slide__content {
     border-radius: 30px;
     background: radial-gradient(379.91% 134.12% at 0% 5.07%, #DB1D76 0%, #940B92 100%);
-
     transition: opacity 1s;
-    height: 9.3rem;
+    height: 7rem;
 }
 @media only screen and (max-width: 500px) {
     .timeline-slide__content {
@@ -528,7 +540,7 @@ footer a:hover{
 }
 .timeline .slick-current .timeline-slide__content {
     opacity: 1;
-    height: 9.3rem;
+
 
 
 }
