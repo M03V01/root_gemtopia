@@ -680,6 +680,12 @@ footer a:hover{
 .carousel-control-next {
     color:var(--bs-btn-text);
     width:6rem;
+    filter: drop-shadow(0px 0px 30px #FFEAFF)!important;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+    font-size:50rem;
+    filter: drop-shadow(0px 0px 30px #FFEAFF)!important;
 }
 
 /* Add some padding at the bottom of the carousel to show the indicators */
