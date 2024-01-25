@@ -610,8 +610,15 @@ footer a:hover{
 }
 
 
+.container_quiz{
+    position:relative;
+}
+.gatto{
+    position:absolute;
+    left:58%;
+    bottom:-25%;
 
-
+}
 /****************GEMTOUR***********/
 
 @media (max-width: 767px) {
