@@ -638,6 +638,13 @@ footer a:hover{
 .carousel-control-next, .carousel-control-prev{
     width: 60px;
 }
+
+/* Media query per dispositivi mobili */
+@media (max-width: 768px) {
+    .carousel-caption {
+        margin-bottom: -10%;
+    }
+}
 /****************INFOGEM***********/
 .trasporti_backgroud{
     border-radius: 1.875rem;
