@@ -766,7 +766,7 @@ footer a:hover{
 .vacanzearanciorecensione{
     border-radius: 1.25rem;
     border: 2px solid rgba(255, 147, 97, 0.40);
-    background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(255, 147, 97, 0.40) 0%, rgba(255, 147, 97, 0.00) 100%);
+    background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(232, 156, 57, 0.56) 0%, rgba(255, 147, 97, 0.00) 100%);
     box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(10px);
 }
