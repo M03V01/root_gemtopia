@@ -617,6 +617,76 @@ footer a:hover{
     }
 }
 
+
+.carousel {
+    position: relative;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+
+.carousel-indicators li {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+
+.carousel-indicators li:hover {
+    opacity: .7;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+    background-color: #007bff;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    filter: invert(100%);
+}
+
+/* Add some padding at the bottom of the carousel to show the indicators */
+#carouselGemtour {
+    padding-bottom: 40px;
+}
+
 /****************INFOGEM***********/
 .trasporti_backgroud{
     border-radius: 1.875rem;
@@ -720,6 +790,13 @@ footer a:hover{
     backdrop-filter: blur(10px);
 }
 
+.vacanze2{
+    border-radius: 1.875rem;
+    border: 2px solid rgba(255, 255, 255, 0.40);
+    background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.00) 100%);
+    backdrop-filter: blur(10px);
+}
+
 .scambi{
     border-radius: 1.875rem;
     border: 2px solid rgba(148, 11, 146, 0.40);
@@ -734,6 +811,79 @@ footer a:hover{
     box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(10px);
 }
+
+.vacanzearanciorecensione{
+    border-radius: 1.25rem;
+    border: 2px solid rgba(255, 147, 97, 0.40);
+    background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(255, 147, 97, 0.40) 0%, rgba(255, 147, 97, 0.00) 100%);
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+}
+
+
+
+.vacanzeviolarecensione{
+    border-radius: 1.25rem;
+    border: 2px solid rgba(148, 11, 146, 0.40);
+    background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(148, 11, 146, 0.40) 0%, rgba(148, 11, 146, 0.00) 100%);
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+}
+
+.vacanzefuxiarecensione{
+    border-radius: 1.25rem;
+    border: 2px solid rgba(219, 29, 118, 0.40);
+    background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(219, 29, 118, 0.40) 0%, rgba(219, 29, 118, 0.00) 100%);
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+}
+
+
+
+
+
+
+
+.carousel-indicators {
+    position: absolute;
+    top: 10px; /* Posizione verticale sopra il carosello */
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    z-index: 2; /* Assicurati che gli indicatori siano sopra il carosello */
+}
+
+/* Indicatori completamente tondi con dimensioni leggermente maggiori per una migliore visibilità */
+.carousel-indicators li {
+    background-color: #464646; /* Colore di base (grigio) per tutti gli indicatori */
+    border-radius: 50%; /* Rende gli indicatori completamente tondi */
+    width: 15px; /* Dimensione leggermente aumentata per una migliore visibilità */
+    height: 15px; /* Dimensione leggermente aumentata per una migliore visibilità */
+    margin: 0 6px; /* Spazio tra gli indicatori per evitare sovrapposizioni */
+    cursor: pointer; /* Cambia il cursore in un puntatore per indicare che l'elemento è cliccabile */
+}
+
+/* Colore azzurro per il primo indicatore */
+#carouselExample2 .carousel-indicators li:first-child {
+    background-color: #64CCC5;
+}
+
+/* Colore rosa per il secondo indicatore */
+#carouselExample2 .carousel-indicators li:nth-child(2) {
+    background-color: #FF9361;
+}
+
+#carouselExample2 .carousel-indicators li:nth-child(3) {
+    background-color: #940B92;
+}
+
+#carouselExample2 .carousel-indicators li:nth-child(4) {
+    background-color: #DB1D76;
+}
+
+
 
 /****************ABOUTGEM***********/
 
