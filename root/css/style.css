@@ -576,19 +576,17 @@ footer a:hover{
 
 #question-text{
     color:var(--bs-btn-text);
+    font-family: 'Signika', sans-serif;
 }
 
 .btn-container {
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
-
-
 }
 
 .btn {
     padding: 15px;
-
     border-radius: 0.625rem;
     border: 2px solid rgba(255, 255, 255, 0.40);
     background: radial-gradient(393.82% 141.42% at 0% 0%, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.00) 100%);
@@ -609,7 +607,6 @@ footer a:hover{
     margin-top: 20px;
 }
 
-
 .container_quiz{
     position:relative;
 }
@@ -617,7 +614,6 @@ footer a:hover{
     position:absolute;
     left:58%;
     bottom:-25%;
-
 }
 /****************GEMTOUR***********/
 

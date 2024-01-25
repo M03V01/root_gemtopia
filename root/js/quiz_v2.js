@@ -41,16 +41,16 @@ function showQuestion(question) {
     function showResult() {
         let personalityResult = '';
             if (totalScore < 10) {
-                personalityResult = 'Opzione 1';
+                personalityResult = '\n\nDreamstrict: \n\nLa Gemma Gialla scorre nelle tue vene, sei una persona nata per sognare!';
             } else if (totalScore < 15) {
-                personalityResult = 'Opzione 2';
+                personalityResult = '\n\nIntrepidaria: \n\nLa Gemma Gialla scorre nelle tue vene, sei una persona nata per l\'avventura!';
             } else if (totalScore < 20) {
-                personalityResult = 'Opzione 3';
+                personalityResult = '\n\nGenius-hill: \n\nLa Gemma Viola scorre nelle tue vene, sei una persona nata per apprendere!';
             } else {
-                personalityResult = 'Opzione 4';
+                personalityResult = '\n\nCuddlehood: \n\nLa Gemma Rosa scorre nelle tue vene, sei una persona nata per amare!';
             }
         
-        questionText.innerText = 'Il tuo risultato è: ' + personalityResult;
+        questionText.innerText = 'Appartieni a: ' + personalityResult + "\n\nPrenota subito il tuo soggiorno";
         answerButtons.innerHTML = '';
 
         const resultButton = document.getElementById('result-button');
