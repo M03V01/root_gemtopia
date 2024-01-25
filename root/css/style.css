@@ -89,10 +89,15 @@ a:hover{color: var(--bs-btn-secondary);
     position: fixed;
     top: 0;
     z-index: 9999;
-    height: 6.5rem;
+    height: 4rem;
     width: 100%;
     -webkit-transition: height .5s, line-height .5s; /* Safari */
     transition: height .5s, line-height .5s;
+}
+@media only screen and  (min-width:992px) {
+    .navbar{
+        height:6.5rem;
+    }
 }
 .scrolled-nav {
     height: 3.75rem;
@@ -680,11 +685,14 @@ footer a:hover{
 .carousel-control-next {
     color:var(--bs-btn-text);
     width:6rem;
+    font-weight: bolder;
     filter: drop-shadow(0px 0px 30px #FFEAFF)!important;
 }
 .carousel-control-next-icon,
 .carousel-control-prev-icon{
     font-size:50rem;
+    font-weight: bolder;
+
     filter: drop-shadow(0px 0px 30px #FFEAFF)!important;
 }
 
