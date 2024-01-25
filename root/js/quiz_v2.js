@@ -1,9 +1,9 @@
 const questions = [
-    { question: 'Qual è la tua idea di vacanza ideale?', answers: ['Rilassarsi su una spiaggia o in un luogo tranquillo.', 'Esplorare nuove avventure e luoghi emozionanti.', 'Visitare musei, biblioteche e luoghi culturali di interesse.', 'Trascorrere del tempo in compagnia in luoghi accoglienti e romantici.'], scores: [1, 2, 3, 4] },
-    { question: 'Cosa preferisci fare nel tempo libero?', answers: ['Leggere un libro o guardare serie tv in tranquillità.', 'Provare attività adrenaliniche e sport estremi.', 'Apprendere cose nuove.', 'Rilassarmi con le persone che amo.'], scores: [1, 2, 3, 4] },
-    { question: 'Quale genere di film preferisci?', answers: ['Commedie.', 'Azione e avventura.', 'Documentari.', 'Romantici.'], scores: [1, 2, 3, 4] },
-    { question: 'Qual è il tuo luogo ideale per una cena romantica?', answers: ['Un pic-nic al tramonto.', 'Un ristorante con vista panoramica.', 'Un bistrot con piatti gourmet.', 'Una cena casalinga.'], scores: [1, 2, 3, 4] },
-    { question: 'Cosa prediligi nelle tue relazioni?', answers: ['Condividere momenti di tranquillità.', 'Fare nuove conoscenze e provare nuove attività insieme.', 'Partecipare a discussioni profonde e stimolanti.', 'Creare legami stabili e confortevoli.'], scores: [1, 2, 3, 4] }
+    { question: 'Qual è la tua idea di vacanza ideale?', answers: ['Rilassarsi su una spiaggia o in un luogo tranquillo', 'Esplorare nuove avventure e luoghi emozionanti', 'Visitare musei, biblioteche e luoghi culturali di interesse', 'Trascorrere del tempo in compagnia in luoghi accoglienti e romantici'], scores: [1, 2, 3, 4] },
+    { question: 'Cosa preferisci fare nel tempo libero?', answers: ['Leggere un libro o guardare serie tv in tranquillità', 'Provare attività adrenaliniche e sport estremi', 'Apprendere cose nuove', 'Rilassarmi con le persone che amo'], scores: [1, 2, 3, 4] },
+    { question: 'Quale genere di film preferisci?', answers: ['Commedie', 'Azione e avventura', 'Documentari', 'Romantici'], scores: [1, 2, 3, 4] },
+    { question: 'Qual è il tuo luogo ideale per una cena romantica?', answers: ['Un pic-nic al tramonto', 'Un ristorante con vista panoramica', 'Un bistrot con piatti gourmet', 'Una cena casalinga'], scores: [1, 2, 3, 4] },
+    { question: 'Cosa prediligi nelle tue relazioni?', answers: ['Condividere momenti di tranquillità', 'Fare nuove conoscenze e provare nuove attività insieme', 'Partecipare a discussioni profonde e stimolanti', 'Creare legami stabili e confortevoli'], scores: [1, 2, 3, 4] }
   ];
   
 let currentQuestionIndex = 0;
@@ -57,7 +57,7 @@ function showQuestion(question) {
         resultButton.style.display = 'block';
 
         resultButton.addEventListener('click', () => {
-        alert("NOTIFICA DI  PROVA");
+
     });
 }
 startQuiz();
