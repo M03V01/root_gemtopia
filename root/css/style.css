@@ -728,7 +728,7 @@ li.slick-dots{
 
 /*posizione bimbo*/
 .custom-container {
-    margin-top: -240px;
+    margin-top: -280px;
 }
 
 @media (max-width: 768px) {
@@ -745,8 +745,32 @@ li.slick-dots{
 
 .dolce_dormizio{
     border-radius: 1.25rem;
-    border: 2px solid rgba(100, 204, 197, 0.40);
-    background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(72, 197, 190, 0.66) 0%, rgba(100, 204, 197, 0.00) 100%);
+    border: 2px solid rgba(100, 204, 197, 0.50);
+    background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(100, 204, 197, 0.40) 0%, rgba(100, 204, 197, 0.00) 100%);
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+}
+
+.casa_audacia{
+    border-radius: 1.25rem;
+    border: 2px solid rgba(255, 147, 97, 0.50);
+    background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(255, 147, 97, 0.40) 0%, rgba(255, 147, 97, 0.00) 100%);
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+}
+
+.villa_sapientia{
+    border-radius: 1.25rem;
+    border: 2px solid rgba(148, 11, 146, 0.50);
+    background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(148, 11, 146, 0.40) 0%, rgba(148, 11, 146, 0.00) 100%);
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+}
+
+.love_nest{
+    border-radius: 1.25rem;
+    border: 2px solid rgba(219, 29, 118, 0.50);
+    background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(219, 29, 118, 0.40) 0%, rgba(219, 29, 118, 0.00) 100%);
     box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(10px);
 }
@@ -854,6 +878,25 @@ li.slick-dots{
     background-color: #DB1D76;
 }
 
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
 
 
 /****************ABOUTGEM***********/
