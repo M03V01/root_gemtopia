@@ -41,19 +41,24 @@ function showQuestion(question) {
     function showResult() {
         let personalityClass = '';
         let personalityResult = '';
-            if (totalScore < 10) {
-                personalityClass = 'dreamstrict';
-                personalityResult = '\n\nDreamstrict \n\nLa Gemma Blu scorre nelle tue vene, sei una persona nata per sognare!';
-            } else if (totalScore < 15) {
-                personalityClass = 'intrepidaria';
-                personalityResult = '\n\nIntrepidaria \n\nLa Gemma Gialla scorre nelle tue vene, sei una persona nata per l\'avventura!';
-            } else if (totalScore < 20) {
-                personalityClass = 'genius-hill';
-                personalityResult = '\n\nGenius-hill \n\nLa Gemma Viola scorre nelle tue vene, sei una persona nata per apprendere!';
-            } else {
-                personalityClass = 'cuddlehood';
-                personalityResult = '\n\nCuddlehood \n\nLa Gemma Rosa scorre nelle tue vene, sei una persona nata per amare!';
-            }
+        let personalityTitle = '';
+        if (totalScore < 10) {
+            personalityClass = 'dreamstrict';
+            personalityTitle = 'Dreamstrict';
+            personalityResult = 'La Gemma Blu scorre nelle tue vene, sei una persona nata per sognare!';
+        } else if (totalScore < 15) {
+            personalityClass = 'intrepidaria';
+            personalityTitle = 'Intrepidaria';
+            personalityResult = 'La Gemma Gialla scorre nelle tue vene, sei una persona nata per l\'avventura!';
+        } else if (totalScore < 20) {
+            personalityClass = 'genius-hill';
+            personalityTitle = 'Genius-hill';
+            personalityResult = 'La Gemma Viola scorre nelle tue vene, sei una persona nata per apprendere!';
+        } else {
+            personalityClass = 'cuddlehood';
+            personalityTitle = 'Cuddlehood';
+            personalityResult = 'La Gemma Rosa scorre nelle tue vene, sei una persona nata per amare!';
+        }
 
         const section = document.querySelector('#quiz-container');
         section.classList.remove('.backgroundFuxia');
@@ -63,7 +68,7 @@ function showQuestion(question) {
         quizContainer.style.background = 'none';
         quizContainer.classList.add(personalityClass);
 
-        questionText.innerText = 'Appartieni a: ' + personalityResult + "\n\nPrenota subito il tuo soggiorno";
+        questionText.innerHTML = 'Appartieni a: <h2>' + personalityTitle + '</h2>' + personalityResult + "<br><br>Prenota subito il tuo soggiorno";
         answerButtons.innerHTML = '';
 
         const resultButton = document.getElementById('result-button');
