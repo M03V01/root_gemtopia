@@ -37,28 +37,43 @@ function showQuestion(question) {
             showResult();
         }
     }
-    
+
     function showResult() {
+        let personalityClass = '';
         let personalityResult = '';
             if (totalScore < 10) {
-                personalityResult = '\n\nDreamstrict: \n\nLa Gemma Gialla scorre nelle tue vene, sei una persona nata per sognare!';
+                personalityClass = 'dreamstrict';
+                personalityResult = '\n\nDreamstrict \n\nLa Gemma Blu scorre nelle tue vene, sei una persona nata per sognare!';
             } else if (totalScore < 15) {
-                personalityResult = '\n\nIntrepidaria: \n\nLa Gemma Gialla scorre nelle tue vene, sei una persona nata per l\'avventura!';
+                personalityClass = 'intrepidaria';
+                personalityResult = '\n\nIntrepidaria \n\nLa Gemma Gialla scorre nelle tue vene, sei una persona nata per l\'avventura!';
             } else if (totalScore < 20) {
-                personalityResult = '\n\nGenius-hill: \n\nLa Gemma Viola scorre nelle tue vene, sei una persona nata per apprendere!';
+                personalityClass = 'genius-hill';
+                personalityResult = '\n\nGenius-hill \n\nLa Gemma Viola scorre nelle tue vene, sei una persona nata per apprendere!';
             } else {
-                personalityResult = '\n\nCuddlehood: \n\nLa Gemma Rosa scorre nelle tue vene, sei una persona nata per amare!';
+                personalityClass = 'cuddlehood';
+                personalityResult = '\n\nCuddlehood \n\nLa Gemma Rosa scorre nelle tue vene, sei una persona nata per amare!';
             }
-        
+
+        const section = document.querySelector('#quiz-container');
+        section.classList.remove('.backgroundFuxia');
+        section.classList.add(personalityClass);
+
+        const quizContainer = document.getElementById('quiz-container');
+        quizContainer.style.background = 'none';
+        quizContainer.classList.add(personalityClass);
+
         questionText.innerText = 'Appartieni a: ' + personalityResult + "\n\nPrenota subito il tuo soggiorno";
         answerButtons.innerHTML = '';
 
         const resultButton = document.getElementById('result-button');
         resultButton.style.display = 'block';
 
+        section.style.background = '';
+        section.style.backgroundImage = '';
+
         resultButton.addEventListener('click', () => {
 
     });
 }
 startQuiz();
-        
