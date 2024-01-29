@@ -72,8 +72,8 @@ body{
     background: linear-gradient(93deg, rgba(219,29,118,1) 40%, rgba(97,12,159,1) 100%);
     box-shadow: 0 0 20px 0 rgba(255, 234, 255, 0.50);
     transition: all .4s ease-in-out;
-
 }
+
 .cta:hover{
  transform: scale(1.1);
 }
@@ -331,6 +331,7 @@ footer a:hover{
 
  }
 
+
  /************ Main home **********/
 .quartiere_1{
     border-radius: 30px;
@@ -568,7 +569,7 @@ footer a:hover{
 /********** card home***********/
 .card_notizie{
 
-    border-radius: 30px;
+    border-radius: 35px;
     border: 2px solid rgba(255, 147, 97, 0.40);
     background: radial-gradient(circle at 100% 100%,rgba(255, 147, 97, 0.00)0%, rgba(255, 147, 97, 0.40)100%);
     backdrop-filter: blur(10px);
@@ -641,6 +642,7 @@ footer a:hover{
 #quiz-container {
     border-radius: 1.875rem;
     backdrop-filter: blur(10px);
+    height: 550px;
 }
 
 .backgroundFuxia{
@@ -651,6 +653,7 @@ footer a:hover{
 #question-text{
     color:var(--bs-btn-text);
     font-family: 'Signika', sans-serif;
+    padding-bottom: 30px;
 }
 
 .btn-container {
@@ -680,6 +683,8 @@ footer a:hover{
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    width: 200px;
+    border-radius: 1.25rem;
 
 }
 
@@ -691,6 +696,7 @@ footer a:hover{
     left:58%;
     bottom:-25%;
 }
+
 
 .dreamstrict {
     display: flex;
@@ -1006,7 +1012,7 @@ footer a:hover{
 
 /*posizione bimbo*/
 .custom-container {
-    margin-top: -280px;
+    margin-top: -310px;
 }
 
 @media (max-width: 768px) {

@@ -68,7 +68,7 @@ function showQuestion(question) {
         quizContainer.style.background = 'none';
         quizContainer.classList.add(personalityClass);
 
-        questionText.innerHTML = 'Appartieni a: <h2>' + personalityTitle + '</h2>' + personalityResult + "<br><br>Prenota subito il tuo soggiorno";
+        questionText.innerHTML = '<br>Appartieni a:<br><br> <h2>' + personalityTitle + '<br><br></h2>' + personalityResult;
         answerButtons.innerHTML = '';
 
         const resultButton = document.getElementById('result-button');
