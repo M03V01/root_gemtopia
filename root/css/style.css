@@ -191,7 +191,6 @@ li.active .dropdown-item:hover{
 
     .navbar-collapse {
         background: linear-gradient(180deg, #2D044A -17.16%, rgba(219, 29, 118,0.85)134.33%);
-
         position: absolute;
         top: 0;
         left: 0;
@@ -222,6 +221,7 @@ li.active .dropdown-item:hover{
 .navbar-collapse.show {
     height: 100vh;
     transition: height .35s ease;
+
 }
 
 /***********FOOTER************/
