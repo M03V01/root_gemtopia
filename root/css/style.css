@@ -859,28 +859,32 @@ footer a:hover{
 
 /****************GEM-EVENTS***********/
 
-
+/*****html{
+    scroll-behavior: smooth;
+}
 
 @media(min-width:992px) {
     .event {
         position:relative;
-        scroll-behavior: smooth;
 
+
+    }
+    .row-waves{
+        position:relative;
     }
 
     .section_events {
         heigth: auto;
 
-
-
     }
 
 
+
     .scroll-indicator {
-        position: sticky;
+        position: fixed;
         overflow: visible;
         left: 2%;
-        top: 50%;
+        top: 30%;
         display: flex;
         flex-direction: column;
         gap: 40px;
@@ -892,11 +896,13 @@ footer a:hover{
         width: 3rem;
         padding-top: 1rem;
         padding-bottom: 1rem;
+        z-index:5;
     }
 
     .scroll-indicator a {
         padding: 10px;
         position: relative;
+
     }
 
     .scroll-indicator a::after {
@@ -909,6 +915,7 @@ footer a:hover{
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+
     }
 
     .scroll-indicator a.active::after {
@@ -931,6 +938,7 @@ footer a:hover{
         transition: all 400ms ease;
         width: 30rem;
 
+
     }
 
     .scroll-indicator a:active {
@@ -940,11 +948,14 @@ footer a:hover{
     .scroll-indicator a:hover::before {
         opacity: 1;
         transform: translate(0, -50%);
+
     }
 
 
 
-}
+}**/
+
+
 
 /****************LIVEGEM***********/
 
