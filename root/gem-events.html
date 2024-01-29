@@ -52,9 +52,37 @@
         </div>
     </nav>
 
+
+
+    <div class="scroll-indicator">
+        <a href="#header" class="active" data-section="Header"></a>
+        <a href="#intro" class="active" data-section="Intro"></a>
+        <a href="#about" data-section="About"></a>
+        <a href="#services" data-section="Services"></a>
+        <a href="#downloads" data-section="Downloads"></a>
+        <a href="#testimonials" data-section="Testimonials"></a>
+        <a href="#footer" data-section="Footer"></a>
+        <div class="arrow">
+            <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6"
+            >
+                <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15.75 19.5L8.25 12l7.5-7.5"
+                />
+            </svg>
+        </div>
+    </div>
+
     <!--header home-->
-    <header class="container-fluid text-center text-lg-start header px-0 col-12 justify-content-center h-100 d-inline-block mb-5">
-        <section class="container col-12 align-items-center  " id="main-content">
+    <section id="header"class=" section_events container-fluid text-center text-lg-start header px-0 col-12 justify-content-center h-100 d-inline-block mb-5">
+        <div class="container col-12 align-items-center  " id="main-content">
             <div class="row align-items-center">
                 <div class="col-12 col-lg-6 d-flex align-items-center">
                     <hgroup class="col-12">
@@ -67,9 +95,9 @@
                     <img src="img/gemevent_img1.svg" class="img-fluid col-12" alt="">
                 </div>
             </div>
-        </section>
+        </div>
 
-        <section>
+        <section id="intro" class="section_events">
             <div class="row-12 row-waves">
                 <svg class="waves mb-0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
                     <defs>
@@ -125,32 +153,26 @@
                 </svg>
             </div>
         </section>
-    </header>
+    </section>
 
 
-    <main class="main">
-        <ul class="nav-dots" id="js-dots">
-            <li class="nav-dot"></li>
-            <li class="nav-dot"></li>
-            <li class="nav-dot"></li>
-            <li class="nav-dot"></li>
+    <section id="about" class="section_events">
+        <div class="wrapper">About Us</div>
+    </section>
 
-        </ul>
-        <section class="section_grid">
-            <h2 class="section__heading">Scroll up and down</h2>
-        </section>
-        <section class="section_grid">
-            <h2 class="section__heading">Click on the nav dots</h2>
-        </section>
-        <section class="section_grid">
-            <h2 class="section__heading">Smooth scrolling</h2>
-        </section>
-        <section class="section_grid">
-            <h2 class="section__heading">Well done!</h2>
-        </section>
-    </main>
+    <section id="services" class="section_events">
+        <div class="wrapper">Services</div>
+    </section>
+
+    <section id="downloads" class="section_events">
+        <div class="wrapper">Downloads</div>
+    </section>
+
+    <section id="testimonials" class="section_events">
+        <div class="wrapper">Testimonials</div>
+    </section>
     <!-- footer-->
-    <div class="container-fluid px-0 col-12">
+    <div id="footer" class="container-fluid px-0 col-12 section_events">
         <svg class="waves mb-0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
             <defs>
                 <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
@@ -298,6 +320,46 @@
         section: '.section',
         dots: '#js-dots',
     });
+</script>
+<script>
+    const dots = document.querySelectorAll(".scroll-indicator a");
+
+    const removeActiveClass = () => {
+        dots.forEach((dot) => {
+            dot.classList.remove("active");
+        });
+    };
+
+    const addActiveClass = (entries, observer) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                let currentDot = document.querySelector(
+                    `.scroll-indicator a[href='#${entry.target.id}']`
+                );
+                removeActiveClass();
+                currentDot.classList.add("active");
+            }
+        });
+    };
+
+    const options = {
+        threshold: 0.8,
+    };
+
+    const observer = new IntersectionObserver(addActiveClass, options);
+    const sections = document.querySelectorAll(".section_events");
+
+    sections.forEach((section) => {
+        observer.observe(section);
+    });
+
+    const scrollIndicator = document.querySelector(".scroll-indicator");
+    const scrollIndicatorArrow = document.querySelector(".scroll-indicator .arrow");
+
+    scrollIndicatorArrow.addEventListener("click", () => {
+        scrollIndicator.classList.toggle("active");
+    });
+
 </script>
 </body>
 </html>
