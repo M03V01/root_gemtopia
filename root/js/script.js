@@ -21,6 +21,7 @@ $(function(){
           settings: {
             slidesToShow: 3,
               slidesToScroll: 1,
+              vertical:false,
            }
           },
          {
