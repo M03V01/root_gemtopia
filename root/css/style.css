@@ -1251,7 +1251,7 @@ footer a:hover{
 }
 @media (min-width:992px){
     .timeline-row .timeline-content:before {
-        left: -9%;
+        left: -14%;
         top:49%;
         right: initial;
     }
@@ -1326,13 +1326,11 @@ footer a:hover{
 }
 @media (min-width: 992px){
     .notizia-ground{
-        height: 800px;
-    }
+        min-height: 700px;}
 }
 @media (min-width:1200px){
-    .notizia-ground{
-        height: 700px;
-}
+
+
     .slider_notizie{
 
      margin-bottom:10rem;
@@ -1381,7 +1379,7 @@ footer a:hover{
     display: none;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
 
     .read-more {
         display: initial;
@@ -1394,6 +1392,31 @@ footer a:hover{
 
 }
 
+
+.btn {
+
+    cursor: pointer;
+}
+
+.extra-content {
+    display: initial;
+}
+
+.show {
+    display: initial!important;
+}
+
+@media (max-width: 992px) {
+
+    .read-more {
+        display: initial;
+    }
+
+    .extra-content {
+        display: none;
+    }
+
+}
 
 
 
