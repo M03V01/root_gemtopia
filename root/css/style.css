@@ -567,15 +567,14 @@ footer a:hover{
 
 /********** card home***********/
 .card_notizie{
-    position:relative;
-}
-.content-news{
+
     border-radius: 30px;
     border: 2px solid rgba(255, 147, 97, 0.40);
     background: radial-gradient(circle at 100% 100%,rgba(255, 147, 97, 0.00)0%, rgba(255, 147, 97, 0.40)100%);
     backdrop-filter: blur(10px);
     transform: translate3d(0, 0, 0);
 }
+
 
 
 .slick-dots	li button {
