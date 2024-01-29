@@ -858,6 +858,7 @@ footer a:hover{
 
 /****************GEM-EVENTS***********/
 
+
 /*****html{
     scroll-behavior: smooth;
 }
@@ -1251,21 +1252,21 @@ footer a:hover{
 }
 @media (min-width:992px){
     .timeline-row .timeline-content:before {
-        left: -14%;
-        top:49%;
+        left: -11%;
+        top:10%;
         right: initial;
     }
     .timeline_about:after {
         left: 31.5%;
-        width: 6%;
+        width: 4%;
     }
 
 }
 @media (min-width:1200px) {
 
         .timeline-row .timeline-content:before {
-            left: -11%;
-            top:49%;
+            left: -12%;
+            top:10%;
             right: initial;
         }
         .fine_timeline{
