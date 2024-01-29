@@ -678,8 +678,10 @@ footer a:hover{
 }
 
 #result-button {
-    display: none;
+    display: flex;
+    justify-content: center;
     margin-top: 20px;
+
 }
 
 .container_quiz{
