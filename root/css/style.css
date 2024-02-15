@@ -1151,15 +1151,18 @@ footer a:hover{
     }**/
     /****************LIVEGEM***********/
     /*posizione bimbo*/
-    .custom-container {
-        margin-top: -310px;
+    .child{
+        top:-5rem;
+        z-index:-1;
+
+    }
+    .quiz{
+        position:relative;
+        top:-15rem;
+
     }
 
-    @media (max-width: 768px) {
-        .custom-container {
-            margin-top: -265px;
-        }
-    }
+
 
     .dimora {
         border-radius: 1.875rem;
