@@ -426,7 +426,7 @@ footer a:hover{
         bottom: auto;
         top: 50%;
         left: auto;
-        height:30rem;
+        height:100%;
         margin: 0;
 
     } /*codice per mettere la barra in verticale */
@@ -454,13 +454,13 @@ footer a:hover{
     text-align: center;
     opacity: 0.7;
     color: var(--bs-btn-text);
-    margin-top: 0.8rem ;
+    margin-top: 0.5rem ;
     position: relative;
     cursor: pointer;
 }
 .timeline-nav__item {
-    margin-top:2rem ;
-    margin-bottom:2rem ;
+    margin-top:2.5rem ;
+    margin-bottom:2.5rem ;
 
 
 
@@ -536,12 +536,13 @@ footer a:hover{
     .timeline-slide__content{
         height: 9.3rem;
     }
-    .timeline .slick-current .timeline-slide__content {
-        box-shadow: 0 0 30px 10px rgba(250, 153, 198, 0.30);
-
-    }
 
 }
+.timeline .slick-current .timeline-slide__content {
+    box-shadow: 0 0 30px 10px rgba(250, 153, 198, 0.30);
+
+}
+
 .timeline-slide__content {
     transform: scale(0.8);
 }
@@ -625,7 +626,7 @@ footer a:hover{
     transition: transform 0.5s ease-in-out;
 }
 
- button{
+ .down-button,.up-button{
     border: none;
     cursor: pointer;
      background: radial-gradient(20707.45% 141.42% at 0% 0%, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.00) 100%);
@@ -1491,7 +1492,7 @@ footer a:hover{
 
         border-radius: 0 0 30px 30px;
     }
-
+/****** pop up leggi **/
     @media (min-width: 992px) {
         .pop {
             border-radius: 2rem;
@@ -1501,10 +1502,11 @@ footer a:hover{
     .pop {
         border-radius: 1rem;
         background: radial-gradient(379.91% 134.12% at 0% 5.07%, #DB1D76 0%, #940B92 100%);
-        box-shadow: 0px 0px 30px 10px rgba(250, 153, 198, 0.30);
         border: none;
     }
-
+    .pop:hover{
+        box-shadow: 0px 0px 30px 10px rgba(250, 153, 198, 0.30);
+    }
     .close {
         color: var(--bs-btn-text);
     }

@@ -36,7 +36,7 @@ $(function(){
            {
                breakpoint: 0,
                settings: {
-                   slidesToShow: 5,
+                   slidesToShow: 4,
                    slidesToScroll: 1,
                    vertical:true,
                    adaptiveHeight: true,
@@ -78,7 +78,7 @@ $(function(){
          {
           breakpoint: 0,
           settings: {
-              slidesToShow: 4,
+              slidesToShow: 3,
               slidesToScroll: 1,
               centerMode: true,
               vertical:true,
