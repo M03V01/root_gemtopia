@@ -266,7 +266,7 @@ footer a:hover{
 .waves {
     position: relative;
     width: 100%;
-    height: 20vh;
+    height: 60px;
     z-index: 999;
     /*Fix for safari gap*/
     min-height: 100px;
@@ -315,6 +315,11 @@ footer a:hover{
     .content {
         height: 30vh;
 
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .waves {
+        height: 80px;
     }
 }
 .down-transparent{
@@ -379,8 +384,8 @@ footer a:hover{
 
 @media only screen and (min-width: 1200px) {
     .quarter1 {
-        margin-top: 20dvh;
-        margin-bottom: 20dvh;
+
+        margin-top: 8dvh;
     }
 
 }
@@ -395,18 +400,6 @@ footer a:hover{
 .arrow:hover{
  transform: scale(1.1);
 }
-/***************treno home*******/
-.treno_home{
-    margin-top:10dvh;
-    margin-bottom: 10dvh;
-}
-@media only screen and (min-width: 1200px){
-.treno_home{
-    margin-top:15dvh;
-
-}
-}
-
 
 /********** LINEA DEL TEMPO **********/
 @media only screen and (min-width: 1200px) {
@@ -416,7 +409,7 @@ footer a:hover{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin-top: 7rem;
+
 
     }
 }
@@ -585,22 +578,15 @@ footer a:hover{
     -webkit-backdrop-filter: blur(21px);
     backdrop-filter: blur(21px);
 }
-/********** card home***********/
+/********** card notizie home***********/
 
-@media (min-width: 1200px) {
-    .slider-container {
-        position: relative;
-        overflow: hidden;
-        width: 100vw;
-        height: 75vh;
 
-    }
-}
+
 .slider-container {
     position: relative;
     overflow: hidden;
     width: 100vw;
-    height: 50vh;
+    height: 75vh;
 
 }
 
@@ -615,6 +601,7 @@ footer a:hover{
 .left-slide .slide-content {
     height: 100%;
     width: 100%;
+
 
 }
 
@@ -812,6 +799,7 @@ footer a:hover{
     position:absolute;
     left:58%;
     bottom:-25%;
+    z-index:-1;
 }
 
 
