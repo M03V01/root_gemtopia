@@ -120,6 +120,7 @@ a:hover{color: var(--bs-btn-secondary);
 }
 
 .scrolled {
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter:blur(10px);
     transform: translate3d(0, 0, 0);
 }
@@ -343,6 +344,7 @@ footer a:hover{
     border-radius: 30px;
     border: 2px solid rgba(100, 204, 197, 0.40);
     background: radial-gradient(circle at 100% 100%, rgba(100, 204, 197, 0) 0%, rgba(100, 204, 197,0.4)100%);
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     transform: translate3d(0, 0, 0);
 }
@@ -350,6 +352,7 @@ footer a:hover{
     border-radius: 30px;
     border: 2px solid rgba(255, 147, 97, 0.40);
     background: radial-gradient(circle at 100% 100%,rgba(255, 147, 97, 0.00)0%, rgba(255, 147, 97, 0.40)100%);
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     transform: translate3d(0, 0, 0);
 }
@@ -357,6 +360,7 @@ footer a:hover{
     border-radius: 30px;
     border: 2px solid rgba(148, 11, 146, 0.40);
     background: radial-gradient(circle at 100% 100%,  rgba(148, 11, 146, 0.00)0%, rgba(148, 11, 146, 0.40) 100%);
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     transform: translate3d(0, 0, 0);
 }
@@ -364,6 +368,7 @@ footer a:hover{
     border-radius: 30px;
     border: 2px solid rgba(219, 29, 118, 0.40);
     background: radial-gradient(circle at 100% 100%,  rgba(219, 29, 118, 0.00) 0%, rgba(219, 29, 118, 0.40)100%);
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     transform: translate3d(0, 0, 0);
 }
@@ -555,7 +560,8 @@ footer a:hover{
 
 .timeline-text {
     color:var(--bs-btn-text);
-    filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
 }
 .slick-current .timeline-text{
     filter:none;
@@ -575,6 +581,7 @@ footer a:hover{
     border-radius: 20px;
     background: radial-gradient(20707.45% 141.42% at 0% 0%, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.00) 100%);
     box-shadow: 0 0 20px 10px rgba(45, 4, 74, 0.30);
+    -webkit-backdrop-filter: blur(21px);
     backdrop-filter: blur(21px);
 }
 /********** card home***********/
@@ -623,6 +630,7 @@ footer a:hover{
     cursor: pointer;
      background: radial-gradient(20707.45% 141.42% at 0% 0%, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.00) 100%);
      box-shadow: 0 0 20px 10px rgba(45, 4, 74, 0.30);
+     -webkit-backdrop-filter: blur(21px);
      backdrop-filter: blur(21px);
 
 }
@@ -656,8 +664,8 @@ footer a:hover{
 }
 
 .bg-color {
-
     background: radial-gradient(circle at 100% 100%,rgba(255, 147, 97, 0.00)0%, rgba(255, 147, 97, 0.40)100%);
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     transform: translate3d(0, 0, 0);
 }
@@ -739,6 +747,7 @@ footer a:hover{
 /********** quiz home***********/
 #quiz-container {
     border-radius: 1.875rem;
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     height: 550px;
 }
@@ -765,6 +774,7 @@ footer a:hover{
     border-radius: 0.625rem;
     border: 2px solid rgba(255, 255, 255, 0.40);
     background: radial-gradient(393.82% 141.42% at 0% 0%, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.00) 100%);
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; /* Aggiunto l'effetto box-shadow */
@@ -802,6 +812,7 @@ footer a:hover{
     border-radius: 1.875rem;
     border: 2px solid rgba(100, 204, 197, 0.40);
     background: radial-gradient(393.82% 141.42% at 0% 0%, rgba(100, 204, 197, 0.40) 0%, rgba(100, 204, 197, 0.00) 100%);
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
 }
 
@@ -811,6 +822,7 @@ footer a:hover{
     border-radius: 1.875rem;
     border: 2px solid rgba(255, 147, 97, 0.39);
     background: radial-gradient(393.82% 141.42% at 0% 0%, rgba(255, 147, 97, 0.40) 0%, rgba(255, 147, 97, 0.00) 100%);
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
 }
 
@@ -820,6 +832,7 @@ footer a:hover{
     border-radius: 1.875rem;
     border: 2px solid rgba(148, 11, 146, 0.40);
     background: radial-gradient(393.82% 141.42% at 0% 0%, rgba(148, 11, 146, 0.40) 0%, rgba(148, 11, 146, 0.00) 100%);
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
 }
 
@@ -829,6 +842,7 @@ footer a:hover{
     border-radius: 1.875rem;
     border: 2px solid rgba(219, 29, 118, 0.40);
     background: radial-gradient(393.82% 141.42% at 0% 0%, rgba(219, 29, 118, 0.40) 0%, rgba(219, 29, 118, 0.00) 100%);
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
 }
 
@@ -857,6 +871,7 @@ footer a:hover{
     background: radial-gradient(346.21% 128.67% at 0% 14%, rgba(148, 11, 146, 0.80) 0%, rgba(148, 11, 146, 0.00) 100%);
     stroke-width: 2px;
     stroke: rgba(255, 255, 255, 0.40);
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
 
     border-radius: 0 0 30px 30px;
@@ -866,6 +881,7 @@ footer a:hover{
     background: radial-gradient(346.21% 128.67% at 0% 14%, rgba(148, 11, 146, 0.80) 0%, rgba(148, 11, 146, 0.00) 100%);
     stroke-width: 1px;
     stroke: rgba(255, 255, 255, 0.40);
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
 
     border-radius: 0 0 30px 30px;
@@ -875,6 +891,7 @@ footer a:hover{
     background: radial-gradient(345.9% 128.62% at 0% 14.09%, rgba(219, 29, 118, 0.80) 0%, rgba(219, 29, 118, 0.00) 100%);
     stroke-width: 2px;
     stroke: rgba(219, 29, 118, 0.40);
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
 
     border-radius: 0 0 30px 30px;
@@ -884,6 +901,7 @@ footer a:hover{
     background: radial-gradient(345.7% 128.59% at 0% 14.14%, rgba(255, 147, 97, 0.80) 0%, rgba(255, 147, 97, 0.00) 100%);
     stroke-width: 2px;
     stroke: rgba(255, 147, 97, 0.40);
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
 
     border-radius: 0 0 30px 30px;
@@ -893,6 +911,7 @@ footer a:hover{
     background: radial-gradient(345.51% 128.56% at 0% 14.19%, rgba(100, 204, 197, 0.80) 0%, rgba(100, 204, 197, 0.00) 100%);
     stroke-width: 2px;
     stroke: rgba(100, 204, 197, 0.40);
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
 
     border-radius: 0 0 30px 30px;
@@ -945,6 +964,7 @@ footer a:hover{
     border-radius: 1.875rem;
     border: 2px solid rgba(219, 29, 118, 0.40);
     background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(219, 29, 118, 0.40) 0%, rgba(219, 29, 118, 0.00) 100%);
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
 }
 
@@ -957,6 +977,7 @@ footer a:hover{
     border-radius: 1.875rem;
     border: 2px solid rgba(100, 204, 197, 0.40);
     background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(100, 204, 197, 0.40) 0%, rgba(100, 204, 197, 0.00) 100%);
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
 }
 
@@ -1154,6 +1175,7 @@ footer a:hover{
         border: 2px solid rgba(100, 204, 197, 0.50);
         background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(100, 204, 197, 0.40) 0%, rgba(100, 204, 197, 0.00) 100%);
         box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.25);
+        -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(10px);
     }
 
@@ -1162,6 +1184,7 @@ footer a:hover{
         border: 2px solid rgba(255, 147, 97, 0.50);
         background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(255, 147, 97, 0.40) 0%, rgba(255, 147, 97, 0.00) 100%);
         box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.25);
+        -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(10px);
     }
 
@@ -1170,6 +1193,7 @@ footer a:hover{
         border: 2px solid rgba(148, 11, 146, 0.50);
         background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(148, 11, 146, 0.40) 0%, rgba(148, 11, 146, 0.00) 100%);
         box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.25);
+        -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(10px);
     }
 
@@ -1178,6 +1202,7 @@ footer a:hover{
         border: 2px solid rgba(219, 29, 118, 0.50);
         background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(219, 29, 118, 0.40) 0%, rgba(219, 29, 118, 0.00) 100%);
         box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.25);
+        -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(10px);
     }
 
@@ -1185,6 +1210,7 @@ footer a:hover{
         border-radius: 1.875rem;
         border: 2px solid rgba(100, 204, 197, 0.29);
         background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(100, 204, 197, 0.40) 0%, rgba(255, 255, 255, 0.00) 100%, rgba(100, 204, 197, 0.00) 100%);
+        -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(10px);
     }
 
@@ -1192,6 +1218,7 @@ footer a:hover{
         border-radius: 1.875rem;
         border: 2px solid rgba(255, 255, 255, 0.40);
         background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.00) 100%);
+        -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(10px);
     }
 
@@ -1199,6 +1226,7 @@ footer a:hover{
         border-radius: 1.875rem;
         border: 2px solid rgba(148, 11, 146, 0.40);
         background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(148, 11, 146, 0.40) 0%, rgba(148, 11, 146, 0.00) 100%);
+        -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(10px);
     }
 
@@ -1207,6 +1235,7 @@ footer a:hover{
         border: 2px solid rgba(255, 255, 255, 0.40);
         background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(100, 204, 197, 0.40) 0%, rgba(100, 204, 197, 0.00) 100%);
         box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.25);
+        -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(10px);
     }
 
@@ -1215,6 +1244,7 @@ footer a:hover{
         border: 2px solid rgba(255, 147, 97, 0.40);
         background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(232, 156, 57, 0.56) 0%, rgba(255, 147, 97, 0.00) 100%);
         box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.25);
+        -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(10px);
     }
 
@@ -1224,6 +1254,7 @@ footer a:hover{
         border: 2px solid rgba(148, 11, 146, 0.40);
         background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(148, 11, 146, 0.40) 0%, rgba(148, 11, 146, 0.00) 100%);
         box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.25);
+        -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(10px);
     }
 
@@ -1232,6 +1263,7 @@ footer a:hover{
         border: 2px solid rgba(219, 29, 118, 0.40);
         background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(219, 29, 118, 0.40) 0%, rgba(219, 29, 118, 0.00) 100%);
         box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.25);
+        -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(10px);
     }
 
@@ -1322,6 +1354,7 @@ footer a:hover{
         border-radius: 30px;
         background: radial-gradient(20707.45% 141.42% at 0% 0%, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.00) 100%);
         box-shadow: 0px 0px 20px 10px rgba(45, 4, 74, 0.30);
+        -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(21px);
         margin-left: -1px;
         height: 100%;
@@ -1485,6 +1518,7 @@ footer a:hover{
         border: 2px solid rgba(255, 255, 255, 0.40);
         background: radial-gradient(390.33% 137.55% at 0% 0%, rgba(45, 4, 74, 0.40) 0%, rgba(45, 4, 74, 0.00) 100%);
         box-shadow: 0px 0px 30px 20px rgba(0, 0, 0, 0.25);
+        -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(40px);
     }
 
@@ -1496,6 +1530,7 @@ footer a:hover{
         border-radius: 30px;
         border: 2px solid rgba(255, 147, 97, 0.40);
         background: radial-gradient(circle at 100% 100%, rgba(255, 147, 97, 0.00) 0%, rgba(255, 147, 97, 0.40) 100%);
+        -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(10px);
         transform: translate3d(0, 0, 0);
 
