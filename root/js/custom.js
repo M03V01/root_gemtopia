@@ -7,7 +7,14 @@ const slidesLength = slideRight.querySelectorAll('div').length;
 
 let activeSlideIndex = 0;
 
-slideLeft.style.top = `-${(slidesLength - 1) * 75}vh`;
+const screenWidth = window.innerWidth;
+
+// Imposta il valore di top in base alla larghezza dello schermo
+if (screenWidth < 1200) {
+    slideLeft.style.top = `-${(slidesLength - 1) * 50}vh`; // Per schermi più piccoli di 1200px
+} else {
+    slideLeft.style.top = `-${(slidesLength - 1) * 75}vh`; // Per schermi di dimensioni maggiori o uguali a 1200px
+}
 
 upButton.addEventListener('click', () => changeSlide('up'));
 downButton.addEventListener('click', () => changeSlide('down'));

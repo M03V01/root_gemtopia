@@ -587,12 +587,20 @@ footer a:hover{
 }
 /********** card home***********/
 
+@media (min-width: 1200px) {
+    .slider-container {
+        position: relative;
+        overflow: hidden;
+        width: 100vw;
+        height: 75vh;
 
+    }
+}
 .slider-container {
     position: relative;
     overflow: hidden;
     width: 100vw;
-    height: 75vh;
+    height: 50vh;
 
 }
 
