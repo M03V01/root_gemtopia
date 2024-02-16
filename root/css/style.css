@@ -852,7 +852,6 @@ footer a:hover{
     }
 }
 
-
 .carousel-control-next, .carousel-control-prev{
     width: 60px;
 }
@@ -877,7 +876,7 @@ footer a:hover{
     border-left: 2px solid rgba(148, 11, 146, 0.60);
     border-right: 2px solid rgba(148, 11, 146, 0.60);
     border-bottom: none;
-    background: radial-gradient(345.51% 128.56% at 0% 14.19%, rgba(80, 8, 93, 0.90) 0%, rgba(80, 8, 93, 0.10) 100%);
+    background: radial-gradient(345.51% 128.56% at 0% 14.19%, rgba(80, 8, 93, 0.90) 0%, rgba(80, 8, 93, 0.30) 100%);
     border-radius: 75px 75px 0 0;
 }
 
@@ -902,7 +901,7 @@ footer a:hover{
     border-left: 2px solid rgba(219, 29, 118, 0.40);
     border-right: 2px solid rgba(219, 29, 118, 0.40);
     border-bottom: none;
-    background: radial-gradient(345.51% 128.56% at 0% 14.19%, rgba(108, 13, 83, 0.90) 0%, rgba(108, 13, 83, 0.10) 100%);
+    background: radial-gradient(345.51% 128.56% at 0% 14.19%, rgba(108, 13, 83, 0.90) 0%, rgba(108, 13, 83, 0.30) 100%);
     border-radius: 75px 75px 0 0;
 }
 
@@ -927,7 +926,7 @@ footer a:hover{
     border-left: 2px solid rgba(255, 147, 97, 0.40);
     border-right: 2px solid rgba(255, 147, 97, 0.40);
     border-bottom: none;
-    background: radial-gradient(345.7% 128.59% at 0% 14.14%, rgba(123, 60, 76, 0.90) 0%, rgba(123, 60, 76, 0.10) 100%);
+    background: radial-gradient(345.7% 128.59% at 0% 14.14%, rgba(123, 60, 76, 0.90) 0%, rgba(123, 60, 76, 0.30) 100%);
     border-radius: 75px 75px 0 0;
 }
 
@@ -952,7 +951,7 @@ footer a:hover{
     border-left: 2px solid rgba(100, 204, 197, 0.40);
     border-right: 2px solid rgba(100, 204, 197, 0.40);
     border-bottom: none;
-    background: radial-gradient(345.51% 128.56% at 0% 14.19%, rgba(66, 84, 115, 0.90) 0%, rgba(66, 84, 115, 0.10) 100%);
+    background: radial-gradient(345.51% 128.56% at 0% 14.19%, rgba(66, 84, 115, 0.90) 0%, rgba(66, 84, 115, 0.30) 100%);
     border-radius: 75px 75px 0 0;
 }
 
@@ -964,13 +963,14 @@ footer a:hover{
     border-radius: 75px 75px 0 0;
 }
 
-
 .nav-tabs {
     border-bottom: none;
 }
+
 .carousel-item{
     border-radius: 20px;
 }
+
 /* for Mobile Slider */
 .carousel-caption {
     text-align: center;
@@ -1202,16 +1202,14 @@ footer a:hover{
     /****************LIVEGEM***********/
     /*posizione bimbo*/
     .child{
-        top:-5rem;
+        top:-7rem;
         z-index:-1;
 
     }
     .quiz{
         position:relative;
-        top:-15rem;
-
+        top:-16rem;
     }
-
 
 
     .dimora {
@@ -1332,18 +1330,16 @@ footer a:hover{
         }
     }
 
-    /* Stili per il pulsante di chiusura */
-    .close-detail {
-        /* Stili per il pulsante 'X' */
-        /* Altri stili... */
+    .carousel-indicators {
+        position: absolute;
+        bottom: -30px;
     }
-
 
     .carousel-indicators [data-bs-target] {
         box-sizing: content-box;
         flex: 0 1 auto;
-        width: 15px;
-        height: 15px;
+        width: 17px;
+        height: 17px;
         border-radius: 50%;
         padding: 0;
         margin-right: 10px;
