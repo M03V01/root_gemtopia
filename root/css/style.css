@@ -864,55 +864,106 @@ footer a:hover{
     }
 }
 
-.tab_viola{
-    background: radial-gradient(346.21% 128.67% at 0% 14%, rgba(148, 11, 146, 0.80) 0%, rgba(148, 11, 146, 0.00) 100%);
-    stroke-width: 2px;
-    stroke: rgba(255, 255, 255, 0.40);
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-
+.tab_purple{
+    border-left: 2px solid rgba(148, 11, 146, 0.60);
+    border-right: 2px solid rgba(148, 11, 146, 0.40);
+    border-bottom: 2px solid rgba(148, 11, 146, 0.40);
+    background: linear-gradient(112deg, rgba(148, 11, 146, 0.40) 48.43%, rgba(148, 11, 146, 0.00) 91.55%);
     border-radius: 0 0 30px 30px;
 }
 
-.tab_viola2{
-    background: radial-gradient(346.21% 128.67% at 0% 14%, rgba(148, 11, 146, 0.80) 0%, rgba(148, 11, 146, 0.00) 100%);
-    stroke-width: 1px;
-    stroke: rgba(255, 255, 255, 0.40);
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
+.tab_purple_nav a.nav-link {
+    border-top: 2px solid rgba(148, 11, 146, 0.60);
+    border-left: 2px solid rgba(148, 11, 146, 0.60);
+    border-right: 2px solid rgba(148, 11, 146, 0.60);
+    border-bottom: none;
+    background: radial-gradient(345.51% 128.56% at 0% 14.19%, rgba(80, 8, 93, 0.90) 0%, rgba(80, 8, 93, 0.10) 100%);
+    border-radius: 75px 75px 0 0;
+}
 
-    border-radius: 0 0 30px 30px;
+.tab_purple_nav a.nav-link.active{
+    border-top: 2px solid rgba(148, 11, 146, 0.40);
+    border-left: 2px solid rgba(148, 11, 146, 0.40);
+    border-right: 2px solid rgba(148, 11, 146, 0.40);
+    background: #50085D;
+    border-radius: 75px 75px 0 0;
 }
 
 .tab_fuxia{
-    background: radial-gradient(345.9% 128.62% at 0% 14.09%, rgba(219, 29, 118, 0.80) 0%, rgba(219, 29, 118, 0.00) 100%);
-    stroke-width: 2px;
-    stroke: rgba(219, 29, 118, 0.40);
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-
+    border-left: 2px solid rgba(219, 29, 118, 0.40);
+    border-right: 2px solid rgba(219, 29, 118, 0.40);
+    border-bottom: 2px solid rgba(219, 29, 118, 0.40);
+    background: linear-gradient(129deg, rgba(219, 29, 118, 0.40) 52.33%, rgba(219, 29, 118, 0.00) 87.49%);
     border-radius: 0 0 30px 30px;
 }
 
-.tab_arancio{
-    background: radial-gradient(345.7% 128.59% at 0% 14.14%, rgba(255, 147, 97, 0.80) 0%, rgba(255, 147, 97, 0.00) 100%);
-    stroke-width: 2px;
-    stroke: rgba(255, 147, 97, 0.40);
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
+.tab_fuxia_nav a.nav-link {
+    border-top: 2px solid rgba(219, 29, 118, 0.40);
+    border-left: 2px solid rgba(219, 29, 118, 0.40);
+    border-right: 2px solid rgba(219, 29, 118, 0.40);
+    border-bottom: none;
+    background: radial-gradient(345.51% 128.56% at 0% 14.19%, rgba(108, 13, 83, 0.90) 0%, rgba(108, 13, 83, 0.10) 100%);
+    border-radius: 75px 75px 0 0;
+}
 
+.tab_fuxia_nav a.nav-link.active{
+    border-top: 2px solid rgba(219, 29, 118, 0.40);
+    border-left: 2px solid rgba(219, 29, 118, 0.40);
+    border-right: 2px solid rgba(219, 29, 118, 0.40);
+    background: #6C0D53;
+    border-radius: 75px 75px 0 0;
+}
+
+.tab_orange{
+    border-left: 2px solid rgba(255, 147, 97, 0.50);
+    border-right: 2px solid rgba(255, 147, 97, 0.40);
+    border-bottom: 2px solid rgba(255, 147, 97, 0.40);
+    background: linear-gradient(158deg, rgba(255, 147, 97, 0.40) 35.9%, rgba(255, 147, 97, 0.00) 93.35%);
     border-radius: 0 0 30px 30px;
+}
+
+.tab_orange_nav a.nav-link {
+    border-top: 2px solid rgba(255, 147, 97, 0.40);
+    border-left: 2px solid rgba(255, 147, 97, 0.40);
+    border-right: 2px solid rgba(255, 147, 97, 0.40);
+    border-bottom: none;
+    background: radial-gradient(345.7% 128.59% at 0% 14.14%, rgba(123, 60, 76, 0.90) 0%, rgba(123, 60, 76, 0.10) 100%);
+    border-radius: 75px 75px 0 0;
+}
+
+.tab_orange_nav a.nav-link.active{
+    border-top: 2px solid rgba(255, 147, 97, 0.40);
+    border-left: 2px solid rgba(255, 147, 97, 0.40);
+    border-right: 2px solid rgba(255, 147, 97, 0.40);
+    background: #7B3C4C;
+    border-radius: 75px 75px 0 0;
 }
 
 .tab_blu{
-    background: radial-gradient(345.51% 128.56% at 0% 14.19%, rgba(100, 204, 197, 0.80) 0%, rgba(100, 204, 197, 0.00) 100%);
-    stroke-width: 2px;
-    stroke: rgba(100, 204, 197, 0.40);
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-
+    border-bottom: 2px solid rgba(100, 204, 197, 0.40);
+    border-left: 2px solid rgba(100, 204, 197, 0.40);
+    border-right: 2px solid rgba(100, 204, 197, 0.40);
+    background: linear-gradient(200deg, rgba(100, 204, 197, 0.40) 24.46%, rgba(255, 255, 255, 0.00) 120.78%);
     border-radius: 0 0 30px 30px;
 }
+
+.tab_blu_nav a.nav-link {
+    border-top: 2px solid rgba(100, 204, 197, 0.40);
+    border-left: 2px solid rgba(100, 204, 197, 0.40);
+    border-right: 2px solid rgba(100, 204, 197, 0.40);
+    border-bottom: none;
+    background: radial-gradient(345.51% 128.56% at 0% 14.19%, rgba(66, 84, 115, 0.90) 0%, rgba(66, 84, 115, 0.10) 100%);
+    border-radius: 75px 75px 0 0;
+}
+
+.tab_blu_nav a.nav-link.active {
+    border-top: 2px solid rgba(100, 204, 197, 0.40);
+    border-left: 2px solid rgba(100, 204, 197, 0.40);
+    border-right: 2px solid rgba(100, 204, 197, 0.40);
+    background: #425473;
+    border-radius: 75px 75px 0 0;
+}
+
 
 .nav-tabs {
     border-bottom: none;
@@ -932,17 +983,16 @@ footer a:hover{
 
 /* for Desktop Tabs */
 .nav-tabs .nav-item-tab {
-    border-radius: 30px 30px 0 0;
     display: flex;
     width: 25%;
     height: 60px;
+    margin-bottom: 1px;
 }
 
 .nav-tabs .nav-link {
     width: 100%;
     display: flex;
     align-items: center;
-    border-radius: 30px 30px 0 0;
 }
 
 .nav-tabs .nav-link.active {
