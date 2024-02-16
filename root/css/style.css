@@ -1211,6 +1211,10 @@ footer a:hover{
         top:-16rem;
     }
 
+    .box {
+        height: 536px;
+    }
+
 
     .dimora {
         border-radius: 1.875rem;
