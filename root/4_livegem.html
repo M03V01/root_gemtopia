@@ -10,9 +10,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> <!--font-->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><!--font-->
     <link href="https://fonts.googleapis.com/css2?family=Signika:wght@400;600;700&family=Titan+One&display=swap" rel="stylesheet"> <!--font-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script><!--script jquery-->
     <link rel="stylesheet" type="text/css" href="css/slick.css"/>
     <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script><!--script jquery-->
     <link href="css/style.css" rel="stylesheet">
 </head>
 
@@ -288,7 +288,8 @@
             <div class="row my-5 d-flex justify-content-center">
                 <!-- Immagine a sinistra -->
                 <div class="col-12 col-lg-3 d-flex align-items-center justify-content-center">
-                    <img src="img/soggiorni_carosello1_blu.svg" class="img-fluid px-1 d-lg-none d-lg-block" alt="Soggiorno Sogno Sereno Retreat">
+                    <img src="img/soggiorni_carosello1_blu.svg" class="img-fluid px-1 d-none d-lg-block" alt="Soggiorno Sogno Sereno Retreat">
+                    <img src="img/soggiorni_carosello1_blu_mobile.png" class="col-10 d-block d-lg-none" alt="Soggiorno Sogno Sereno Retreat">
                 </div>
                 <!-- Testo al centro -->
                 <div class="col-12 col-lg-5 align-self-center px-3 px-lg-5">
@@ -776,10 +777,12 @@
         $('.one-time').slick({
             dots: false,
             arrows: true,
-            infinite: true,
-            speed: 300,
+            infinite: false,
+            speed: 100,
             slidesToShow: 1,
             adaptiveHeight: false,
+            fade: true,
+            cssEase: 'linear',
 
         });
     });
