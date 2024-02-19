@@ -22,8 +22,8 @@ p{font-size:1rem;}
     .cta{font-size:1.2rem;}
     .nav-item a{font-size:1.2rem;}
     li {font-size:1.2rem;}
-    .body-small{ font-size:1rem}
-    .form-label{font-size:2rem};
+    .body-small{ font-size:1rem;}
+    .form-label{font-size:2rem;}
     }
 @media only screen and (min-width:992px){
     .nav-item a{font-size:1rem;}
@@ -37,8 +37,8 @@ p{font-size:1rem;}
     .cta{font-size:1rem;}
     .nav-item a{font-size:1.25rem;}
     li {font-size:1.25rem;}
-    .body-small{ font-size:1rem}
-    .form-label{font-size:2rem};
+    .body-small{ font-size:1rem;}
+    .form-label{font-size:2rem;}
    }
 
 
@@ -236,6 +236,7 @@ li.active .dropdown-item:hover{
     height: 100vh;
     transition: height .35s ease;
 }
+
 
 /***********FOOTER************/
 
@@ -586,7 +587,6 @@ footer a:hover{
     backdrop-filter: blur(21px);
 }
 /********** card notizie home***********/
-
 
 
 .slider-container {
@@ -1219,6 +1219,7 @@ footer a:hover{
 
     .one-time .slick-slide {
         height: 640px;
+        width:100%;
     }
 
     /* .form-control{
