@@ -237,7 +237,6 @@ li.active .dropdown-item:hover{
     transition: height .35s ease;
 }
 
-
 /***********FOOTER************/
 
 
@@ -587,6 +586,7 @@ footer a:hover{
     backdrop-filter: blur(21px);
 }
 /********** card notizie home***********/
+
 
 
 .slider-container {
@@ -1219,7 +1219,6 @@ footer a:hover{
 
     .one-time .slick-slide {
         height: 640px;
-        width:100%;
     }
 
     /* .form-control{
