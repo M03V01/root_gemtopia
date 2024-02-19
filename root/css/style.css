@@ -237,7 +237,6 @@ li.active .dropdown-item:hover{
     transition: height .35s ease;
 }
 
-
 /***********FOOTER************/
 
 
@@ -1050,7 +1049,6 @@ footer a:hover{
 
     .one-time .slick-slide {
         height: 640px;
-        width:100%;
     }
 
     /* .form-control{
@@ -1060,7 +1058,6 @@ footer a:hover{
         box-shadow: 0px 0px 20px 10px rgba(45, 4, 74, 0.30);
         backdrop-filter: blur(21px);
     } */
-
 
 
     .dimora {
