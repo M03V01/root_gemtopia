@@ -7,25 +7,21 @@ const slidesLength = slideRight.querySelectorAll('div').length;
 
 let activeSlideIndex = 0;
 
-const screenWidth = window.innerWidth;
-
-// Imposta il valore di top in base alla larghezza della finestra
-
-    slideLeft.style.top = `-${(slidesLength - 1) * 75}vh`; // Per schermi più piccoli di 1200px
+slideLeft.style.top = `-${(slidesLength - 1) * 75}vh`;
 
 upButton.addEventListener('click', () => changeSlide('up'));
 downButton.addEventListener('click', () => changeSlide('down'));
 
 const changeSlide = (direction) => {
-    const sliderHeight  = sliderContainer.clientHeight;
-    if(direction === 'up'){
+    const sliderHeight = sliderContainer.clientHeight;
+    if (direction === 'up') {
         activeSlideIndex++;
-        if(activeSlideIndex > slidesLength -1){
+        if (activeSlideIndex > slidesLength - 1) {
             activeSlideIndex = 0;
         }
-    }else if(direction === 'down'){
+    } else if (direction === 'down') {
         activeSlideIndex--;
-        if(activeSlideIndex < 0){
+        if (activeSlideIndex < 0) {
             activeSlideIndex = slidesLength - 1;
         }
     }
@@ -34,10 +30,10 @@ const changeSlide = (direction) => {
 };
 
 let scrolling = false;
-const scrollDelay = 1000; // Tempo di ritardo tra uno scroll e l'altro in millisecondi
+const scrollDelay = 1000;
 
 sliderContainer.addEventListener('wheel', (event) => {
-    event.preventDefault(); // Impedisci lo scorrimento della pagina
+    event.preventDefault();
     if (!scrolling) {
         scrolling = true;
         setTimeout(() => {
