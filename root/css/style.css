@@ -1043,7 +1043,13 @@ footer a:hover{
     }
 
     .box {
-        height: 536px;
+        height: 310px;
+    }
+
+    @media (min-width: 992px) {
+        .box {
+            height: 536px;
+        }
     }
 
     .one-time .slick-slide {
@@ -1118,7 +1124,7 @@ footer a:hover{
         backdrop-filter: blur(10px);
     }
 
-    .scambi {
+    .exchangeStudent {
         border-radius: 1.875rem;
         border: 2px solid rgba(148, 11, 146, 0.40);
         background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(148, 11, 146, 0.40) 0%, rgba(148, 11, 146, 0.00) 100%);
