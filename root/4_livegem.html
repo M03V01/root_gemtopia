@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -269,26 +269,34 @@
 
 
 
+
     <div class="container one-time my-5 col-lg-12 ">
         <div id="carouselExample2" class="carousel slide holiday">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <div class="row mx-auto flex-lg-nowrap d-flex justify-content-center align-items-center">
-                        <div class="col-md-5 px-lg-5 mt-lg-5 align-self-center ">
-                            <h2 class="mb-lg-5">Rilassati con delle vacanze da Sogno!</h2>
-                            <p>A Gemtopia le vacanze diventano un'avventura straordinaria!</p>
-                            <p>Tra dimore incantate a itinerari fuori dal comune, Gemtopia è la destinazione perfetta per chi cerca un mix di stravaganza e fantastici ricordi, il tutto personalizzato in base a ciò che preferisci.</p>
-                            <p> Preparati a vivere le vacanze dei tuoi sogni in una città dove ogni angolo è un'opportunità per un'esperienza straordinaria!</p>
+                    <div class="row my-lg-5 my-4 d-flex justify-content-center">
+                        <!-- Titolo (mostra solo su mobile) -->
+                        <div class="col-12 d-lg-none text-center pt-3 px-4 d-flex align-items-center">
+                            <h2>Rilassati con delle vacanze da Sogno</h2>
                         </div>
-                        <div class="col-md-6">
-                            <img src="img/img2_soggiorni_vacanze.svg" class="img-fluid d-block w-100 pt-lg-5 pb-lg-5 px-lg-5" alt="Immagine">
+
+                        <div class="col-lg-6 d-flex justify-content-center d-flex align-items-center order-md-2">
+                            <img src="img/img2_soggiorni_vacanze.svg" class="col-lg-12 d-block w-100 pt-2 pb-2 px-lg-5 px-4" alt="Immagine">
+                        </div>
+
+                        <div class="col-lg-5 px-lg-5 mt-lg-5 px-4 pb-3 order-1 order-md-1">
+                            <h2 class="d-none d-lg-block mb-lg-4">Rilassati con delle vacanze da Sogno</h2>
+                            <p class="d-block d-lg-none px-3">A Gemtopia le vacanze diventano un'avventura straordinaria! Tra dimore incantate a itinerari fuori dal comune, Gemtopia è la destinazione perfetta per chi cerca un mix di stravaganza e fantastici ricordi.</p>
+                            <p class="d-none d-lg-block">A Gemtopia le vacanze diventano un'avventura straordinaria!</p>
+                            <p class="d-none d-lg-block">Tra dimore incantate a itinerari fuori dal comune, Gemtopia è la destinazione perfetta per chi cerca un mix di stravaganza e fantastici ricordi, il tutto personalizzato in base a ciò che preferisci.</p>
+                            <p class="d-none d-lg-block"> Preparati a vivere le vacanze dei tuoi sogni in una città dove ogni angolo è un'opportunità per un'esperienza straordinaria!</p>
                         </div>
                     </div>
                 </div>
 
 
         <div class="carousel-item">
-            <div class="row my-4 d-flex justify-content-center">
+            <div class="row my-lg-5 my-4 d-flex justify-content-center">
                 <!-- Immagine a sinistra -->
                 <div class="col-12 col-lg-3 d-flex align-items-center justify-content-center">
                     <img src="img/soggiorni_carosello1_blu.svg" class="img-fluid px-1 d-none d-lg-block" alt="Soggiorno Sogno Sereno Retreat">
@@ -320,7 +328,7 @@
                             <img src="img/livegem_star_elisa.svg" class="img-fluid w-50 pb-4" alt="Recensione di Paolo">
                         </div>
                         <!-- Testo sotto -->
-                        <p class="body-small px-3 pb-3">“Il Sogno Sereno Retrat è un paradiso. L’atmosfera rilassante ha reso la mia vacanza un sogno ad occhi aperti”</p>
+                        <p class="body-small px-3 pb-3">“Il Sogno Sereno Retrat è un paradiso. <br> L’atmosfera rilassante ha reso la mia vacanza un sogno ad occhi aperti.”</p>
                     </div>
                 </div>
 
@@ -340,10 +348,10 @@
         </div>
 
         <div class="carousel-item">
-            <div class="row my-4 d-flex justify-content-center">
+            <div class="row my-lg-5 my-4 d-flex justify-content-center">
                 <!-- Immagine a sinistra -->
                 <div class="col-md-3 d-flex align-items-center justify-content-center">
-                    <img src="img/soggiorni_carosello2.svg" class="img-fluid px-1 d-none d-lg-bloc" alt=" ">
+                    <img src="img/soggiorni_carosello2.svg" class="img-fluid px-1 d-none d-lg-block" alt=" ">
                     <img src="img/soggiorni_carosello2_orange_mobile.png" class="col-10 d-block d-lg-none" alt=" ">
 
                 </div>
@@ -394,10 +402,10 @@
         </div>
 
         <div class="carousel-item">
-            <div class="row my-4 d-flex justify-content-center">
+            <div class="row my-lg-5 my-4 d-flex justify-content-center align-items-center">
                 <!-- Immagine a sinistra -->
                 <div class="col-md-3 d-flex align-items-center justify-content-center">
-                    <img src="img/soggiorni_carosello3.svg" class="img-fluid px-1 d-none d-lg-bloc" alt=" ">
+                    <img src="img/soggiorni_carosello3.svg" class="img-fluid px-1 d-none d-lg-block" alt=" ">
                     <img src="img/soggiorni_carosello3_purple_mobile.png" class="col-10 d-block d-lg-none" alt=" ">
                 </div>
                 <!-- Testo al centro -->
@@ -406,7 +414,7 @@
                     <h3 class="d-block d-lg-none">Viaggio Visionario</h3>
                     <p>Alloggio: soggiornerai in “Palazzo delle Menti Luminose”, una struttura architettonica futuristica con biblioteche incantate.</p>
                     <p class="d-none d-lg-block">Itinerario:</p>
-                    <ul class="d-none d-lg-block">>
+                    <ul class="d-none d-lg-block">
                         <li> Giorno 1: visita al museo delle illusioni.</li>
                         <li> Giorno 2: lezione di telepatia intellettuale.</li>
                         <li> Giorno 3: tour guidato nell’osservatorio delle idee astrali.</li>
@@ -426,7 +434,7 @@
                             <img src="img/livegem_star_francesco.svg" class="img-fluid w-50 pb-4" alt="">
                         </div>
                         <!-- Testo sotto -->
-                        <p class="body-small px-lg-3 pb-lg-3">“Il Viaggio Visionario è stato un percorso verso la mente e l’anima. Mi ha aperto nuovi orizzonti di pensiero e ha reso la mia mente parte di un universo infinito. Consigliato a chi cerca conoscenza e ispirazione”</p>
+                        <p class="body-small px-lg-3 pb-lg-3">“Il Viaggio Visionario è stato un percorso verso la mente e l’anima. Mi ha aperto nuovi orizzonti di pensiero e ha reso la mia mente parte di un universo infinito. Consigliato a chi cerca conoscenza e ispirazione.”</p>
                     </div>
                 </div>
 
@@ -477,24 +485,24 @@
                             <img src="img/livegem_star_francesco.svg" class="img-fluid w-50 pb-4" alt="">
                         </div>
                         <!-- Testo sotto -->
-                        <p class="body-small px-lg-3 pb-lg-3"> “Il Dolce Sogno d’Amore ha superato le mie aspettative. L’alloggio è un rifugio accogliente, i massaggi un toccasana per l’anima. Consigliato a tutte le anime romantiche”.”</p>
+                        <p class="body-small px-lg-3 pb-lg-3"> “Il Dolce Sogno d’Amore ha superato le mie aspettative. L’alloggio è un rifugio accogliente, i massaggi un toccasana per l’anima. Consigliato a tutte le anime romantiche”.</p>
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="carousel-item">
-            <div class="container">
-                <div class="row">
+            <div class="container my-3">
+                <div class="row my-lg-5">
                     <form>
-                        <div class="row mt-lg-5 mb-lg-5 px-lg-5">
+                        <div class="row px-lg-5 px-3">
                             <div class="col-md-6 px-lg-5">
                                 <label for="name" class="form-label">Nome</label>
-                                <input type="text" class="form-control" id="name" placeholder="Maria">
+                                <input type="text" class="form-control h-50" id="name" placeholder="Maria">
                             </div>
-                            <div class="col-md-6 px-lg-5">
+                            <div class="col-md-6 px-lg-5 pt-lg-0 pt-2">
                                 <label for="surname" class="form-label">Cognome</label>
-                                <input type="text" class="form-control" id="surname" placeholder="Mariani">
+                                <input type="text" class="form-control h-50" id="surname" placeholder="Mariani">
                             </div>
                         </div>
                     </form>
@@ -502,14 +510,14 @@
 
                 <div class="row">
                     <form>
-                        <div class="row mt-lg-1 mb-lg-5 px-lg-5">
-                            <div class="col-md-6 px-lg-5">
+                        <div class="row mt-lg-1 pt-lg-2 mb-lg-5 px-lg-5 px-3">
+                            <div class="col-md-6 px-lg-5 pt-2">
                                 <label for="email" class="form-label">E-mail</label>
-                                <input type="text" class="form-control" id="email" placeholder="Maria">
+                                <input type="text" class="form-control h-50" id="email" placeholder="Maria">
                             </div>
-                            <div class="col-md-6 px-lg-5">
+                            <div class="col-md-6 px-lg-5 pt-2">
                                 <label for="telephone" class="form-label">Cellulare</label>
-                                <input type="text" class="form-control" id="telephone" placeholder="3333876458">
+                                <input type="text" class="form-control h-50" id="telephone" placeholder="3333876458">
                             </div>
                         </div>
                     </form>
@@ -517,8 +525,8 @@
 
                 <div class="row">
                     <form>
-                        <div class="row mt-lg-1 px-lg-5">
-                            <div class="col-md-6 px-lg-5">
+                        <div class="row mt-lg-1 px-3 px-lg-5">
+                            <div class="col-md-6 px-lg-5 pt-3">
                                 <label for="where" class="form-label">Dove vuoi alloggiare</label>
                                 <div class="form-check pt-lg-2">
                                     <!-- Opzione 1 -->
@@ -550,7 +558,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-6 px-lg-5">
+                            <div class="col-md-6 px-lg-5 pt-3">
                                 <label for="how-long" class="form-label">Quanto</label>
                                 <div class="form-check pt-lg-2">
                                     <!-- Opzione 1 -->
@@ -580,7 +588,7 @@
 
                 <div class="row">
                     <form>
-                        <div class="row pt-lg-4">
+                        <div class="row pt-lg-4 pb-lg-5 pt-3">
                             <div class="col-md-12 d-flex justify-content-center">
                                 <button type="" class="cta rounded-4 p-2 px-5 cta_form">Richiedi</button>
                             </div>
@@ -604,11 +612,11 @@
     </div>
 
 
-    <div class="container one-time my-3 col-lg-12">
+    <div class="container one-time my-5 col-lg-12 ">
         <div id="carouselExample3" class="carousel slide exchangeStudent">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <div class="row mx-auto flex-lg-nowrap d-flex justify-content-center align-items-center">
+                    <div class="row my-lg-5 my-5 d-flex justify-content-center">
                         <!-- Titolo (mostra solo su mobile) -->
                         <div class="col-12 d-lg-none text-center pt-3 px-4 d-flex align-items-center">
                             <h2>Condividi il sapere grazie agli scambi studenteschi</h2>
@@ -619,9 +627,10 @@
                         </div>
 
                         <div class="col-lg-5 px-lg-5 mt-lg-5 px-4 pb-3 order-1 order-md-2">
-                            <h2 class="d-none d-lg-block">Condividi il sapere grazie agli scambi studenteschi</h2>
-                            <p>L’educazione è una gemma preziosa a Gemtopia, ma l'apprendimento va ben oltre i confini delle aule tradizionali.</p>
-                            <p class="d-none d-lg-block">La città offre un'opportunità unica per gli studenti desiderosi di immergersi in una cultura straordinaria, con lezioni indimenticabili tenute da insegnanti fuori dal comune. Preparati ad ampliare i tuoi orizzonti!</p>
+                            <h2 class="d-none d-lg-block mb-lg-4">Condividi il sapere grazie agli scambi studenteschi</h2>
+                            <p class="px-3">L’educazione è una gemma preziosa a Gemtopia, ma l'apprendimento va ben oltre i confini delle aule tradizionali.</p>
+                            <p class="d-none d-lg-block">La città offre un'opportunità unica per gli studenti desiderosi di immergersi in una cultura straordinaria, con lezioni indimenticabili tenute da insegnanti fuori dal comune.</p>
+                            <p class="d-none d-lg-block">Preparati ad ampliare i tuoi orizzonti!</p>
                         </div>
                     </div>
                 </div>
