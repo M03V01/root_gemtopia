@@ -762,7 +762,7 @@ footer a:hover{
 #question-text{
     color:var(--bs-btn-text);
     font-family: 'Signika', sans-serif;
-    padding-bottom: 30px;
+    padding-bottom: 0;
 }
 
 .btn-container {
@@ -1033,13 +1033,13 @@ footer a:hover{
 /****************LIVEGEM***********/
     /*posizione bimbo*/
     .child{
-        top:-7rem;
+        top:-6rem;
         z-index:-1;
 
     }
     .quiz{
         position:relative;
-        top:-16rem;
+        top:-9rem;
     }
 
     .box {
@@ -1066,7 +1066,7 @@ footer a:hover{
     } */
 
 
-    .dimora {
+    .residence {
         border-radius: 1.875rem;
         border: 2px solid rgba(219, 29, 118, 0.40);
         background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(219, 29, 118, 0.70) 0%, rgba(219, 29, 118, 0.00) 100%);

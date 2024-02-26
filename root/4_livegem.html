@@ -86,11 +86,9 @@
                 </svg>
 
                 <div class="container-fluid px-lg-5 pt-2 pb-2 pt-md-0 pt-lg-2 pb-lg-2 justify-content-center col-12 mt-lg-0 wave-mobile unique-color-background">
-                    <h2 class="col-lg-10 pt-5 pb-1 mb-0 px-lg-5 d-flex align-items-center">Vuoi venire a Gemtopia? Ti trovi nel posto giusto!</h2>
+                    <h2 class="col-lg-10 pt-5 pb-1 mb-0 pb-lg-3 px-lg-5 d-flex align-items-center">Vuoi venire a Gemtopia? Ti trovi nel posto giusto!</h2>
                     <p class="col-lg-10 mb-0 pb-5 px-lg-5 fw-bolder d-flex align-items-center">Che tu voglia venire a vivere in città o fare una vacanza rigenerante con noi, esplora la nostra gamma di soggiorni unici e preparato ad un viaggio magico che porterà un tocco di stravaganza nella tua vita.</p>
                 </div>
-
-
 
                 <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto" style="transform: scaleY(-1);">
                     <defs>
@@ -120,152 +118,52 @@
     </header>
 
 <!--immagine bimbo-->
-<div class="container d-flex flex-column custom-container align-items-center pb-lg-0 mb-lg-0">
-    <div class="container  pb-lg-0 mb-lg-0 ">
-        <div class="row position-relative child d-flex justify-content-center">
-            <div class="col-md-8 text-center mb-0">
-                <img src="img/bimbo_soggiorni.svg" alt=" " class="img-fluid">
+<div class="container-fluid d-flex flex-column align-items-center pb-lg-0 mb-lg-0">
+    <div class="row position-relative child justify-content-center pb-lg-0">
+        <div class="col-md-8 text-center mb-0">
+            <img src="img/bimbo_soggiorni.svg" alt=" " class="col-12">
+        </div>
+    </div>
+
+    <!-- quiz-->
+    <div class="container-fluid container_quiz mb-lg-0 d-flex justify-content-center quiz">
+        <div id="quiz-container" class="col-12 col-lg-8 mx-0 p-lg-5 backgroundFuxia d-flex flex-column justify-content-center">
+            <div id="question-container" class="row col-12 align-self-center p-1 p-lg-0">
+                <h3 class="text-center p-2" id="question-text"></h3>
+            </div>
+            <div id="answer-buttons" class="btn-container p-0 pb-lg-3"></div>
+            <div class="col-6 d-flex justify-content-center align-self-center">
+                <a href="4_livegem.html" ><button id="result-button" class="btn" style="display: none">Prenota ora</button></a>
             </div>
         </div>
+    </div>
+</div>
 
-        <!-- quiz-->
-        <div class="container container_quiz mb-0  quart1 d-flex justify-content-center quiz ">
-            <div id="quiz-container" class="container col-12 col-lg-8  mx-0 p-lg-5 backgroundFuxia d-flex flex-column justify-content-center">
-                <div id="question-container" class="row col-12 align-self-center p-1 p-lg-0">
-                    <h3 class="text-center p-2" id="question-text"></h3>
-                </div>
-                <div id="answer-buttons" class="btn-container p-0 pb-lg-3"></div>
-                <div class="col-6 d-flex justify-content-center align-self-center">
-                    <a href="livegem.html" ><button id="result-button" class="btn" style="display: none">Prenota ora</button></a>
+<div class="container one-time my-5 col-lg-12 ">
+    <div id="carouselExample" class="carousel slide residence">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row my-lg-4 my-4 d-flex justify-content-center">
+                    <!-- Titolo (mostra solo su mobile) -->
+                    <div class="col-12 d-lg-none text-center pt-3 px-4 d-flex align-items-center">
+                        <h2>Scegli e affitta la tua magica dimora!</h2>
+                    </div>
+
+                    <div class="col-lg-6 d-flex justify-content-center d-flex align-items-center order-md-1">
+                        <img src="img/img1_soggiorni_carousel.svg" class="col-lg-12 d-block w-100 pt-2 pb-2 px-lg-4 px-4" alt="Immagine">
+                    </div>
+
+                    <div class="col-lg-5 px-lg-5 mt-lg-5 px-4 pb-3 order-1 order-md-2">
+                        <h2 class="d-none d-lg-block mb-lg-4">Scegli e affitta la tua magica dimora!</h2>
+                        <p class="px-3 px-lg-0"> Inizia il tuo viaggio alla scoperta delle nostre case su misura, ciascuna progettata per incarnare l’anima della città e del quartiere in cui si trova: ti assicuriamo che, qualunque sia la tua scelta, ogni casa è un portale verso un’esperienza senza tempo.</p>
+                        <p class="d-none d-lg-block">Immergiti nella città e nel quartiere conoscendo il vicinato. Il nostro team di agenti immobiliari è pronto per aiutarti a trovare la casa perfetta! Dalla scelta della casa alla tua esperienza nel quartiere, scopri di più per rendere il tuo soggiorno magico dalla A alla Z (CTA che apre ad una mail).</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-    <div class="container one-time d-flex mt-lg-0 pt-lg-0 justify-content-center col-lg-12">
-        <div id="carouselExample" class="carousel dimora" >
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="row mx-auto d-flex justify-content-center">
-
-                        <div class="col-12 d-lg-none text-center pt-3 px-4">
-                            <h2>Scegli e affitta la tua magica dimora!</h2>
-                        </div>
-
-
-                        <div class="col-md-6 d-flex justify-content-center order-md-1">
-                            <img src="img/img1_soggiorni_carousel.svg" class="d-block w-100 pt-2 pb-2 px-lg-4 px-4" alt="Immagine">
-                        </div>
-
-                        <div class="col-md-5 px-lg-5 mt-lg-5 px-4 pb-3 align-self-center order-1 order-md-2">
-                            <h2 class="d-none d-lg-block">Scegli e affitta la tua magica dimora!</h2>
-                            <p>Inizia il tuo viaggio alla scoperta delle nostre case, ciascuna progettata per incarnare l’anima della città e del quartiere in cui si trova: ti assicuriamo che, qualunque sia la tua scelta, ogni casa è un portale verso un’esperienza senza tempo.</p>
-                            <p class="d-none d-lg-block">Immergiti nella città e nel quartiere conoscendo il vicinato. Il nostro team di agenti immobiliari è pronto per aiutarti a trovare la casa perfetta! Dalla scelta della casa alla tua esperienza nel quartiere, scopri di più per rendere il tuo soggiorno magico dalla A alla Z (CTA che apre ad una mail).</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <div class="container-fluid">
-                        <!-- Prima Riga per le prime due sezioni -->
-                        <div class="row d-flex justify-content-center pt-lg-4 pb-lg-5">
-                            <!-- Primo Blocco a Sinistra -->
-                            <div class="col-lg-5">
-                                <div class="container-fluid dolce_dormizio pt-lg-3" id="originalContent">
-                                    <div class="row align-items-center">
-                                        <div class="col-lg-6">
-                                            <img class="img-fluid" src="img/livegem_dolcedormizio.svg" alt="">
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <h3>Dolce Dormizio</h3>
-                                            <p>Questa dimora è una villa incantata circondata da giardini fioriti e alberi frondosi...</p>
-                                            <!-- Link -->
-                                            <a href="#" id="readAnnouncement" class="align-self-center" data-target="#detailContent1"> Leggi l'annuncio <span><img src="img/freccia_cta.png" alt="" class="arrow"></span></a>
-                                        </div>
-                                        <div id="detailContent1" class="container-fluid additional-content pt-lg-3" style="display: none;">
-                                            <p>Dettaglio del contenuto...</p>
-                                            <button class="close-detail" data-target="#originalContent1">X</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                        <!-- Secondo Blocco a Destra -->
-                            <div class="col-lg-5">
-                                <div class="container-fluid casa_audacia pt-lg-3">
-                                    <div class="row align-items-center">
-                                        <div class="col-lg-6">
-                                            <img class="img-fluid" src="img/livegem_casaaudacia.svg" alt="">
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <h3>Casa Audacia</h3>
-                                            <p>Casa Audacia si erge su una collina con una facciata maestosa...</p>
-                                            <!-- Link -->
-                                            <a href="#" class="align-self-center">Leggi l'annuncio <span><img src="img/freccia_cta.png" alt="" class="arrow"></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-                        <!-- Seconda Riga per le ultime due sezioni -->
-                        <div class="row d-flex justify-content-center flex-lg-nowrap pb-lg-5">
-                            <!-- Terzo Blocco (Genius-hill) -->
-                            <div class="col-lg-5">
-                                <div class="container-fluid py-1 villa_sapientia pt-lg-3">
-                                    <div class="row align-items-center">
-                                        <div class="col-lg-6">
-                                            <img class="img-fluid" src="img/livegem_villasapientia.svg" alt="">
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <h3>Villa Sapientia</h3>
-                                            <p>Questa elegante villa di Genius-hill è circondata da un giardino pensile
-                                                con aiuole ordinate...</p>
-                                            <!-- Link -->
-                                            <a href="#" class="align-self-center">Leggi l'annuncio <span><img src="img/freccia_cta.png" alt="" class="arrow"></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Quarto Blocco (Cuddlehood) -->
-                            <div class="col-lg-5">
-                                <div class="container-fluid py-1 love_nest pt-lg-3">
-                                    <div class="row align-items-center">
-                                        <div class="col-lg-6">
-                                            <img class="img-fluid" src="img/livegem_lovenest.svg" alt="">
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <h3>Love Nest</h3>
-                                            <p>Love Nest è molto più di una dimora: è un rifugio incantato immerso in
-                                                Cuddlehood che...</p>
-                                            <!-- Link -->
-
-                                            <a href="#" class="align-self-center">Leggi l'annuncio <span><img src="img/freccia_cta.png" alt="" class="arrow"></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
-                    data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
-                        data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </div>
-    </div>
 
 
 
@@ -628,7 +526,7 @@
 
                         <div class="col-lg-5 px-lg-5 mt-lg-5 px-4 pb-3 order-1 order-md-2">
                             <h2 class="d-none d-lg-block mb-lg-4">Condividi il sapere grazie agli scambi studenteschi</h2>
-                            <p class="px-3">L’educazione è una gemma preziosa a Gemtopia, ma l'apprendimento va ben oltre i confini delle aule tradizionali.</p>
+                            <p class="px-3 px-lg-0">L’educazione è una gemma preziosa a Gemtopia, ma l'apprendimento va ben oltre i confini delle aule tradizionali.</p>
                             <p class="d-none d-lg-block">La città offre un'opportunità unica per gli studenti desiderosi di immergersi in una cultura straordinaria, con lezioni indimenticabili tenute da insegnanti fuori dal comune.</p>
                             <p class="d-none d-lg-block">Preparati ad ampliare i tuoi orizzonti!</p>
                         </div>
@@ -636,10 +534,10 @@
                 </div>
 
                 <div class="carousel-item px-lg-5">
-                    <div class="row my-4 d-flex justify-content-center">
+                    <div class="row my-5 d-flex justify-content-center">
                         <div class="col-12 col-lg-4 px-lg-5 px-5">
                             <h3>Corsi a scelta</h3>
-                            <ul class="d-block d-lg-none">
+                            <ul class="d-block d-md-none">
                                 <li><strong>Arte onirica</strong></li>
                                 <li><strong>Meditazione fluttuante</strong></li>
                                 <li><strong>Lingua comunicante</strong></li>
@@ -647,7 +545,7 @@
                                 <li><strong>Criptozoologia</strong></li>
                             </ul>
 
-                            <div class="d-lg-block d-none">
+                            <div class="d-md-block d-none">
                                 <p><strong>Arte onirica</strong>, insegna a trasformare i sogni in opere d’arte tangibili.</p>
                                 <p><strong>Meditazione fluttuante</strong>, per imparare a meditare fluttuando tra nuvole sospese.</p>
                                 <p><strong>Lingua comunicante</strong>, studio di una lingua per comunicare con tutti gli abitanti del mondo.</p>
@@ -667,9 +565,9 @@
                         </div>
                         <!-- Box a destra -->
                         <div class="col-lg-4 d-flex align-items-center justify-content-center px-4 pb-1 px-lg-5 ">
-                            <div class="box vacanzefuxiarecensione px-4 pb-1 px-lg-5 pt-lg-5 pb-lg-5 d-flex flex-column justify-content-center">
+                            <div class="box vacanzefuxiarecensione px-4 pb-1 px-lg-5 d-flex flex-column justify-content-center">
                                 <form>
-                                    <fieldset class="form-group pt-1">
+                                    <fieldset class="form-group pt-1 pb-lg-3">
                                         <h3>Quanto tempo vorresti stare a Gemtopia?</h3>
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio" name="durata" id="seiMesi" value="6 mesi">
@@ -685,7 +583,7 @@
                                         </div>
                                     </fieldset>
 
-                                    <fieldset class="form-group pt-3 pb-4 pt-lg-3 pb-lg-4">
+                                    <fieldset class="form-group pt-3 pb-4 pt-lg-3">
                                         <h3>Dove vorresti alloggiare?</h3>
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio" name="alloggio" id="campus" value="campus">
@@ -700,7 +598,7 @@
                                             </label>
                                         </div>
                                     </fieldset>
-                                    <div class="d-flex justify-content-center">
+                                    <div class="d-flex justify-content-center pt-lg-3">
                                         <a href="#"><button type="submit" class="cta cta_form rounded-4 pt-2 pb-2 px-5 rounded d-flex justify-content-center">Richiedi</button></a>
                                     </div>
                                 </form>
@@ -851,7 +749,7 @@
 
 
 <script src="js/quiz_v2.js"></script>
-        <!-- fine main home -->
+
     <script>
         $(document).ready(function(){
             $(window).scroll(function() {
@@ -866,6 +764,7 @@
             });
         });
     </script>
+
     <script>
         $(document).ready(function(){
             var scrollTop = 0;
