@@ -282,6 +282,7 @@ footer a:hover{
 }
 .parallax{
     z-index: 999999;
+
 }
 
 
@@ -851,9 +852,9 @@ footer a:hover{
 
 /****************GEMTOUR***********/
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .img-mobile {
-        max-width: 80%;
+        max-width: 60%;
         height: auto;
     }
 }
@@ -867,6 +868,10 @@ footer a:hover{
     .carousel-caption {
         margin-bottom: -10%;
     }
+}
+
+.one-time2 .slick-slide {
+    height: 50rem;
 }
 
 .tab_purple{
@@ -1035,8 +1040,8 @@ footer a:hover{
     .child{
         top:-6rem;
         z-index:-1;
-
     }
+
     .quiz{
         position:relative;
         top:-9rem;
@@ -1056,7 +1061,6 @@ footer a:hover{
         height: 640px;
     }
 
-
     /* .form-control{
         border-radius: 5px;
         border: 2px solid rgba(255, 255, 255, 0.45);
@@ -1064,7 +1068,6 @@ footer a:hover{
         box-shadow: 0px 0px 20px 10px rgba(45, 4, 74, 0.30);
         backdrop-filter: blur(21px);
     } */
-
 
     .residence {
         border-radius: 1.875rem;
@@ -1289,7 +1292,6 @@ footer a:hover{
         -webkit-border-radius: 10px;
         -moz-border-radius: 10px;
         border-radius: 10px;
-
     }
 
 
