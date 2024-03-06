@@ -1,47 +1,38 @@
-const sliderContainer = document.querySelector('.slider-container');
-const slideRight = document.querySelector('.right-slide');
-const slideLeft = document.querySelector('.left-slide');
-const upButton = document.querySelector('.up-button');
-const downButton = document.querySelector('.down-button');
-const slidesLength = slideRight.querySelectorAll('div').length;
+document.addEventListener("DOMContentLoaded", function() {
+    const sliderContainer = document.querySelector('.slider-container');
+    const slideRight = document.querySelector('.right-slide');
+    const slideLeft = document.querySelector('.left-slide');
+    const upButton = document.querySelector('.up-button');
+    const downButton = document.querySelector('.down-button');
+    const slidesLength = slideRight.querySelectorAll('.slide-image').length;
 
-let activeSlideIndex = 0;
+    let activeSlideIndex = 0;
 
-slideLeft.style.top = `-${(slidesLength - 1) * 75}vh`;
+    slideLeft.style.top = `-${(slidesLength - 1) * 100}%`;
 
-upButton.addEventListener('click', () => changeSlide('up'));
-downButton.addEventListener('click', () => changeSlide('down'));
-
-const changeSlide = (direction) => {
-    const sliderHeight = sliderContainer.clientHeight;
-    if (direction === 'up') {
-        activeSlideIndex++;
-        if (activeSlideIndex > slidesLength - 1) {
-            activeSlideIndex = 0;
+    const changeSlide = (direction) => {
+        if (direction === 'up') {
+            activeSlideIndex++;
+            if (activeSlideIndex > slidesLength - 1) {
+                activeSlideIndex = 0;
+            }
+        } else if (direction === 'down') {
+            activeSlideIndex--;
+            if (activeSlideIndex < 0) {
+                activeSlideIndex = slidesLength - 1;
+            }
         }
-    } else if (direction === 'down') {
-        activeSlideIndex--;
-        if (activeSlideIndex < 0) {
-            activeSlideIndex = slidesLength - 1;
-        }
+
+        const slideHeight = slideRight.clientHeight;
+        slideRight.style.transform = `translateY(-${activeSlideIndex * slideHeight}px)`;
+        slideLeft.style.transform = `translateY(${activeSlideIndex * slideHeight}px)`;
+    };
+
+    function activateSlider() {
+        upButton.addEventListener('click', () => changeSlide('up'));
+        downButton.addEventListener('click', () => changeSlide('down'));
     }
-    slideRight.style.transform = `translateY(-${activeSlideIndex * sliderHeight}px)`;
-    slideLeft.style.transform = `translateY(${activeSlideIndex * sliderHeight}px)`;
-};
 
-let scrolling = false;
-const scrollDelay = 1000;
-
-sliderContainer.addEventListener('wheel', (event) => {
-    event.preventDefault();
-    if (!scrolling) {
-        scrolling = true;
-        setTimeout(() => {
-            scrolling = false;
-        }, scrollDelay);
-
-        const deltaY = event.deltaY;
-        const direction = deltaY > 0 ? 'down' : 'up';
-        changeSlide(direction);
-    }
+    // Attivare lo slider per entrambe le modalità (desktop e mobile)
+    activateSlider();
 });
