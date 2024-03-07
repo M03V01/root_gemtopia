@@ -14,6 +14,7 @@ $(function(){
                settings: {
                    slidesToShow: 5,
                    slidesToScroll: 1,
+                   vertical:false,
                }
            },
            {

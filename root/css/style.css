@@ -594,9 +594,15 @@ footer a:hover{
     position: relative;
     overflow: hidden;
     width: 100vw;
-    height: 75vh;
+    height: 35vh;
 
 }
+@media only screen and (min-width: 1201px) {
+    .slider-container {
+        height: 75vh;
+    }
+}
+
 
 .left-slide {
     height: 100%;
