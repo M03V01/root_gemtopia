@@ -1487,19 +1487,6 @@ footer a:hover{
 .news {
     width:100%;
 }
-.read-more {
+.mybox1{
     display: none;
-    max-width: 120px;
-    margin-top: 10px;
-}
-
-.button_more{
-   border:none;
-    cursor: pointer;
-   background: none;
-    color: var(--bs-btn-text);
-    font-weight: bolder;
-    text-shadow: 0px 0px 10px #DB1D76;
-    display:flex;
-    justify-content: end;
 }

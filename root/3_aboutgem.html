@@ -453,10 +453,16 @@
                 <h3 class=" mt-3 mt-lg-0">Sogno o realtà? I sogni degli abitanti di Dreamstrict si sono materializzati nella notte</h3>
                 <p class="body-small ">“Situazione bizzarra a Dreamstric: durante la notte, i sogni d si sono materializzati tra le strade del
                     quartiere e nelle case degli abitanti.”</p>
-                <p>Dreamstric ha avuto una mattinata decisamente curiosa quest’oggi, quando gli abitanti si sono svegliati circondati dai loro sogni divenuti realtà. Abbiamo intervistato Sonnolenzo, che ci racconta di aver sognato durante questa notte di essere diventato uno chef stellato: “Mi sono svegliato con la casa pervasa di un profumo di cibo delizioso, quando, entrato in cucina, mi sono imbattuto in uova
+                <span class="mybox1 " id="mybox1id"> <p>Dreamstric ha avuto una mattinata decisamente curiosa quest’oggi, quando gli abitanti si sono svegliati circondati dai loro sogni divenuti realtà. Abbiamo intervistato Sonnolenzo, che ci racconta di aver sognato durante questa notte di essere diventato uno chef stellato: “Mi sono svegliato con la casa pervasa di un profumo di cibo delizioso, quando, entrato in cucina, mi sono imbattuto in uova
                     saltellanti, bacon che faceva il moonwalk e salsicce che danzavano sopra la mia tavola.</p>
                <p>Ci ho messo tutta la mattina a ripulire tutto, però devo dire che una colazione così buona non l’avevo mai mangiata.”. In questo momento, le forze dell’ordine stanno transennando il quartiere, che al momento sembra invaso da ogni tipo di creatura onirica immaginabile; una situazione che, nella sua stranezza, fa suscitare le risate degli abitanti di Gemtopia, accorsi da ogni lato della città per godersi lo spettacolo.</p>
+                </span>
+                <button id="mybuttonid"
+                        onclick="changeReadMore()">
+                    Read More
+                </button>
             </div>
+
         </div>
 
 
@@ -569,6 +575,22 @@
          });
         });
     </script>
+<script>
+    function changeReadMore() {
+    const mycontent =
+        document.getElementById('mybox1id');
+    const mybutton =
+        document.getElementById('mybuttonid');
+
+    if (mycontent.style.display === 'none'
+        || mycontent.style.display === '') {
+        mycontent.style.display = 'block';
+        mybutton.textContent = 'Read Less';
+    } else {
+        mycontent.style.display = 'none';
+        mybutton.textContent = 'Read More';
+    }
+}</script>
 
 </body>
 </html>
