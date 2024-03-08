@@ -591,17 +591,11 @@ footer a:hover{
 
 
 .slider-container {
-    position: relative;
-    overflow: hidden;
-    width: 100vw;
-    height: 35vh;
+    height: 50vh;
+    margin-bottom:5rem;
 
 }
-@media only screen and (min-width: 992px) {
-    .slider-container {
-        height: 50vh;
-    }
-}
+
 @media only screen and (min-width: 1200px) {
     .slider-container {
         height: 75vh;
@@ -611,8 +605,7 @@ footer a:hover{
 
 .left-slide {
     height: 100%;
-    position: absolute;
-    top: 0;
+        top: 0;
     left: 0;
     transition: transform 0.5s ease-in-out ;
 }
@@ -634,7 +627,7 @@ footer a:hover{
 
 .right-slide {
     height: 100%;
-    position: absolute;
+
     top: 0;
     right:0;
     transition: transform 0.5s ease-in-out;
@@ -685,7 +678,16 @@ footer a:hover{
     transform: translate3d(0, 0, 0);
 }
 
+@media only screen and (max-width: 767px) {
+    .left-slide,
+    .right-slide {
 
+
+    }
+    .right-slide{
+        width:35%;
+    }
+}
 
 /***.card_notizie{
 
