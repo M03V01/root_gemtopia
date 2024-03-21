@@ -678,16 +678,7 @@ footer a:hover{
     transform: translate3d(0, 0, 0);
 }
 
-@media only screen and (max-width: 767px) {
-    .left-slide,
-    .right-slide {
 
-
-    }
-    .right-slide{
-        width:35%;
-    }
-}
 
 /***.card_notizie{
 
