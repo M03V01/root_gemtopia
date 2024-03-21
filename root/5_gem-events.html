@@ -34,8 +34,8 @@
                         InfoGem
                     </a>
                     <ul class="dropdown-menu text-center text-md-start " aria-labelledby="navbarDropdown" >
-                        <li><a class="dropdown-item mb-2" href="2_infogem.html#trasporti">Trasporti</a></li>
-                        <li><a class="dropdown-item" href="2_infogem.html#uffici">Uffici</a></li>
+                        <li><a class="dropdown-item mb-2" href="2_infogem.html#transport">Trasporti</a></li>
+                        <li><a class="dropdown-item" href="2_infogem.html#office">Uffici</a></li>
                     </ul>
                 </li>
                 <li class="nav-item m-md-2 active fw-bold">
@@ -302,10 +302,8 @@
         $(document).ready(function(){
             $(window).scroll(function() {
                 if ($(document).scrollTop() > 20) {
-                    $(".navbar").css("background", "radial-gradient(20707.45% 141.42% at 0% 0%, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0) 100%)");
-                    $(".navbar").css("box-shadow", "0 3px 15px 0 rgba(36, 4, 59, 0.50)");
-                    $(".navbar").addClass("scrolled");
-
+                    $(".navbar").css("background", "radial-gradient(20707.45% 141.42% at 0% 0%, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0) 100%)",
+                        "box-shadow", "0 3px 15px 0 rgba(36, 4, 59, 0.50)").addClass("scrolled");
                 } else {
                     $('.navbar').css("background-color", "transparent");
                 }
