@@ -98,7 +98,9 @@ a:hover{color: var(--bs-btn-secondary);
     color: var(--bs-btn-text);
 
 }
-
+.orange{
+    color: var(--bs-btn-tertiary);
+}
 /***********Nav************/
 .navbar {
     position: fixed;
@@ -599,10 +601,18 @@ footer a:hover{
 
 
 
-.slider-container {
-    height: 50vh;
-    margin-bottom:5rem;
+    .slider-container {
+        height: 100vh;
+        margin-bottom: 5rem;
 
+    }
+
+@media only screen and (min-width: 768px) {
+    .slider-container {
+        height: 50vh;
+        margin-bottom: 5rem;
+
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -614,7 +624,7 @@ footer a:hover{
 
 .left-slide {
     height: 100%;
-        top: 0;
+    top: 0;
     left: 0;
     transition: transform 0.5s ease-in-out ;
 }
@@ -1460,11 +1470,7 @@ footer a:hover{
         color: var(--bs-btn-tertiary)
     }
 
-    @media (min-width: 992px) {
-        .notizia-ground {
-            min-height: 700px;
-        }
-    }
+
 
 @media (min-width:1200px){
 
@@ -1487,6 +1493,12 @@ footer a:hover{
 .news {
     width:100%;
 }
+
 .mybox1{
     display: none;
+}
+@media (min-width: 992px) {
+    .mybox1{
+        display: block;
+    }
 }
