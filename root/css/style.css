@@ -109,6 +109,15 @@ a:hover{color: var(--bs-btn-secondary);
     -webkit-transition: height .5s, line-height .5s; /* Safari */
     transition: height .5s, line-height .5s;
 }
+.navbar-brand {
+    transition: transform 0.9s ease-in-out;
+}
+
+.scrolled-nav .navbar-brand {
+    transform: scale(0.9) translate(-5%, -0%);
+
+
+}
 @media only screen and  (min-width:992px) {
     .navbar{
         height:6.5rem;
