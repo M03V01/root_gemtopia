@@ -600,22 +600,24 @@ footer a:hover{
 /********** card notizie home***********/
 
 
-
     .slider-container {
-        height: 100vh;
+        height: 75vh;
         margin-bottom: 5rem;
+
+
 
     }
 
 @media only screen and (min-width: 768px) {
     .slider-container {
         height: 50vh;
-        margin-bottom: 5rem;
+
 
     }
 }
 
-@media only screen and (min-width: 1200px) {
+
+@media only screen and (min-width: 992px) {
     .slider-container {
         height: 75vh;
     }
@@ -623,17 +625,11 @@ footer a:hover{
 
 
 .left-slide {
-    height: 100%;
-    top: 0;
-    left: 0;
     transition: transform 0.5s ease-in-out ;
 }
 
 .left-slide .slide-content {
     height: 100%;
-    width: 100%;
-
-
 }
 
 .right-slide .slide-image {
@@ -641,14 +637,12 @@ footer a:hover{
     background-size: cover;
     background-position: center center;
     height: 100%;
-    width: 100%;
+
 }
 
 .right-slide {
     height: 100%;
 
-    top: 0;
-    right:0;
     transition: transform 0.5s ease-in-out;
 }
 
@@ -659,23 +653,33 @@ footer a:hover{
      box-shadow: 0 0 20px 10px rgba(45, 4, 74, 0.30);
      -webkit-backdrop-filter: blur(21px);
      backdrop-filter: blur(21px);
-
 }
 
 .up-button{
     color:var(--bs-btn-text);
+    width:100%;
 
 }
 .down-button{
     color:var(--bs-btn-text);
+    width:100%;
+
+
+
 
 }
-.slider-container .action-buttons button {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    z-index: 100;
-}
+.action-buttons{
+     left:75%;
+
+
+ }
+@media (min-width:992px){
+.action-buttons{
+    left:50%;
+
+
+}}
+
 
 .slider-container .action-buttons .down-button {
     transform: translateX(-100%);
@@ -698,10 +702,6 @@ footer a:hover{
 }
 
 
-.slick-dotted.slick-slider
-{
-
-}
 
 .slick-dots
 {
@@ -746,8 +746,6 @@ footer a:hover{
     background:var(--bs-btn-text);
 
 }
-
-
 
 
 
