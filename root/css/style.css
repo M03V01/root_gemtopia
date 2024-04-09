@@ -1045,6 +1045,9 @@ footer a:hover{
 }
 
 /****************GEM-EVENTS***********/
+.slider-container-events{
+    height:100vh;
+}
 /****************LIVEGEM***********/
     /*posizione bimbo*/
     .child{

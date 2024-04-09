@@ -50,10 +50,23 @@ document.addEventListener("DOMContentLoaded", function() {
         }, 500);
     };
 
+
     function activateSlider() {
         upButton.addEventListener('click', () => changeSlide('up'));
         downButton.addEventListener('click', () => changeSlide('down'));
-    }
+
+
+            // Aggiungi il listener per lo scroll
+            window.addEventListener('scroll', () => {
+                // Controlla la direzione dello scroll
+                if (window.scrollY > window.innerHeight / 2) {
+                    changeSlide('up'); // Scroll verso il basso
+                } else {
+                    changeSlide('down'); // Scroll verso l'alto
+                }
+            });
+        }
+
 
     // Attivare lo slider per entrambe le modalità (desktop e mobile)
     activateSlider();
