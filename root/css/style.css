@@ -550,7 +550,7 @@ footer a:hover{
     }
 
 }
-.timeline .slick-current .timeline-slide__content {
+.timeline-slider-home .slick-current .timeline-slide__content {
     box-shadow: 0 0 30px 10px rgba(250, 153, 198, 0.30);
 
 }
@@ -558,7 +558,7 @@ footer a:hover{
 .timeline-slide__content {
     transform: scale(0.8);
 }
-.timeline-slide__content {
+.timeline-slider-home .timeline-slide__content {
     border-radius: 30px;
     background: radial-gradient(379.91% 134.12% at 0% 5.07%, #DB1D76 0%, #940B92 100%);
     transition: opacity 1s;
@@ -1063,6 +1063,9 @@ footer a:hover{
 .slider-container-events{
     height:100vh;
 }
+ .slider-container-events h2{
+     text-shadow: 0 0 30px rgba(255, 255, 255, 0.4);
+}
 /****************LIVEGEM***********/
     /*posizione bimbo*/
     .child{
@@ -1275,6 +1278,15 @@ footer a:hover{
     }
 
     /****************ABOUTGEM***********/
+    .timeline-slider-about .timeline-slide__content {
+        opacity:0.5;
+
+    }
+    .timeline-slider-about .slick-current .timeline-slide__content {
+        opacity:1;
+
+    }
+
     .timeline_about {
         position: relative;
         margin: 0 auto;
