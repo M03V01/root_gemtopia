@@ -634,7 +634,12 @@ footer a:hover{
     }
 }
 
+@media all and (orientation:landscape) and (max-width:992px) {
+    .slider-container {
+        height: 30rem;
 
+    }
+}
 .left-slide {
     transition: transform 0.5s ease-in-out ;
 }
@@ -674,32 +679,22 @@ footer a:hover{
 .down-button{
     color:var(--bs-btn-text);
     width:100%;
-
-
-
-
-
 }
 .action-buttons{
      left:65%;
-
-
-
-
  }
-@media (min-width:992px){
-.action-buttons{
-    left:50%;
 
-
-}}
 @media only screen and (min-width: 480px) {
     .action-buttons{
         left:75%;
-
-
     }
 }
+@media (min-width:992px){
+    .action-buttons{
+        left:50%;
+
+
+    }}
 
 .slider-container .action-buttons .down-button {
     transform: translateX(-100%);
