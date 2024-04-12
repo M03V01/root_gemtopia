@@ -7,6 +7,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
     let activeSlideIndex = 0;
     let isTransitioning = false;
+    let accumulatedScroll = 0;
+    const scrollThreshold = 50;
 
 
     for (let i = 0; i < slidesLength; i++) {
@@ -54,6 +56,26 @@ document.addEventListener("DOMContentLoaded", function() {
     function activateSlider() {
         upButton.addEventListener('click', () => changeSlide('up'));
         downButton.addEventListener('click', () => changeSlide('down'));
+
+        // Aggiungi l'evento di scorrimento sullo slider solo per risoluzioni inferiori a 992px
+        if (window.innerWidth < 992) {
+            const sliderContainer = document.querySelector('.slider-container');
+
+            sliderContainer.addEventListener('wheel', (event) => {
+                event.preventDefault(); // Impedisce al browser di eseguire lo scrolling predefinito
+
+                accumulatedScroll += event.deltaY;
+
+                if (Math.abs(accumulatedScroll) >= scrollThreshold) {
+                    if (accumulatedScroll > 0) {
+                        changeSlide('down');
+                    } else {
+                        changeSlide('up');
+                    }
+                    accumulatedScroll = 0;
+                }
+            });
+        }
     }
 
 
