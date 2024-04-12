@@ -603,6 +603,7 @@ footer a:hover{
     .slider-container {
         height: 75vh;
         margin-bottom: 5rem;
+        width:90%;
     }
     @media only screen and (min-width: 480px) {
         .slider-container {
@@ -613,7 +614,7 @@ footer a:hover{
     @media only screen and (min-width: 728px) {
         .slider-container {
             height: 75vh;
-
+            width:100%;
         }
     }
 
@@ -680,7 +681,7 @@ footer a:hover{
 
 }
 .action-buttons{
-     left:75%;
+     left:65%;
 
 
 
@@ -692,7 +693,13 @@ footer a:hover{
 
 
 }}
+@media only screen and (min-width: 480px) {
+    .action-buttons{
+        left:75%;
 
+
+    }
+}
 
 .slider-container .action-buttons .down-button {
     transform: translateX(-100%);
