@@ -770,9 +770,13 @@ footer a:hover{
     border-radius: 1.875rem;
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
-    height: 34.375rem;
+    height: 42rem;
 }
-
+@media only screen and (min-width: 480px) {
+    #quiz-container {
+        height: 34.375rem;
+    }
+}
 .backgroundFuxia{
     border: 2px solid rgba(219, 29, 118, 0.40);
     background: radial-gradient(393.82% 141.42% at 0% 0%, rgba(219, 29, 118, 0.40) 0%, rgba(219, 29, 118, 0.00) 100%);
