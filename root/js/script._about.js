@@ -1,6 +1,6 @@
 $(function(){
    $('.timeline-nav-about').slick({
-      slidesToShow: 5,
+      slidesToShow: 8,
       slidesToScroll: 1,
       asNavFor: '.timeline-slider',
       centerMode: true,
@@ -13,9 +13,9 @@ $(function(){
            {
                breakpoint: 1200,
                settings: {
-                   slidesToShow: 5,
+                   slidesToShow: 4,
                    slidesToScroll: 1,
-
+                vertical:true,
                }
            },
            {
@@ -50,7 +50,7 @@ $(function(){
   });
   
    $('.timeline-slider-about').slick({
-      slidesToShow: 3,
+      slidesToShow: 8,
       slidesToScroll: 1,
       arrows: false,
       asNavFor: '.timeline-nav',
@@ -63,8 +63,9 @@ $(function(){
            {
                breakpoint: 992,
                settings: {
-                   slidesToShow: 3,
+                   slidesToShow: 4,
                    slidesToScroll: 1,
+                   centerMode: true,
                }
            },
            {
