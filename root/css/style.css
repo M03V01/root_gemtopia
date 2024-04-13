@@ -78,7 +78,6 @@ body{
 .cta{
     background: rgb(219,29,118);
     background: linear-gradient(93deg, rgba(219,29,118,1) 40%, rgba(97,12,159,1) 100%);
-
     transition: all .4s ease-in-out;
 }
 
@@ -86,6 +85,7 @@ body{
  transform: scale(1.1);
  box-shadow: 0 0 20px 0 rgba(255, 234, 255, 0.50);
 }
+
 a{
  color: var(--bs-btn-text);
 
@@ -1485,7 +1485,6 @@ footer a:hover{
     .vertical-center h3 {
         color: var(--bs-btn-tertiary)
     }
-
 
 
 @media (min-width:1200px){
