@@ -16,13 +16,12 @@ $(function(){
                    slidesToShow: 4,
                    slidesToScroll: 1,
                 vertical:true,
-
                }
            },
            {
           breakpoint: 991,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 4,
               slidesToScroll: 1,
 
            }
@@ -62,11 +61,12 @@ $(function(){
        vertical:true,
        responsive: [
            {
-               breakpoint: 992,
+               breakpoint: 991,
                settings: {
                    slidesToShow: 4,
                    slidesToScroll: 1,
                    centerMode: true,
+                   centerPadding: '5px',
                }
            },
            {
@@ -79,6 +79,7 @@ $(function(){
 
                }
            },
+
          {
           breakpoint: 0,
           settings: {
