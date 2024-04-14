@@ -1357,7 +1357,7 @@ footer a:hover{
     top: 50%; /* Posiziona lo sfondo a metà altezza */
     left: 90%;
     transform: translate(-50%, -50%);
-    width: 7rem;
+    width: 5rem;
     height: 30rem; /* Altezza dello sfondo */
     background: radial-gradient(20707.45% 141.42% at 0% 0%, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.00) 100%);
     box-shadow: 0 0 20px 10px rgba(45, 4, 74, 0.30);
@@ -1402,12 +1402,32 @@ footer a:hover{
         z-index:1;
     }
     .brand-timeline_2{
-        bottom: -5rem;
+        bottom: -4rem;
         left:36%;
     }
     .timeline-nav-about  .timeline-nav__item{
         margin: 7rem 1.3rem ;
 
+    }
+    .timeline-nav-about .timeline-nav__item::before {
+        content: "";
+        position: absolute;
+        top: 30px;
+        left: 89%;
+
+    }
+
+    .timeline-nav-about .timeline-nav__item::after {
+        content: "";
+        position: absolute;
+        top: 50%; /* Posiziona lo sfondo a metà altezza */
+        left: 90%;
+
+        width: 7rem;
+        height: 25rem; /* Altezza dello sfondo */
+
+        z-index: -1; /* Assicura che lo sfondo sia dietro il pallino */
+        border-radius: 60%;
     }
 
 }
