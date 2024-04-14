@@ -32,21 +32,25 @@ $(function(){
          {
           breakpoint: 768,
           settings: {
-            slidesToShow: 4,
+            slidesToShow: 5,
             slidesToScroll: 1,
               vertical:true,
               adaptiveHeight: true,
+              centerMode: true,
+
                         }
                   },
            {
                breakpoint: 0,
                settings: {
-                   slidesToShow: 4,
+                   slidesToShow: 5,
                    slidesToScroll: 1,
                    vertical:true,
                    adaptiveHeight: true,
                    centerMode: true,
-                   centerPadding: '-5px',
+
+
+
                }
            }
      ]
@@ -85,9 +89,9 @@ $(function(){
            {
                breakpoint: 768,
                settings: {
-                   slidesToShow: 3,
+                   slidesToShow: 5,
                    slidesToScroll: 1,
-
+                   centerMode: true,
 
 
                }
@@ -96,11 +100,11 @@ $(function(){
          {
           breakpoint: 0,
           settings: {
-              slidesToShow: 3,
+              slidesToShow:4,
               slidesToScroll: 1,
               centerMode: true,
               vertical:true,
-              verticalSwiping:true,
+
 
           }
         },
