@@ -1412,7 +1412,7 @@ footer a:hover{
     .timeline-nav-about .timeline-nav__item::before {
         content: "";
         position: absolute;
-        top: 30px;
+        top: 15px;
         left: 89%;
 
     }
@@ -1422,10 +1422,8 @@ footer a:hover{
         position: absolute;
         top: 50%; /* Posiziona lo sfondo a metà altezza */
         left: 90%;
-
         width: 7rem;
         height: 25rem; /* Altezza dello sfondo */
-
         z-index: -1; /* Assicura che lo sfondo sia dietro il pallino */
         border-radius: 60%;
     }
