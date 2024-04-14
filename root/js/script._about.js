@@ -16,6 +16,7 @@ $(function(){
                    slidesToShow: 4,
                    slidesToScroll: 1,
                 vertical:true,
+
                }
            },
            {
