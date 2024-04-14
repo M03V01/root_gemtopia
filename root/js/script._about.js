@@ -16,6 +16,7 @@ $(function(){
                    slidesToShow: 3,
                    slidesToScroll: 1,
                 vertical:true,
+
                }
            },
            {
@@ -23,6 +24,7 @@ $(function(){
           settings: {
             slidesToShow: 4,
               slidesToScroll: 1,
+              centerMode: true,
 
            }
           },
@@ -55,18 +57,27 @@ $(function(){
       arrows: false,
       asNavFor: '.timeline-nav',
       centerMode: true,
-       centerPadding: '10px',
+
        mobileFirst: true,
        speed: 500,
        vertical:true,
        responsive: [
+           {
+               breakpoint: 1200,
+               settings: {
+                   slidesToShow: 3,
+                   slidesToScroll: 1,
+                   centerMode: true,
+
+               }
+           },
            {
                breakpoint: 991,
                settings: {
                    slidesToShow: 3,
                    slidesToScroll: 1,
                    centerMode: true,
-                   centerPadding: '5px',
+
                }
            },
            {
