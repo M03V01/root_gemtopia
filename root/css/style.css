@@ -1314,10 +1314,7 @@ footer a:hover{
 
 
     /****************ABOUTGEM***********/
-    .container-timeline-about{
-        padding:8rem 0;
 
-    }
     .timeline-slider-about .timeline-slide__content {
         opacity:0.5;
 
@@ -1399,16 +1396,16 @@ footer a:hover{
 }
 @media only screen and (min-width: 992px){
     .brand-timeline_1{
-        top: -4rem;
+        top: 1rem;
         left:36%;
         z-index:1;
     }
     .brand-timeline_2{
-        bottom: -4rem;
+        bottom: 1rem;
         left:36%;
     }
     .timeline-nav-about  .timeline-nav__item{
-        margin: 7rem 1.3rem ;
+        margin: 6rem 1.3rem ;
 
     }
     .timeline-nav-about .timeline-nav__item::before {
@@ -1430,17 +1427,25 @@ footer a:hover{
         border-radius: 60%;
     }
 
+    .timeline-slider-about .slick-current{
+       margin-bottom:1.5rem;
+
+    }
+    .timeline-slider-about .slick-track{
+     overflow: hidden;
+
+    }
 }
 
 
 @media only screen and ( min-width:1200px){
     .brand-timeline_1{
-    top:-2rem;
+        top:2rem;
         left:41%;
 
     }
     .brand-timeline_2{
-        bottom: -2rem;
+        bottom: 2rem;
         left:41%;
     }
     .timeline-nav-about .timeline-nav__item::before {
@@ -1454,6 +1459,7 @@ footer a:hover{
         left: 95%;
 
     }
+
 
 }
 
