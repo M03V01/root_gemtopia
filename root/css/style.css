@@ -1111,16 +1111,9 @@ footer a:hover{
     height: 640px; /* Altezza di default */
 }
 
-/* Stili per diversi breakpoint */
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 480px) {
     .carousel-item {
-        height: 650px; /* Altezza per laptop e desktop di dimensioni normali */
-    }
-}
-
-@media only screen and (max-width: 992px) {
-    .carousel-item {
-        height: 650px; /* Altezza per tablet in orientamento landscape */
+        height: 690px; /* Altezza per smartphone in orientamento landscape */
     }
 }
 
@@ -1130,19 +1123,21 @@ footer a:hover{
     }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 992px) {
     .carousel-item {
-        height: 690px; /* Altezza per smartphone in orientamento landscape */
+        height: 640px; /* Altezza per tablet in orientamento landscape */
+    }
+
+    .central-text {
+        padding: 1px 1px; /* esempio di margini più larghi */
     }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 1200px) {
     .carousel-item {
-        height: 650px; /* Altezza per smartphone in orientamento portrait */
+        height: 650px; /* Altezza per laptop e desktop di dimensioni normali */
     }
 }
-
-
 
 /* .form-control{
     border-radius: 5px;
@@ -1236,7 +1231,6 @@ footer a:hover{
         backdrop-filter: blur(10px);
     }
 
-
     .vacanzeviolarecensione {
         border-radius: 1.25rem;
         border: 2px solid rgba(148, 11, 146, 0.40);
@@ -1329,8 +1323,120 @@ footer a:hover{
         color:var(--bs-btn-text);
     }
 
+.details-content1 {
+    width: 85%;
+    height: 93%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    border: 2px solid rgba(100, 204, 197, 0.40);
+    background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(93, 190, 183, 0.7) 0%, rgba(100, 204, 197, 0.00) 100%);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(40px);
+    z-index: 1000;
+    display: none; /* Inizialmente nascosto */
+    opacity: 0; /* Inizia completamente trasparente per l'effetto di dissolvenza */
+    transform: translate(-50%, -50%) scale(0.9); /* Inizio con zoom ridotto */
+    transition: transform 0.4s ease, opacity 0.4s ease-out; /* Transizioni per transform e opacity */
+}
 
-    /****************ABOUTGEM***********/
+.details-content1.visible {
+    display: block;
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1); /* Zoom normale alla fine della transizione */
+}
+
+.details-content2 {
+    width: 85%;
+    height: 93%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 147, 97, 0.40);
+    background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(255, 147, 97, 0.40) 0%, rgba(255, 147, 97, 0.00) 100%);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(40px);
+    z-index: 1000;
+    display: none; /* Inizialmente nascosto */
+    opacity: 0; /* Inizia completamente trasparente per l'effetto di dissolvenza */
+    transform: translate(-50%, -50%) scale(0.9); /* Inizio con zoom ridotto */
+    transition: transform 0.4s ease, opacity 0.4s ease-out; /* Transizioni per transform e opacity */
+}
+
+.details-content2.visible {
+    display: block;
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1); /* Zoom normale alla fine della transizione */
+}
+
+.details-content3 {
+    width: 85%;
+    height: 93%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    border: 2px solid rgba(148, 11, 146, 0.40);
+    background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(148, 11, 146, 0.40) 0%, rgba(148, 11, 146, 0.00) 100%);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(40px);
+    z-index: 1000;
+    display: none; /* Inizialmente nascosto */
+    opacity: 0; /* Inizia completamente trasparente per l'effetto di dissolvenza */
+    transform: translate(-50%, -50%) scale(0.9); /* Inizio con zoom ridotto */
+    transition: transform 0.4s ease, opacity 0.4s ease-out; /* Transizioni per transform e opacity */
+}
+
+.details-content3.visible {
+    display: block;
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1); /* Zoom normale alla fine della transizione */
+}
+
+.details-content4 {
+    width: 85%;
+    height: 93%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    border: 2px solid rgba(219, 29, 118, 0.40);
+    background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(219, 29, 118, 0.40) 0%, rgba(219, 29, 118, 0.00) 100%);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(40px);
+    z-index: 1000;
+    display: none; /* Inizialmente nascosto */
+    opacity: 0; /* Inizia completamente trasparente per l'effetto di dissolvenza */
+    transform: translate(-50%, -50%) scale(0.9); /* Inizio con zoom ridotto */
+    transition: transform 0.4s ease, opacity 0.4s ease-out; /* Transizioni per transform e opacity */
+}
+
+.details-content4.visible {
+    display: block;
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1); /* Zoom normale alla fine della transizione */
+}
+
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1050;
+    padding: 0.5em 1em;
+    border: none;
+    background-color: rgba(100, 204, 197, 0.26);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+
+
+/****************ABOUTGEM***********/
 
     .timeline-slider-about .timeline-slide__content {
         opacity:0.5;
