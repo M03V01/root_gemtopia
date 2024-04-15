@@ -1061,12 +1061,29 @@ footer a:hover{
 }
 
 /****************GEM-EVENTS***********/
+.event{
+    position:relative;
+    height: 100vh; /* Altezza ridotta rispetto alla pagina */
+    z-index: 1;
+
+
+
+}
+.section_events{
+       height:100vh;
+    z-index:2;
+    position:absolute;
+    
+    overflow-y: scroll;
+}
 .slider-container-events{
     height:100vh;
+
 }
  .slider-container-events h2{
      text-shadow: 0 0 30px rgba(255, 255, 255, 0.4);
 }
+
 /****************LIVEGEM***********/
     /*posizione bimbo*/
     .child{
