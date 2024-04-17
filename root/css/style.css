@@ -1427,10 +1427,27 @@ footer a:hover{
     z-index: 1050;
     padding: 0.5em 1em;
     border: none;
-    background-color: rgba(100, 204, 197, 0.26);
+    background-color: rgba(255, 255, 255, 0.29);
     color: #fff;
     cursor: pointer;
     border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .desktop-layout {
+        display: none;
+    }
+    .mobile-layout {
+        display: block;
+    }
+}
+@media (min-width: 769px) {
+    .mobile-layout {
+        display: none;
+    }
+    .desktop-layout {
+        display: block;
+    }
 }
 
 
