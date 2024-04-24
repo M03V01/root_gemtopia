@@ -57,13 +57,15 @@ $(function(){
        centerPadding: '10px',
        mobileFirst: true,
        speed: 500,
+       vertical:true,
 
        responsive: [
            {
-               breakpoint: 992,
+               breakpoint: 991,
                settings: {
                    slidesToShow: 3,
                    slidesToScroll: 1,
+                   vertical:false,
                }
            },
            {
@@ -71,6 +73,7 @@ $(function(){
                settings: {
                    slidesToShow: 3,
                    slidesToScroll: 1,
+                   vertical: true,
 
 
 

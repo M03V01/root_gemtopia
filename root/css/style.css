@@ -625,6 +625,7 @@ footer a:hover{
             height: 50vh;
 
 
+
         }
     }
 
@@ -635,9 +636,18 @@ footer a:hover{
     }
 }
 
-@media all and (orientation:landscape) and (max-width:992px) {
+@media all and (orientation:landscape) and (max-width:480px) {
     .slider-container {
-        height: 30rem;
+       height: 30rem;
+
+
+    }
+}
+@media all and (orientation:landscape)and (min-width:568px) and (max-width:992px) {
+    .slider-container {
+        min-height: 40rem;
+        max-height: 50rem;
+
 
     }
 }
@@ -1065,16 +1075,19 @@ footer a:hover{
     position:relative;
     height: 100vh; /* Altezza ridotta rispetto alla pagina */
     z-index: 1;
+    transform-style: preserve-3d;
+    overflow: hidden;
 
 
 
 }
 .section_events{
-       height:100vh;
+    height:100vh;
     z-index:2;
-    position:absolute;
+    position:relative;
+
     
-    overflow-y: scroll;
+    overflow-y: hidden;
 }
 .slider-container-events{
     height:100vh;
