@@ -57,7 +57,7 @@ $(function(){
            {
                breakpoint: 0,
                settings: {
-                   slidesToShow: 4,
+                   slidesToShow: 3,
                    slidesToScroll: 1,
                    vertical:true,
                    adaptiveHeight: true,
@@ -102,9 +102,9 @@ $(function(){
                }
            },
            {
-               breakpoint: 768,
+               breakpoint: 728,
                settings: {
-                   slidesToShow: 4,
+                   slidesToShow: 3,
                    slidesToScroll: 1,
                    centerMode: true,
 
