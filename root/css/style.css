@@ -1071,32 +1071,67 @@ footer a:hover{
 }
 
 /****************GEM-EVENTS***********/
-.event{
-    position:relative;
-    height: 100vh; /* Altezza ridotta rispetto alla pagina */
+
+.left-slide-events, .image-slide-events{
     z-index: 1;
-    transform-style: preserve-3d;
-    overflow: hidden;
-
-
+}
+.tree{
+    z-index:-2;
+}
+.slide-content-events{
+    border:none;
+}
+.slider-container {
+    height: 75vh;
+    margin-bottom: 5rem;
+    width:90%;
 
 }
-.section_events{
-    height:100vh;
-    z-index:2;
-    position:relative;
+@media only screen and (orientation:landscape) and (min-width: 480px) {
+    .slider-container-events {
+        height: 100vh;
 
-    
-    overflow-y: hidden;
+    }
 }
-.slider-container-events{
-    height:100vh;
-
-}
- .slider-container-events h2{
-     text-shadow: 0 0 30px rgba(255, 255, 255, 0.4);
+@media only screen and (min-width: 728px) {
+    .slider-container-events {
+        height: 75vh;
+        width:100%;
+    }
 }
 
+
+@media only screen and (min-width: 768px) {
+    .slider-container-events {
+        height: 50vh;
+
+
+
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+    .slider-container-events {
+        height: 100vh;
+    }
+}
+
+@media all and (orientation:landscape) and (max-width:480px) {
+    .slider-container-events {
+        height: 30rem;
+
+
+    }
+}
+@media all and (orientation:landscape)and (min-width:568px) and (max-width:992px) {
+    .slider-container-events {
+        min-height: 40rem;
+        max-height: 50rem;
+
+
+    }
+}
 /****************LIVEGEM***********/
     /*posizione bimbo*/
     .child{
@@ -1662,15 +1697,11 @@ footer a:hover{
     }
 
     .timeline-nav-about .timeline-nav__item::before {
-
         left: 89%;
-
     }
 
     .timeline-nav-about .timeline-nav__item::after {
-
         left: 90%;
-
     }
 
 
