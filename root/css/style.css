@@ -1492,16 +1492,29 @@ footer a:hover{
         box-shadow: none;
     }
 
- .timeline-nav-about .timeline-nav__item::before {
+.timeline-nav-about .timeline-nav__item::before {
     content: "";
     position: absolute;
     top: -10px;
-    left:-0.01rem;
+    left: 0rem;
     width: 0.8rem;
     height: 0.8rem;
     border-radius: 100%;
     background-color: var(--bs-btn-text);
     transition: 0.2s;
+}
+@media all and (min-width:360px) {
+    .timeline-nav-about .timeline-nav__item::before {
+        content: "";
+        position: absolute;
+        top: -10px;
+        left: 0.5rem;
+        width: 0.8rem;
+        height: 0.8rem;
+        border-radius: 100%;
+        background-color: var(--bs-btn-text);
+        transition: 0.2s;
+    }
 }
 
 .timeline-nav-about .timeline-nav__item::after {
