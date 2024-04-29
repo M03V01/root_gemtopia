@@ -1496,7 +1496,7 @@ footer a:hover{
     content: "";
     position: absolute;
     top: -10px;
-    left:-0.01rem;
+    left:-6rem;
     width: 0.8rem;
     height: 0.8rem;
     border-radius: 100%;
