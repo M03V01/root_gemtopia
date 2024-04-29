@@ -1723,6 +1723,7 @@ top:-45rem; /* Altezza di default */
 
 }
 @media only screen and (min-width: 727px) {
+
     .carousel_news .carousel-item {
         height: 900px; /* Altezza di default */
     }
