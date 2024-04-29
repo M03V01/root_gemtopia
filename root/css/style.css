@@ -1712,12 +1712,12 @@ footer a:hover{
 .carousel_news .carousel-item {
     height: 1000px; /* Altezza di default */
 }
-.news-ground .carousel-control-next, .carousel-control-prev{
+.news-ground .carousel-control-next, .news-ground .carousel-control-prev{
 top:-45rem; /* Altezza di default */
  text:var(--bs-btn-tertiary);
 }
 @media only screen and (orientation:landscape) and (min-width: 480px) {
-    .news-ground .carousel-control-next, .carousel-control-prev{
+    .news-ground .carousel-control-next, .news-ground .carousel-control-prev{
         top:-30rem; /* Altezza di default */
     }
 
@@ -1726,7 +1726,7 @@ top:-45rem; /* Altezza di default */
     .carousel_news .carousel-item {
         height: 900px; /* Altezza di default */
     }
-    .news-ground .carousel-control-next, .carousel-control-prev{
+    .news-ground .carousel-control-next, .news-ground .carousel-control-prev{
         top:-10rem; /* Altezza di default */
     }
 
@@ -1736,7 +1736,7 @@ top:-45rem; /* Altezza di default */
     .carousel_news .carousel-item {
         height: 1050px; /* Altezza di default */
     }
-    .news-ground .carousel-control-next, .carousel-control-prev{
+    .news-ground .carousel-control-next, .news-ground .carousel-control-prev{
         top:-10rem; /* Altezza di default */
     }
 
