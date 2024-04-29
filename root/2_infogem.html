@@ -7,11 +7,13 @@
     <meta name="Description" content="Scopri Infogem, qui troverai tutte le informazioni sui trasporti e gli uffici di Gemtopia">
     <meta name="Keywords" content="Gemtopia, gemme, magia, città magica, tour città, trasporti, uffici.">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com"> <!--font-->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><!--font-->
     <link href="https://fonts.googleapis.com/css2?family=Signika:wght@400;600;700&family=Titan+One&display=swap" rel="stylesheet"> <!--font-->
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script><!--script jquery-->
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
 <nav class="navbar navbar-expand-lg fixed-top align-content-center p-0 ">
@@ -182,59 +184,88 @@
                 </div>
         </section>
     </section>
-<div class="timeline_about d-flex justify-content-center flex-column mt-5">
+<!--section timeline-->
+<div class="container-fluid container_timeline mb-2 mb-md-5 px-0 container-timeline-about">
     <div class="container-fluid justify-content-center position-absolute px-0 mx-0">
-        <img src="img/sfondo_alberato.png"alt="" class="img-fluid col-12d-md-none ">
-        <img src="img/sfondo_alberato.png"alt="" class="img-fluid  col-12 d-md-none">
-        <img src="img/sfondo_alberato.png"alt="" class="img-fluid  col-12 d-md-none">
-        <img src="img/sfondo_alberato.png"alt="" class="img-fluid  col-12 d-md-none">
-        <img src="img/sfondo_alberato.png"alt="" class="img-fluid  col-12  d-md-none">
+        <img src="img/sfondo_alberato.png" alt="" class="img-fluid col-12 mt-5">
+        <img src="img/sfondo_alberato.png" alt="" class="img-fluid  col-12 d-sm-none">
     </div>
-    <div class="timeline-row align-self-center d-flex flex-column flex-lg-row col-10 justify-content-center ">
-        <div class="timeline-time align-self-lg-center col-lg-3 ">Pre G.T</div>
-        <div class="timeline-dot align-self-lg-center col-1"></div>
-        <div class="timeline-content  col-lg-8 col-12 pr-3">
-            <h4>Gli spiriti erranti</h4>
-            <p>Benvenuto! In questa pagina puoi scoprire le radici di Gemtopia e la sua storia ricca d’incanto, nonché apprendere le regole e le norme che regolano il funzionamento della città. Esplora la città attraversando gli eventi chiave della sua evoluzione e rimanendo aggiornato sulle ultime novità
-                che animano oggi la vita di Gemtopia.</p>
-        </div>
-    </div>
-    <div class="timeline-row align-self-center d-flex flex-column flex-lg-row col-10 justify-content-center ">
-        <div class="timeline-time align-self-lg-center col-lg-3 ">0 G.T</div>
-        <div class="timeline-dot align-self-lg-center col-1"></div>
-        <div class="timeline-content  col-lg-8 col-12 pr-3">
-            <h4>La terra abbandonata</h4>
-            <p>Nel loro viaggio errante, gli spiriti trovarono una terra incolta e vuota, che nessuno aveva reclamato o conquistato. Intravedendo in questa terra il potenziale di un luogo dove poter convergere la loro energia, gli spiriti diedero inizio alla costruzione di Gemtopia.  </p>
-        </div>
-    </div>
-    <div class="timeline-row align-self-center d-flex flex-column flex-lg-row col-10 justify-content-center ">
-        <div class="timeline-time align-self-lg-center col-lg-3 ">1 G.T</div>
-        <div class="timeline-dot align-self-lg-center col-1"></div>
-        <div class="timeline-content  col-lg-8 col-12 pr-3">
-            <h4>La fusione</h4>
-            <p>Combinando i loro poteri, gli spiriti diventarono le fondamenta della città, assumendo la forma di gemme luccicanti. L’energia degli spiriti si fuse dando vita ad una gemma speciale, la Gemma Madre, che alimenta l’energia e lo spirito vitale di Gemtopia.  </p>
-        </div>
-    </div>
-    <div class="timeline-row align-self-center d-flex flex-column flex-lg-row col-10 justify-content-center ">
-        <div class="timeline-time align-self-lg-center col-lg-3 ">10 G.T</div>
-        <div class="timeline-dot align-self-lg-center col-1"></div>
-        <div class="timeline-content  col-lg-8 col-12 pr-3">
-            <h4>Gli abitanti</h4>
-            <p>Nel giorno del solstizio d’inverno, tutti coloro che a mezzanotte avevano pensato a tre cose assurde si ritrovarono improvvisamente a Gemtopia, diventandone i primi cittadini. Così, ad ogni cambio di stagione, la città iniziò a popolarsi sempre di più.  </p>
-        </div>
-    </div>
-    <div class="timeline-row align-self-center d-flex flex-column flex-lg-row col-10 justify-content-center ">
-        <div class="timeline-time align-self-lg-center col-lg-3 ">20 G.T</div>
-        <div class="timeline-dot align-self-lg-center col-1"></div>
-        <div class="timeline-content  col-lg-8 col-12 pr-3">
-            <h4>I quartieri</h4>
-            <p>Gli abitanti affini tra loro iniziarono a riunisci in quattro zone distinte di Gemtopia, dando vita a quartieri che differivano tra loro, in quanto ognuno incarnava un valore diverso: Adventurelane, il quartiere del coraggio, Genius-Hill il quartiere della cultura, Dreamstrict, il quartiere del sogno, e Cuddlehood, il quartiere del romanticismo.  </p>
-        </div>
-    </div>
+    <div class="timeline d-flex flex-wrap justify-content-lg-around mt-5 align-items-center order-1 ">
+        <div class="timeline-wrapper  col-9 col-lg-6">
+            <div class="timeline-slider timeline-slider-about slick-list draggable">
 
-</div>
+                <div class="timeline-slide d-flex justify-content-center my-sm-2 my-md-3 my-lg-4 my-xl-5" data-year="2">
+                    <div class="timeline-slide__content col-12 col-lg-10 mx-5 mx-md-0 d-flex  flex-column justify-content-center  ">
+                        <h2 class="d-lg-none">2</h2>
+                        <h3 class="fw-bolder"> Sfera delle risate</h3>
+                        <p class="timeline-text mt-1 align-self-center  mb-0">Arrivati al termine del prato di bolle, i viaggiatori devono cercare di far
+                            scoppiare un’ultima bolla gigante, raccontando la barzelletta più brillante e divertente che conoscono.</p>
+                    </div>
+                </div>
+                <div class="timeline-slide d-flex justify-content-center  my-sm-2 my-md-3  my-lg-4 my-xl-5"  data-year="3">
+                    <div class="timeline-slide__content col-12 col-lg-10 mx-5 mx-md-0 d-flex  flex-column justify-content-center ">
+                        <h2 class="d-lg-none">3</h2>
+                        <h3 class="fw-bolder"> Illusioni fluttuanti</h3>
+                        <p class="timeline-text mt-1 align-self-center  mb-0"> Allo scoppio della sfera delle risate, si apre un corridoio d'illusioni ottiche
+                            in continuo movimento. Solo chi riesce a navigare attraverso il corridoio ha
+                            accesso alla prossima tappa.</p>
+                    </div>
+                </div>
+                <div class="timeline-slide d-flex justify-content-center my-sm-2 my-md-3 my-lg-4  my-xl-5" data-year="4">
+                    <div class="timeline-slide__content col-12 col-lg-10 mx-5 mx-md-0 d-flex  flex-column justify-content-center  ">
+                        <h2 class="d-lg-none">4</h2>
+                        <h3 class="fw-bolder">Assenza di gravità</h3>
+                        <p class="timeline-text mt-1 align-self-center  mb-0">Alla fine del corridoio, si apre un’ampia stanza dove i viaggiatori possono camminare sui muri, danzare sospesi nell’aria e sfidare
+                            ogni logica. La chiave è abbracciare l’assenza di gravità.</p>
+                    </div>
+                </div>
+                <div class="timeline-slide d-flex justify-content-center my-sm-2 my-md-3 my-lg-4  my-xl-5"  data-year="5">
+                    <div class="timeline-slide__content col-12 col-lg-10 mx-5 mx-md-0 d-flex  flex-column justify-content-center  ">
+                        <h2 class="d-lg-none">5</h2>
+                        <h3 class="fw-bolder"> Aurora di Gemtopia</h3>
+                        <p class="timeline-text mt-1 align-self-center  mb-0">Superata la stanza senza gravità, i viaggiatori si trovano sotto un cielo
+                            notturno illuminato dall’aurora boreale unica di Gemtopia, creata dalla luce delle gemme della città.</p>
+                    </div>
+                </div>
+                <div class="timeline-slide d-flex justify-content-center my-sm-2 my-md-3  my-lg-4 my-xl-5" data-year="1">
+                    <div class="timeline-slide__content col-12 col-lg-10 mx-5 mx-md-0 d-flex  flex-column justify-content-center  ">
+                        <h2 class="d-lg-none">1</h2>
+                        <h3 class="fw-bolder">Balzo delle bolle arcobaleno</h3>
+                        <p class="timeline-text mt-1 align-self-center  mb-0"> Una volta attraversato il portale, i viaggiatori si ritrovano in un
+                            vasto prato di bolle arcobaleno. Per procedere, devono saltare tra le bolle, seguendo il ritmo di
+                            una melodia che si diffonde nell’aria.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-<!-- Timeline end -->
+        <div class=" order-first d-flex flex-column  col-3 col-lg-6  position-relative">
+            <div class=" col-8 col-sm-6 col-lg-4 col-xl-2 position-absolute brand-timeline_1 ">
+                <img src="img/logo.svg" alt="" class="  col-12 col-lg-9 col-xl-12">
+            </div>
+            <div class=" timeline-nav timeline-nav-about h-100">
+
+                <div class="timeline-nav__item"> <h2 class="d-none d-lg-inline">2</h2></div>
+                <div class="timeline-nav__item"> <h2 class="d-none d-lg-inline">3</h2></div>
+                <div class="timeline-nav__item"> <h2 class="d-none d-lg-inline">4</h2></div>
+                <div class="timeline-nav__item"> <h2 class="d-none d-lg-inline">5</h2></div>
+                <div class="timeline-nav__item"> <h2 class="d-none d-lg-inline">1</h2> </div>
+
+            </div>
+            <div class="  col-8 col-sm-6  col-lg-4 col-xl-2 position-absolute brand-timeline_2  ">
+                <img src="img/logo.svg" alt="" class="  col-12 col-lg-9 col-xl-12">
+            </div>
+        </div>
+
+    </div>
+</div><!--chiusura section timeline-->
+
+
+
+
+
+
+
 
     <header  id="office" class="container-fluid text-center text-lg-start header px-0 col-12 justify-content-center h-100 d-inline-block mb-5">
         <section  class="container col-12 align-items-center ">
@@ -511,7 +542,8 @@
 
         </footer><!-- chiusura footer content -->
     </div> <!-- chiusura div footer totale -->
-
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/script._about.js"></script ><!-- script timeline-->
     <script src="js/quiz_v2.js"></script>
     <!-- fine main home -->
     <script src="js/bootstrap.bundle.min.js"></script> <!-- script bootstrap-->
@@ -547,5 +579,6 @@
             });
         });
     </script>
+
 </body>
 </html>

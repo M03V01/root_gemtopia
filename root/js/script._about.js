@@ -98,6 +98,7 @@ $(function(){
                    slidesToScroll: 1,
                    vertical: true,
                    adaptiveHeight:true,
+                   centerMode: true,
 
                }
            },
