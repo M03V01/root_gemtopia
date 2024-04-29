@@ -910,6 +910,8 @@ footer a:hover{
     height: 50rem;
 }
 
+
+
 .tab_purple{
     border-left: 2px solid rgba(148, 11, 146, 0.60);
     border-right: 2px solid rgba(148, 11, 146, 0.40);
@@ -926,6 +928,15 @@ footer a:hover{
     background: radial-gradient(345.51% 128.56% at 0% 14.19%, rgba(80, 8, 93, 0.90) 0%, rgba(80, 8, 93, 0.30) 100%);
     border-radius: 75px 75px 0 0;
 }
+
+.tab_purple_nav a.nav-link:hover {
+    border-top: 2px solid rgba(148, 11, 146, 0.60);
+    border-left: 2px solid rgba(148, 11, 146, 0.60);
+    border-right: 2px solid rgba(148, 11, 146, 0.60);
+    border-bottom: none;
+    border-radius: 75px 75px 0 0;
+}
+
 
 .tab_purple_nav a.nav-link.active{
     border-top: 2px solid rgba(148, 11, 146, 0.40);
@@ -952,6 +963,14 @@ footer a:hover{
     border-radius: 75px 75px 0 0;
 }
 
+.tab_fuxia_nav a.nav-link:hover {
+    border-top: 2px solid rgba(219, 29, 118, 0.40);
+    border-left: 2px solid rgba(219, 29, 118, 0.40);
+    border-right: 2px solid rgba(219, 29, 118, 0.40);
+    border-bottom: none;
+    border-radius: 75px 75px 0 0;
+}
+
 .tab_fuxia_nav a.nav-link.active{
     border-top: 2px solid rgba(219, 29, 118, 0.40);
     border-left: 2px solid rgba(219, 29, 118, 0.40);
@@ -974,6 +993,14 @@ footer a:hover{
     border-right: 2px solid rgba(255, 147, 97, 0.40);
     border-bottom: none;
     background: radial-gradient(345.7% 128.59% at 0% 14.14%, rgba(123, 60, 76, 0.90) 0%, rgba(123, 60, 76, 0.30) 100%);
+    border-radius: 75px 75px 0 0;
+}
+
+.tab_orange_nav a.nav-link:hover {
+    border-top: 2px solid rgba(255, 147, 97, 0.40);
+    border-left: 2px solid rgba(255, 147, 97, 0.40);
+    border-right: 2px solid rgba(255, 147, 97, 0.40);
+    border-bottom: none;
     border-radius: 75px 75px 0 0;
 }
 
@@ -1012,6 +1039,15 @@ footer a:hover{
 
 .nav-tabs {
     border-bottom: none;
+}
+
+
+.tab_blu_nav a.nav-link:hover {
+    border-top: 2px solid rgba(100, 204, 197, 0.40);
+    border-left: 2px solid rgba(100, 204, 197, 0.40);
+    border-right: 2px solid rgba(100, 204, 197, 0.40);
+    border-bottom: none;
+    border-radius: 75px 75px 0 0;
 }
 
 .carousel-item{
@@ -1159,15 +1195,38 @@ footer a:hover{
     height: 640px; /* Altezza di default */
 }
 
-@media only screen and (max-width: 480px) {
+.carousel-item-house {
+    height: 610px;
+}
+
+.carousel-item-change{
+    height: 690px;
+}
+
+
+@media only screen and (orientation: landscape) and (min-width: 480px) {
     .carousel-item {
-        height: 690px; /* Altezza per smartphone in orientamento landscape */
+        height: 640px; /* Altezza per smartphone in orientamento landscape */
     }
 }
 
-@media only screen and (max-width: 728px) {
+@media only screen and (min-width: 480px) {
+    .carousel-item-change {
+        height: 700px;
+    }
+}
+
+
+
+@media only screen and (min-width: 728px) {
     .carousel-item {
-        height: 720px; /* Altezza per tablet in orientamento portrait */
+        height: 640px; /* Altezza per tablet in orientamento portrait */
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .carousel-item {
+        height: 690px; /* Altezza per tablet in orientamento portrait */
     }
 }
 
@@ -1175,13 +1234,12 @@ footer a:hover{
     .carousel-item {
         height: 640px; /* Altezza per tablet in orientamento landscape */
     }
-
     .central-text {
         padding: 1px 1px; /* esempio di margini più larghi */
     }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 1200px) {
     .carousel-item {
         height: 650px; /* Altezza per laptop e desktop di dimensioni normali */
     }
@@ -1497,6 +1555,8 @@ footer a:hover{
         display: block;
     }
 }
+
+
 
 
 
