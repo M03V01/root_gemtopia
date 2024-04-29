@@ -1652,23 +1652,24 @@ footer a:hover{
 
 @media only screen and ( min-width:1200px){
     .brand-timeline_1{
-        top:-5rem;
-        left:84%;
+        top:-4.5rem;
+        left:79.5%;
 
     }
     .brand-timeline_2{
-        bottom:-5rem;
-        left:84%;
+        bottom:-4.5rem;
+        left:79.5%;
     }
+
     .timeline-nav-about .timeline-nav__item::before {
 
-        left: 94%;
+        left: 89%;
 
     }
 
     .timeline-nav-about .timeline-nav__item::after {
 
-        left: 95%;
+        left: 90%;
 
     }
 
