@@ -606,7 +606,7 @@ footer a:hover{
         margin-bottom: 5rem;
         width:90%;
     }
-    @media only screen and (min-width: 480px) {
+    @media only screen and (orientation:landscape) and (min-width: 480px) {
         .slider-container {
             height: 100vh;
 
@@ -1546,7 +1546,7 @@ footer a:hover{
     left:17%;
     bottom:-2rem;
 }
-@media (min-width:480px) {
+@media (orientation:landscape) and (min-width:480px) {
     .timeline-nav-about .timeline-nav__item::after {
         left: 90%;
         width: 5rem;
@@ -1674,6 +1674,54 @@ footer a:hover{
 
 
 }
+
+
+
+.carousel_news .carousel-item {
+    height: 1000px; /* Altezza di default */
+}
+.news-ground .carousel-control-next, .carousel-control-prev{
+top:-45rem; /* Altezza di default */
+ text:var(--bs-btn-tertiary);
+}
+@media only screen and (orientation:landscape) and (min-width: 480px) {
+    .news-ground .carousel-control-next, .carousel-control-prev{
+        top:-30rem; /* Altezza di default */
+    }
+
+}
+@media only screen and (min-width: 727px) {
+    .carousel_news .carousel-item {
+        height: 900px; /* Altezza di default */
+    }
+    .news-ground .carousel-control-next, .carousel-control-prev{
+        top:-10rem; /* Altezza di default */
+    }
+
+
+}
+@media only screen and (min-width: 768px) {
+    .carousel_news .carousel-item {
+        height: 1050px; /* Altezza di default */
+    }
+    .news-ground .carousel-control-next, .carousel-control-prev{
+        top:-10rem; /* Altezza di default */
+    }
+
+
+}
+@media only screen and (min-width: 992px) {
+    .carousel_news .carousel-item {
+        height: 740px; /* Altezza di default */
+    }
+    .news-ground .carousel-control-next, .carousel-control-prev{
+        top:0rem; /* Altezza di default */
+    }
+
+
+}
+
+
 
 
 
