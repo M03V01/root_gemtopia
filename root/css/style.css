@@ -602,7 +602,7 @@ footer a:hover{
 
 
     .slider-container {
-        height: 75vh;
+        height: 100vh;
         margin-bottom: 5rem;
         width:90%;
     }
@@ -693,17 +693,18 @@ footer a:hover{
 }
 .action-buttons{
      left:65%;
+        top:90%;
  }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (orientation:landscape) and (min-width: 480px) {
     .action-buttons{
-        left:75%;
+        left:80%;
     }
 }
 @media (min-width:992px){
     .action-buttons{
         left:50%;
-
+        top:50%;
 
     }}
 
@@ -1117,7 +1118,7 @@ footer a:hover{
 .slide-content-events{
     border:none;
 }
-.slider-container {
+.slider-container-events {
     height: 75vh;
     margin-bottom: 5rem;
     width:90%;

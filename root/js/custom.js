@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let activeSlideIndex = 0;
     let isTransitioning = false;
     let accumulatedScroll = 0;
-    const scrollThreshold = 100;
+    const scrollThreshold = 1500;
 
 
     for (let i = 0; i < slidesLength; i++) {
