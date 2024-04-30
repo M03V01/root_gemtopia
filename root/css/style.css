@@ -1777,10 +1777,10 @@ footer a:hover{
 .carousel_news .carousel-item {
     height: 1000px; /* Altezza di default */
 }
-.news-ground .carousel-control-next, .news-ground .carousel-control-prev{
-top:-45rem; /* Altezza di default */
- text:var(--bs-btn-tertiary);
-}
+        .news-ground .carousel-control-next, .news-ground .carousel-control-prev{
+        bottom:45rem; /* Altezza di default */
+         text:var(--bs-btn-tertiary);
+        }
 @media only screen and (orientation:landscape) and (min-width: 480px) {
     .news-ground .carousel-control-next, .news-ground .carousel-control-prev{
         top:-30rem; /* Altezza di default */
@@ -1812,7 +1812,7 @@ top:-45rem; /* Altezza di default */
     .carousel_news .carousel-item {
         height: 740px; /* Altezza di default */
     }
-    .news-ground .carousel-control-next, .carousel-control-prev{
+    .news-ground .carousel-control-next, .news-ground .carousel-control-prev{
         top:0rem; /* Altezza di default */
     }
 
@@ -1885,35 +1885,7 @@ top:-45rem; /* Altezza di default */
     }
 
 
-@media (min-width:1200px){
 
-
-    .slider_news{
-
-     margin-bottom:10rem;
- }
-
-}
-.slider_news{
-    margin-top:10rem;
-    margin-bottom: 5rem;
-
-}
-
-.vertical-center .slick-list{
-    padding:0;
-}
-.news {
-    width:100%;
-}
-
-.mybox1{
-    display: none;
-}
-@media (min-width: 992px) {
-    .mybox1{
-        display: block;
-    }
-}
+.
 
 
