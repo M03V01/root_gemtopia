@@ -1818,6 +1818,16 @@ top:-45rem; /* Altezza di default */
 
 
 }
+@media only screen and (min-width: 1400px) {
+    .carousel_news .carousel-item {
+        height: 650px; /* Altezza di default */
+    }
+    .news-ground .carousel-control-next, .carousel-control-prev{
+        top:0rem; /* Altezza di default */
+    }
+
+
+}
 
 
 
