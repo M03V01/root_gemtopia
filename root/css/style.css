@@ -1116,6 +1116,9 @@ footer a:hover{
 .tree{
     z-index:-2;
 }
+.tre-events{
+    top:-20%;
+}
 .slide-content-events{
     border:none;
 }
@@ -1125,6 +1128,7 @@ footer a:hover{
     width:90%;
 
 }
+
 @media only screen and (orientation:landscape) and (min-width: 480px) {
     .slider-container-events {
         height: 100vh;
@@ -1154,6 +1158,11 @@ footer a:hover{
         height: 100vh;
     }
 }
+@media only screen and (min-width: 1400px) {
+    .slider-container-events {
+        height: 90vh;
+    }
+}
 
 @media all and (orientation:landscape) and (max-width:480px) {
     .slider-container-events {
@@ -1166,10 +1175,9 @@ footer a:hover{
     .slider-container-events {
         min-height: 40rem;
         max-height: 50rem;
-
-
     }
 }
+
 /****************LIVEGEM***********/
     /*posizione bimbo*/
     .child{
