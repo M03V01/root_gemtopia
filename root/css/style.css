@@ -1885,13 +1885,13 @@ footer a:hover{
         border-radius: 30px;
         border: 2px solid rgba(255, 255, 255, 0.40);
         background: radial-gradient(390.33% 137.55% at 0% 0%, rgba(45, 4, 74, 0.40) 0%, rgba(45, 4, 74, 0.00) 100%);
-        box-shadow: 0px 0px 30px 20px rgba(0, 0, 0, 0.25);
+        box-shadow: 0 0 30px 20px rgba(0, 0, 0, 0.25);
         -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(40px);
     }
 
     .modal-body {
-        text-shadow: 0px 0px 10px #DB1D76;
+        text-shadow: 0 0 10px #DB1D76;
     }
 
     .news-ground {
