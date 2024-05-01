@@ -128,4 +128,4 @@ $(function(){
 
 });
 
-// Seleziona l'elemento con la classe "slick-list"
+
