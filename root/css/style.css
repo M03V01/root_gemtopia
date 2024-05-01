@@ -1647,6 +1647,24 @@ footer a:hover{
     left:17%;
     bottom:-2rem;
 }
+
+@media  (min-width:576px){
+        .timeline-nav-about .timeline-nav__item::before {
+        left: 45%;
+    }
+    .brand-timeline_1{
+        left:25%;
+        top:-3rem;
+        z-index:1;
+    }
+    .brand-timeline_2{
+        left:25%;
+        bottom:-3rem;
+
+
+    }
+}
+
 @media (orientation:landscape) and (min-width:480px) {
     .timeline-nav-about .timeline-nav__item::after {
         left: 90%;
@@ -1655,7 +1673,7 @@ footer a:hover{
         border-radius: 60%;
     }
     .timeline-nav-about .timeline-nav__item::before {
-              left: 86%;
+        left: 86%;
     }
     .brand-timeline_1{
         left:51%;
