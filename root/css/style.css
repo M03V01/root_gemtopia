@@ -1840,7 +1840,7 @@ footer a:hover{
         height: 740px;
     }
     .news-ground .carousel-control-next, .news-ground .carousel-control-prev{
-        top:0rem;
+        top:50%;
     }
 
 
@@ -1850,7 +1850,7 @@ footer a:hover{
         height: 650px;
     }
     .news-ground .carousel-control-next, .carousel-control-prev{
-        top:0rem;
+        top:50%;
     }
 
 
