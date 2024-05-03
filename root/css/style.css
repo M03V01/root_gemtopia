@@ -1847,7 +1847,7 @@ footer a:hover{
     .carousel_news .carousel-item {
         height: 650px;
     }
-    .news-ground .carousel-control-next, .carousel-control-prev{
+    .news-ground .carousel-control-next, .news-ground.carousel-control-prev{
         top:50%;
     }
 
