@@ -39,16 +39,13 @@ document.addEventListener("DOMContentLoaded", function() {
         }
 
 
-
-        slideRight.style.transition = 'transform 0.5s ease';
-        slideLeft.style.transition = 'transform 0.5s ease';
-
-
-        const translateY = `translateY(-${activeSlideIndex * 100}%)`;
+        slideRight.style.transition = 'none';
+        slideLeft.style.transition = ' none';
 
 
-        slideRight.style.transform = translateY;
-        slideLeft.style.transform = translateY;
+        slideRight.style.transform = `translateY(-${activeSlideIndex * 100}%)`;
+        slideLeft.style.transform = `translateY(-${activeSlideIndex * 100}%)`;
+
 
         setTimeout(() => {
             isTransitioning = false;
