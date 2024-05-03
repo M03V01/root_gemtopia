@@ -1123,14 +1123,13 @@ footer a:hover{
     border:none;
 }
 .slider-container-events {
-    height: 100vh;
-
+    height: 150vh;
     width:90%;
-    border-radius: 5%;
+
 
 }
 
-@media only screen and (orientation:landscape) and (min-width: 480px) {
+@media only screen and (orientation:landscape) and (min-height: 480px) {
     .slider-container-events {
         height: 100vh;
     }
@@ -1138,6 +1137,7 @@ footer a:hover{
 @media only screen and (min-width: 576px) {
     .slider-container-events {
         height: 50vh;
+        border-radius: 5%;
     }
 }
 
