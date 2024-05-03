@@ -1123,8 +1123,8 @@ footer a:hover{
     border:none;
 }
 .slider-container-events {
-    height: 75vh;
-    margin-bottom: 5rem;
+    height: 100vh;
+
     width:90%;
     border-radius: 5%;
 
@@ -1135,6 +1135,11 @@ footer a:hover{
         height: 100vh;
     }
 }
+@media only screen and (min-width: 576px) {
+    .slider-container-events {
+        height: 50vh;
+    }
+}
 
 @media only screen and (min-width: 728px) {
     .slider-container-events {
@@ -1143,13 +1148,6 @@ footer a:hover{
     }
 }
 
-
-@media only screen and (min-width: 768px) {
-    .slider-container-events {
-        height: 100vh;
-
-    }
-}
 
 
 @media only screen and (min-width: 992px) {
