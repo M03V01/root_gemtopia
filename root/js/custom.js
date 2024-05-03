@@ -57,12 +57,12 @@ document.addEventListener("DOMContentLoaded", function() {
         upButton.addEventListener('click', () => changeSlide('up'));
         downButton.addEventListener('click', () => changeSlide('down'));
 
-        // Aggiungi l'evento di scorrimento sullo slider solo per risoluzioni inferiori a 992px
-        if (window.innerWidth < 992) {
+
+        if (window.innerWidth <= 992) {
             const sliderContainer = document.querySelector('.slider-container');
 
             sliderContainer.addEventListener('wheel', (event) => {
-                event.preventDefault(); // Impedisce al browser di eseguire lo scrolling predefinito
+                event.preventDefault();
 
                 accumulatedScroll += event.deltaY;
 
