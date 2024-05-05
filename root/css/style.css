@@ -1859,6 +1859,15 @@ footer a:hover{
     .carousel_news .carousel-item {
         height: 1050px;
     }
+    .news-ground .carousel-control-next, .news-ground .carousel-control-prev{
+        top:10%;
+    }
+    .news-ground .carousel-control-next{
+        right:15%;
+    }
+    .news-ground .carousel-control-prev{
+        left:15%;
+    }
 
 }
 @media only screen and (min-width: 992px) {
@@ -1871,7 +1880,12 @@ footer a:hover{
     .news{
         top:50%;
     }
-
+    .news-ground .carousel-control-next{
+        right:0%;
+    }
+    .news-ground .carousel-control-prev{
+        left:0%;
+    }
 }
 @media only screen and (min-width: 1400px) {
     .carousel_news .carousel-item {
