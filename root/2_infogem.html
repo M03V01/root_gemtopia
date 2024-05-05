@@ -35,8 +35,8 @@
                         InfoGem
                     </a>
                     <ul class="dropdown-menu text-center text-md-start nav-item " aria-labelledby="navbarDropdown" >
-                        <li><a class="dropdown-item mb-2" href="#transport">Trasporti</a></li>
-                        <li><a class="dropdown-item" href="#office">Uffici</a></li>
+                        <li><a class="dropdown-item mb-2 js-scroll-trigger" href="#transport">Trasporti</a></li>
+                        <li><a class="dropdown-item js-scroll-trigger" href="#office">Uffici</a></li>
                     </ul>
                 </li>
                 <li class="nav-item m-md-2">
@@ -582,6 +582,10 @@
             });
         });
     </script>
-
+<script>
+    $('.js-scroll-trigger').click(function () {
+        $('.navbar-collapse').collapse('hide');
+    });
+</script>
 </body>
 </html>
