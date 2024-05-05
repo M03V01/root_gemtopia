@@ -832,8 +832,8 @@ footer a:hover{
 }
 .cat {
     position: absolute;
-    left: 15%;
-    bottom:-14%;
+    left: 25%;
+    bottom:-12%;
     z-index: -1;
 
 }
@@ -858,7 +858,6 @@ footer a:hover{
     .cat {
         position: absolute;
         left: 50%;
-
         z-index: -1;
     }
 }
