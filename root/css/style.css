@@ -1128,7 +1128,8 @@ footer a:hover{
 .tree-events{
     top:-20%;
 }
-.slide-content-events{
+
+    .slide-content-events{
     border:none;
 }
 .slider-container-events {
@@ -1580,7 +1581,9 @@ footer a:hover{
 
 
 /****************ABOUTGEM***********/
-
+    .tree-about{
+        z-index:-999;
+    }
     .timeline-slider-about .timeline-slide__content {
         opacity:0.5;
 
