@@ -1311,7 +1311,7 @@ footer a:hover{
         border-radius: 1.25rem;
         border: 2px solid rgba(100, 204, 197, 0.50);
         background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(100, 204, 197, 0.40) 0%, rgba(100, 204, 197, 0.00) 100%);
-        box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.25);
+        box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.25);
         -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(10px);
     }
@@ -1320,7 +1320,7 @@ footer a:hover{
         border-radius: 1.25rem;
         border: 2px solid rgba(255, 147, 97, 0.50);
         background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(255, 147, 97, 0.40) 0%, rgba(255, 147, 97, 0.00) 100%);
-        box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.25);
+        box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.25);
         -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(10px);
     }
@@ -1329,7 +1329,7 @@ footer a:hover{
         border-radius: 1.25rem;
         border: 2px solid rgba(148, 11, 146, 0.50);
         background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(148, 11, 146, 0.40) 0%, rgba(148, 11, 146, 0.00) 100%);
-        box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.25);
+        box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.25);
         -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(10px);
     }
@@ -1338,7 +1338,7 @@ footer a:hover{
         border-radius: 1.25rem;
         border: 2px solid rgba(219, 29, 118, 0.50);
         background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(219, 29, 118, 0.40) 0%, rgba(219, 29, 118, 0.00) 100%);
-        box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.25);
+        box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.25);
         -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(10px);
     }
@@ -1371,7 +1371,7 @@ footer a:hover{
         border-radius: 1.25rem;
         border: 2px solid rgba(255, 255, 255, 0.40);
         background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(100, 204, 197, 0.40) 0%, rgba(100, 204, 197, 0.00) 100%);
-        box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.25);
+        box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.25);
         -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(10px);
     }
@@ -1380,7 +1380,7 @@ footer a:hover{
         border-radius: 1.25rem;
         border: 2px solid rgba(255, 147, 97, 0.40);
         background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(232, 156, 57, 0.56) 0%, rgba(255, 147, 97, 0.00) 100%);
-        box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.25);
+        box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.25);
         -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(10px);
     }
@@ -1389,7 +1389,7 @@ footer a:hover{
         border-radius: 1.25rem;
         border: 2px solid rgba(148, 11, 146, 0.40);
         background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(148, 11, 146, 0.40) 0%, rgba(148, 11, 146, 0.00) 100%);
-        box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.25);
+        box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.25);
         -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(10px);
     }
@@ -1398,7 +1398,7 @@ footer a:hover{
         border-radius: 1.25rem;
         border: 2px solid rgba(219, 29, 118, 0.40);
         background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(219, 29, 118, 0.40) 0%, rgba(219, 29, 118, 0.00) 100%);
-        box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.25);
+        box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.25);
         -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(10px);
     }
@@ -1486,7 +1486,7 @@ footer a:hover{
     border-radius: 20px;
     border: 2px solid rgba(100, 204, 197, 0.40);
     background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(93, 190, 183, 0.7) 0%, rgba(100, 204, 197, 0.00) 100%);
-    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(40px);
     z-index: 1000;
     display: none; /* Inizialmente nascosto */
@@ -1510,7 +1510,7 @@ footer a:hover{
     border-radius: 20px;
     border: 2px solid rgba(255, 147, 97, 0.40);
     background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(255, 147, 97, 0.40) 0%, rgba(255, 147, 97, 0.00) 100%);
-    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(40px);
     z-index: 1000;
     display: none; /* Inizialmente nascosto */
@@ -1534,7 +1534,7 @@ footer a:hover{
     border-radius: 20px;
     border: 2px solid rgba(148, 11, 146, 0.40);
     background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(148, 11, 146, 0.40) 0%, rgba(148, 11, 146, 0.00) 100%);
-    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(40px);
     z-index: 1000;
     display: none; /* Inizialmente nascosto */
@@ -1558,7 +1558,7 @@ footer a:hover{
     border-radius: 20px;
     border: 2px solid rgba(219, 29, 118, 0.40);
     background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(219, 29, 118, 0.40) 0%, rgba(219, 29, 118, 0.00) 100%);
-    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(40px);
     z-index: 1000;
     display: none; /* Inizialmente nascosto */
@@ -1641,7 +1641,7 @@ footer a:hover{
     content: "";
     position: absolute;
     top: -10px;
-    left: 0rem;
+    left: 0;
     width: 0.8rem;
     height: 0.8rem;
     border-radius: 100%;
@@ -1887,10 +1887,10 @@ footer a:hover{
         top:50%;
     }
     .news-ground .carousel-control-next{
-        right:0%;
+        right:0;
     }
     .news-ground .carousel-control-prev{
-        left:0%;
+        left:0;
     }
 }
 @media only screen and (min-width: 1400px) {
@@ -1919,14 +1919,14 @@ footer a:hover{
         border: none;
     }
     .pop:hover{
-        box-shadow: 0px 0px 30px 10px rgba(250, 153, 198, 0.30);
+        box-shadow: 0 0 30px 10px rgba(250, 153, 198, 0.30);
     }
     .close {
         color: var(--bs-btn-text);
     }
 
     .modal-title {
-        text-shadow: 0px 0px 10px #DB1D76;
+        text-shadow: 0 0 10px #DB1D76;
     }
 
     .modal-content {
