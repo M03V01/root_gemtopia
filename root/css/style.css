@@ -1842,7 +1842,7 @@ footer a:hover{
 }
         .news-ground .carousel-control-next, .news-ground .carousel-control-prev{
         bottom:45rem;
-         text:var(--bs-btn-tertiary);
+
         }
 @media only screen and (orientation:landscape) and (min-width: 480px) {
     .news-ground .carousel-control-next, .news-ground .carousel-control-prev{
@@ -1958,6 +1958,6 @@ footer a:hover{
 
 
 
-.
+
 
 
