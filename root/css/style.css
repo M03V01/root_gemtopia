@@ -832,12 +832,37 @@ footer a:hover{
 .container_quiz{
     position:relative;
 }
-
 .cat {
     position: absolute;
-    left: 50%;
-
+    left: 15%;
+    bottom:-14%;
     z-index: -1;
+
+}
+@media (min-width:576px) {
+
+    .cat {
+        position: absolute;
+        left: 25%;
+        bottom:-18%;
+    }
+}
+@media (min-width:768px) {
+
+    .cat {
+        position: absolute;
+        left: 70%;
+        bottom:-18%;
+    }
+}
+@media (min-width:992px) {
+
+    .cat {
+        position: absolute;
+        left: 50%;
+
+        z-index: -1;
+    }
 }
 @media (min-width: 1200px) {
     .cat {
