@@ -1193,6 +1193,12 @@ cursor: pointer;
     }
 }
 
+@media (min-width: 1400px) {
+    .box {
+        height: 530px;
+    }
+}
+
 /* Altezza base per tutti i dispositivi */
 .carousel-item {
     height: 640px; /* Altezza di default */
@@ -1219,31 +1225,30 @@ cursor: pointer;
 }
 
 @media only screen and (min-width: 728px) {
-    .carousel-item {
-        height: 640px; /* Altezza per tablet in orientamento portrait */
-    }
+
     .carousel-item-holiday{
         height: 750px;
     }
 }
 
 @media only screen and (min-width: 768px) {
-    .carousel-item {
+    .carousel-item-holiday {
         height: 800px; /* Altezza per tablet in orientamento portrait */
     }
 }
 
 @media only screen and (min-width: 992px) {
-    .carousel-item {
-        height: 660px; /* Altezza per tablet in orientamento landscape */
-    }
     .central-text {
         padding: 1px 1px; /* esempio di margini più larghi */
+    }
+
+    .carousel-item-holiday{
+        height: 660px;
     }
 }
 
 @media only screen and (min-width: 1200px) {
-    .carousel-item {
+    .carousel-item-holiday {
         height: 650px; /* Altezza per laptop e desktop di dimensioni normali */
     }
 }
