@@ -1189,7 +1189,7 @@ cursor: pointer;
 
 @media (min-width: 992px) {
     .box {
-        height: 536px;
+        height: 450px;
     }
 }
 
@@ -1235,7 +1235,7 @@ cursor: pointer;
 
 @media only screen and (min-width: 992px) {
     .carousel-item {
-        height: 690px; /* Altezza per tablet in orientamento landscape */
+        height: 660px; /* Altezza per tablet in orientamento landscape */
     }
     .central-text {
         padding: 1px 1px; /* esempio di margini più larghi */
