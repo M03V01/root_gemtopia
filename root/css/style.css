@@ -905,13 +905,11 @@ cursor: pointer;
 .carousel-control-next, .carousel-control-prev{
     width: 60px;
 }
-
-/* Media query per dispositivi mobili */
-@media (max-width: 768px) {
-    .carousel-caption {
-        margin-bottom: -10%;
-    }
+.carousel-caption {
+    margin-bottom: -5%;
 }
+/* Media query per dispositivi mobili */
+
 
 .one-time2 .slick-slide {
     height: 50rem;
