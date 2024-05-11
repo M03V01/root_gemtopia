@@ -1198,8 +1198,8 @@ cursor: pointer;
 }
 
 /* Altezza base per tutti i dispositivi */
-.carousel-item {
-    height: 640px; /* Altezza di default */
+.carousel-item-holiday {
+    height: 700px; /* Altezza di default */
 }
 
 .carousel-item-house {
@@ -1217,7 +1217,7 @@ cursor: pointer;
 }
 
 @media only screen and (min-width: 480px) {
-    .carousel-item-change {
+    .carousel-item-holiday {
         height: 700px;
     }
 }
