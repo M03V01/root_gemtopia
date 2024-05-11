@@ -469,7 +469,7 @@
   </script>
   <script>
     $(document).ready(function(){
-      var scrollTop = 0;
+      let scrollTop = 0;
       $(window).scroll(function(){
         scrollTop = $(window).scrollTop();
         $('.counter').html(scrollTop);
@@ -491,11 +491,11 @@
 <!-- SCRIPT CAMBIO TAB GENIUS-HILL MOBILE-->
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-  var originalContent;
-  var gemImage = document.getElementById("gemtour_bimbo_viola_mobile");
-  var activeSlide = gemImage.closest('.carousel-item');
+    let originalContent;
+    let gemImage = document.getElementById("gemtour_bimbo_viola_mobile");
+    let activeSlide = gemImage.closest('.carousel-item');
 
-  originalContent = activeSlide.innerHTML;
+    originalContent = activeSlide.innerHTML;
 
   function addClickEventToGemImage() {
   gemImage.addEventListener("click", function () {
@@ -513,8 +513,8 @@
     </div>
   `;
 
-  var littleImage = document.getElementById("little_genius");
-  littleImage.addEventListener("click", function () {
+    let littleImage = document.getElementById("little_genius");
+    littleImage.addEventListener("click", function () {
   activeSlide.innerHTML = originalContent;
   gemImage = document.getElementById("gemtour_bimbo_viola_mobile");
         addClickEventToGemImage();
@@ -529,9 +529,9 @@
 <!-- SCRIPT CAMBIO TAB CUDDLEHOOD MOBILE-->
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    var originalContent;
-    var gemImage = document.getElementById("gemtour_bimbo_fuxia_mobile");
-    var activeSlide = gemImage.closest('.carousel-item');
+    let originalContent;
+    let gemImage = document.getElementById("gemtour_bimbo_fuxia_mobile");
+    let activeSlide = gemImage.closest('.carousel-item');
 
     originalContent = activeSlide.innerHTML;
 
@@ -550,7 +550,7 @@
       <img id="little_cuddle" src="img/gemtour_cuddle_little.svg" alt="" class="Immagine di Cuddlehood">
     </div>
   `;
-        var littleImage = document.getElementById("little_cuddle");
+        let littleImage = document.getElementById("little_cuddle");
         littleImage.addEventListener("click", function () {
           activeSlide.innerHTML = originalContent;
           gemImage = document.getElementById("gemtour_bimbo_fuxia_mobile");
@@ -565,9 +565,9 @@
 <!-- SCRIPT CAMBIO TAB INTREPIDARIA MOBILE-->
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    var originalContent;
-    var gemImage = document.getElementById("gemtour_bimbo_arancio_mobile");
-    var activeSlide = gemImage.closest('.carousel-item');
+    let originalContent;
+    let gemImage = document.getElementById("gemtour_bimbo_arancio_mobile");
+    let activeSlide = gemImage.closest('.carousel-item');
 
     originalContent = activeSlide.innerHTML;
 
@@ -586,7 +586,7 @@
       <img id="little_intrepidaria" src="img/gemtour_intrepidaria_little.svg" alt="" class="Immagine Intrepidaria">
     </div>
   `;
-        var littleImage = document.getElementById("little_intrepidaria");
+        let littleImage = document.getElementById("little_intrepidaria");
         littleImage.addEventListener("click", function () {
           activeSlide.innerHTML = originalContent;
           gemImage = document.getElementById("gemtour_bimbo_arancio_mobile");
@@ -602,9 +602,9 @@
 <!-- SCRIPT CAMBIO TAB DREAMSTRICT MOBILE-->
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    var originalContent;
-    var gemImage = document.getElementById("gemtour_bimbo_blu_mobile");
-    var activeSlide = gemImage.closest('.carousel-item');
+    let originalContent;
+    let gemImage = document.getElementById("gemtour_bimbo_blu_mobile");
+    let activeSlide = gemImage.closest('.carousel-item');
 
     originalContent = activeSlide.innerHTML;
 
@@ -623,7 +623,7 @@
       <img id="little_dream" src="img/gemtour_dreamstrict_little.svg" alt="" class="Immagine Dreamstrict">
     </div>
   `;
-        var littleImage = document.getElementById("little_dream");
+        let littleImage = document.getElementById("little_dream");
         littleImage.addEventListener("click", function () {
           activeSlide.innerHTML = originalContent;
           gemImage = document.getElementById("gemtour_bimbo_blu_mobile");
@@ -641,10 +641,10 @@
 <!-- SCRIPT CAMBIO TAB GENIUS-HILL DESKTOP-->
   <script>
     document.addEventListener("DOMContentLoaded", function () {
-      var originalContent;
-      var gemImage = document.getElementById("gemtour_bimbo_viola");
-      var activeTab = gemImage.closest('.tab-pane');
-      var littleImage;
+      let originalContent;
+      let gemImage = document.getElementById("gemtour_bimbo_viola");
+      let activeTab = gemImage.closest('.tab-pane');
+      let littleImage;
 
       originalContent = activeTab.innerHTML;
 
@@ -684,10 +684,10 @@
 <!-- SCRIPT CAMBIO TAB CUDDLEHOOD -->
   <script>
     document.addEventListener("DOMContentLoaded", function () {
-      var originalContent;
-      var gemImage = document.getElementById("gemtour_bimbo_fuxia");
-      var activeTab = gemImage.closest('.tab-pane');
-      var littleImage;
+      let originalContent;
+      let gemImage = document.getElementById("gemtour_bimbo_fuxia");
+      let activeTab = gemImage.closest('.tab-pane');
+      let littleImage;
 
       originalContent = activeTab.innerHTML;
 
@@ -727,10 +727,10 @@
 <!-- SCRIPT CAMBIO TAB INTREPIDARIA -->
   <script>
     document.addEventListener("DOMContentLoaded", function () {
-      var originalContent;
-      var gemImage = document.getElementById("gemtour_bimbo_arancio");
-      var activeTab = gemImage.closest('.tab-pane');
-      var littleImage;
+      let originalContent;
+      let gemImage = document.getElementById("gemtour_bimbo_arancio");
+      const activeTab = gemImage.closest('.tab-pane');
+      let littleImage;
 
       originalContent = activeTab.innerHTML;
 
@@ -770,10 +770,10 @@
   <!-- SCRIPT CAMBIO TAB DREAMSTRICT -->
   <script>
     document.addEventListener("DOMContentLoaded", function () {
-      var originalContent;
-      var gemImage = document.getElementById("gemtour_bimbo_blu");
-      var activeTab = gemImage.closest('.tab-pane');
-      var littleImage;
+      let originalContent;
+      let gemImage = document.getElementById("gemtour_bimbo_blu");
+      const activeTab = gemImage.closest('.tab-pane');
+      let littleImage;
 
       originalContent = activeTab.innerHTML;
 
