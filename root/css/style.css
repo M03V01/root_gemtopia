@@ -1229,13 +1229,13 @@ cursor: pointer;
 
 @media only screen and (min-width: 768px) {
     .carousel-item {
-        height: 690px; /* Altezza per tablet in orientamento portrait */
+        height: 800px; /* Altezza per tablet in orientamento portrait */
     }
 }
 
 @media only screen and (min-width: 992px) {
     .carousel-item {
-        height: 640px; /* Altezza per tablet in orientamento landscape */
+        height: 690px; /* Altezza per tablet in orientamento landscape */
     }
     .central-text {
         padding: 1px 1px; /* esempio di margini più larghi */
