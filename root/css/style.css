@@ -1249,6 +1249,10 @@ cursor: pointer;
     .carousel-item-change{
         height: 680px;
     }
+
+    .carousel-item-house {
+        height: 680px;
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -1261,7 +1265,11 @@ cursor: pointer;
     }
 
     .carousel-item-change{
-        height: 720px;
+        height: 700px;
+    }
+
+    .box_change{
+        height: 550px;
     }
 }
 
