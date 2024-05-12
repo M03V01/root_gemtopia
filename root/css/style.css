@@ -1207,7 +1207,7 @@ cursor: pointer;
 }
 
 .carousel-item-house {
-    height: 680px;
+    height: 550px;
 }
 
 .carousel-item-change{
@@ -1221,6 +1221,10 @@ cursor: pointer;
 
     .carousel-item-change{
         height: 620px;
+    }
+
+    .carousel-item-house {
+        height: 650px;
     }
 }
 
@@ -1269,6 +1273,11 @@ cursor: pointer;
     .box_change{
         height: 500px;
     }
+
+    .carousel-item-house {
+        height: 620px;
+    }
+
 }
 
 /* .form-control{
