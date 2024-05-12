@@ -1218,14 +1218,14 @@ cursor: pointer;
 
 @media only screen and (min-width: 480px) {
     .carousel-item-holiday {
-        height: 700px;
+        height: 680px;
     }
 }
 
 @media only screen and (min-width: 728px) {
 
     .carousel-item-holiday{
-        height: 750px;
+        height: 690px;
     }
 }
 
@@ -1247,7 +1247,7 @@ cursor: pointer;
 
 @media only screen and (min-width: 1200px) {
     .carousel-item-holiday {
-        height: 650px; /* Altezza per laptop e desktop di dimensioni normali */
+        height: 620px; /* Altezza per laptop e desktop di dimensioni normali */
     }
 }
 
