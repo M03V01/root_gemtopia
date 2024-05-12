@@ -1185,6 +1185,10 @@ cursor: pointer;
     height: 310px;
 }
 
+.box_change{
+    height: 310px;
+}
+
 @media (min-width: 992px) {
     .box {
         height: 450px;
@@ -1203,16 +1207,20 @@ cursor: pointer;
 }
 
 .carousel-item-house {
-    height: 610px;
+    height: 680px;
 }
 
 .carousel-item-change{
-    height: 690px;
+    height: 750px;
 }
 
 @media only screen and (orientation:landscape) and (min-width: 480px) {
     .carousel-item-holiday{
         height: 740px;
+    }
+
+    .carousel-item-change{
+        height: 620px;
     }
 }
 
@@ -1233,6 +1241,10 @@ cursor: pointer;
     .carousel-item-holiday {
         height: 800px; /* Altezza per tablet in orientamento portrait */
     }
+
+    .carousel-item-change{
+        height: 680px;
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -1248,6 +1260,14 @@ cursor: pointer;
 @media only screen and (min-width: 1200px) {
     .carousel-item-holiday {
         height: 620px; /* Altezza per laptop e desktop di dimensioni normali */
+    }
+
+    .carousel-item-change{
+        height: 630px;
+    }
+
+    .box_change{
+        height: 550px;
     }
 }
 
