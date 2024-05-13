@@ -967,13 +967,13 @@
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-        var myCarousel2 = document.querySelector('#carouselExample');
+        let myCarousel2 = document.querySelector('#carouselExample');
 
         function checkCarouselSlide() {
-            var items = myCarousel2.querySelectorAll('.carousel-item');
-            var totalItems = items.length;
-            var activeItem = myCarousel2.querySelector('.carousel-item.active');
-            var activeIndex = [...items].indexOf(activeItem);
+            let items = myCarousel2.querySelectorAll('.carousel-item');
+            let totalItems = items.length;
+            let activeItem = myCarousel2.querySelector('.carousel-item.active');
+            let activeIndex = [...items].indexOf(activeItem);
 
             // Nasconde il pulsante prev alla prima slide
             if (activeIndex === 0) {
@@ -1002,13 +1002,13 @@
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-        var myCarousel2 = document.querySelector('#carouselExample2');
+        let myCarousel2 = document.querySelector('#carouselExample2');
 
         function checkCarouselSlide() {
-            var items = myCarousel2.querySelectorAll('.carousel-item');
-            var totalItems = items.length;
-            var activeItem = myCarousel2.querySelector('.carousel-item.active');
-            var activeIndex = [...items].indexOf(activeItem);
+            let items = myCarousel2.querySelectorAll('.carousel-item');
+            let totalItems = items.length;
+            let activeItem = myCarousel2.querySelector('.carousel-item.active');
+            let activeIndex = [...items].indexOf(activeItem);
 
             // Nasconde il pulsante prev alla prima slide
             if (activeIndex === 0) {
@@ -1037,13 +1037,13 @@
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-        var myCarousel3 = document.querySelector('#carouselExample3');
+        let myCarousel3 = document.querySelector('#carouselExample3');
 
         function checkCarouselSlide() {
-            var items = myCarousel3.querySelectorAll('.carousel-item');
-            var totalItems = items.length;
-            var activeItem = myCarousel3.querySelector('.carousel-item.active');
-            var activeIndex = [...items].indexOf(activeItem);
+            let items = myCarousel3.querySelectorAll('.carousel-item');
+            let totalItems = items.length;
+            let activeItem = myCarousel3.querySelector('.carousel-item.active');
+            let activeIndex = [...items].indexOf(activeItem);
 
             // Nasconde il pulsante prev alla prima slide
             if (activeIndex === 0) {
@@ -1087,7 +1087,7 @@
     </script>
     <script>
         $(document).ready(function(){
-            var scrollTop = 0;
+            let scrollTop = 0;
             $(window).scroll(function(){
                 scrollTop = $(window).scrollTop();
                 $('.counter').html(scrollTop);
@@ -1095,8 +1095,6 @@
                 if (scrollTop >= 100) {
                     $('.navbar').addClass('scrolled-nav');
                     $(".navbar-brand").addClass('col-lg-2');
-
-
                 } else if (scrollTop < 100) {
                     $('.navbar').removeClass('scrolled-nav');
                     $(".navbar-brand").removeClass('col-lg-2')
@@ -1109,7 +1107,7 @@
         document.querySelectorAll('.read-announcement').forEach(function(el) {
             el.addEventListener('click', function(event) {
                 event.preventDefault();
-                var targetId = el.getAttribute('data-target');
+                let targetId = el.getAttribute('data-target');
                 // Nascondi tutti i box originali
                 document.querySelectorAll('.container-fluid').forEach(function(box) {
                     box.style.display = 'none';
@@ -1121,7 +1119,7 @@
 
         document.querySelectorAll('.close-detail').forEach(function(btn) {
             btn.addEventListener('click', function() {
-                var targetId = btn.getAttribute('data-target');
+                let targetId = btn.getAttribute('data-target');
                 // Mostra di nuovo tutti i box originali
                 document.querySelectorAll('.container-fluid').forEach(function(box) {
                     box.style.display = 'block';
@@ -1137,14 +1135,14 @@
     $(document).ready(function() {
         $('.expand-link').click(function(e) {
             e.preventDefault();
-            var targetId = $(this).data('target');
+            let targetId = $(this).data('target');
             $(targetId).fadeIn(100, function() {
                 $(this).addClass('visible'); // Assicurati che 'visible' venga aggiunta dopo che fadeIn è completo
             });
         });
 
         $('.close-btn').click(function() {
-            var detailContent = $(this).parent();
+            let detailContent = $(this).parent();
             detailContent.removeClass('visible');
             detailContent.fadeOut(150); // Usa fadeOut per una chiusura più fluida
         });
