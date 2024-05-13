@@ -1304,6 +1304,7 @@ cursor: pointer;
     border-radius: 1.875rem;
     border: 2px solid rgba(219, 29, 118, 0.40);
     background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(219, 29, 118, 0.70) 0%, rgba(219, 29, 118, 0.00) 100%);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 .dolce_dormizio {
@@ -1342,6 +1343,11 @@ cursor: pointer;
     backdrop-filter: blur(10px);
 }
 
+.carousel-item-house{
+    border-radius: 1.25rem;
+    -webkit-backdrop-filter: blur(20px);
+}
+
 .holiday{
     border-radius: 1.875rem;
     border: 2px solid rgba(100, 204, 197, 0.29);
@@ -1375,6 +1381,8 @@ cursor: pointer;
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
 }
+
+
 
 .holidaypurplerec {
     border-radius: 1.25rem;
