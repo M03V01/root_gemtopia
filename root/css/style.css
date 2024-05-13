@@ -1882,7 +1882,8 @@ cursor: pointer;
 
 @media only screen and (min-width: 768px) {
     .carousel_news .carousel-item {
-        height: 1050px;
+        height: 950px;
+
     }
 
     .news-ground .carousel-control-next, .news-ground .carousel-control-prev{
