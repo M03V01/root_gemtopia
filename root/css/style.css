@@ -1339,14 +1339,10 @@ cursor: pointer;
     border: 2px solid rgba(219, 29, 118, 0.50);
     background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(219, 29, 118, 0.40) 0%, rgba(219, 29, 118, 0.00) 100%);
     box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.25);
-    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
-.carousel-item-house{
-    border-radius: 1.25rem;
-    -webkit-backdrop-filter: blur(20px);
-}
 
 .holiday{
     border-radius: 1.875rem;
@@ -1491,6 +1487,7 @@ cursor: pointer;
     opacity: 0; /* Inizia completamente trasparente per l'effetto di dissolvenza */
     transform: translate(-50%, -50%) scale(0.9); /* Inizio con zoom ridotto */
     transition: transform 0.4s ease, opacity 0.4s ease-out; /* Transizioni per transform e opacity */
+    -webkit-backdrop-filter: blur(20px);
 }
 
 .details-content1.visible {
@@ -1515,6 +1512,7 @@ cursor: pointer;
     opacity: 0; /* Inizia completamente trasparente per l'effetto di dissolvenza */
     transform: translate(-50%, -50%) scale(0.9); /* Inizio con zoom ridotto */
     transition: transform 0.4s ease, opacity 0.4s ease-out; /* Transizioni per transform e opacity */
+    -webkit-backdrop-filter: blur(20px);
 }
 
 .details-content2.visible {
@@ -1539,6 +1537,7 @@ cursor: pointer;
     opacity: 0; /* Inizia completamente trasparente per l'effetto di dissolvenza */
     transform: translate(-50%, -50%) scale(0.9); /* Inizio con zoom ridotto */
     transition: transform 0.4s ease, opacity 0.4s ease-out; /* Transizioni per transform e opacity */
+    -webkit-backdrop-filter: blur(20px);
 }
 
 .details-content3.visible {
@@ -1563,6 +1562,7 @@ cursor: pointer;
     opacity: 0; /* Inizia completamente trasparente per l'effetto di dissolvenza */
     transform: translate(-50%, -50%) scale(0.9); /* Inizio con zoom ridotto */
     transition: transform 0.4s ease, opacity 0.4s ease-out; /* Transizioni per transform e opacity */
+    -webkit-backdrop-filter: blur(20px);
 }
 
 .details-content4.visible {

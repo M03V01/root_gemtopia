@@ -55,7 +55,6 @@
   </div>
 </nav>
 
-
   <header class="container-fluid text-center text-lg-start header px-0 col-12 justify-content-center h-100 d-inline-block mb-5">
     <section class="container col-12 align-items-center  " id="main-content">
       <div class="row align-items-center">
@@ -87,30 +86,30 @@
         </svg>
 
         <div class="container-fluid px-lg-5 pt-2 justify-content-center col-12 mt-lg-0 wave-mobile unique-color-background">
-          <div class="container pb-4 unique-color-background d-flex justify-content-center" style="max-width: 1350px;">
+          <div class="container pb-4 unique-color-background d-flex justify-content-center" style="max-width: 1150px;">
             <div class="row gx-5">
               <div class="col-6 col-md-2 col-lg-3 justify-content-center">
-                <img src="img/gemma_viola.png" class="card-img-top img-fluid w-100 mx-auto d-block img-mobile" alt="Gemma Genius-hill">
+                <img src="img/gemma_viola.png" class="col-10 mx-auto d-block img-mobile" alt="Gemma Genius-hill">
                 <div class="card-body text-center">
-                  <h3 class="card-text">Genius-hill</h3>
+                  <h3 class="card-text mt-3">Genius-hill</h3>
                 </div>
               </div>
               <div class="col-6 col-md-2 col-lg-3 justify-content-center">
-                <img src="img/gemma_fuxia.png" class="card-img-top img-fluid w-100 mx-auto d-block img-mobile" alt="Gemma Cuddlehood">
+                <img src="img/gemma_fuxia.png" class="col-10 mx-auto d-block img-mobile" alt="Gemma Cuddlehood">
                 <div class="card-body text-center">
-                  <h3 class="card-text">Cuddlehood</h3>
+                  <h3 class="card-text mt-3">Cuddlehood</h3>
                 </div>
               </div>
               <div class="col-6 col-md-2 col-lg-3 justify-content-center">
-                <img src="img/gemma_arancione.png" class="card-img-top img-fluid w-100 mx-auto d-block img-mobile" alt="Gemma Intrepidaria">
+                <img src="img/gemma_arancione.png" class="col-10 mx-auto d-block img-mobile" alt="Gemma Intrepidaria">
                 <div class="card-body text-center">
-                  <h3 class="card-text">Intrepidaria</h3>
+                  <h3 class="card-text mt-3">Intrepidaria</h3>
                 </div>
               </div>
               <div class="col-6 col-md-2 col-lg-3 justify-content-center">
-                <img src="img/gemma_azzurra.png" class="card-img-top img-fluid w-100 mx-auto d-block img-mobile" alt="Gemma Dreamstrict">
+                <img src="img/gemma_azzurra.png" class="col-10 mx-auto d-block img-mobile" alt="Gemma Dreamstrict">
                 <div class="card-body text-center">
-                  <h3 class="card-text">Dreamstrict</h3>
+                  <h3 class="card-text mt-3">Dreamstrict</h3>
                 </div>
               </div>
             </div>
@@ -158,8 +157,6 @@
   </div>
 </section>
 
-
-<!-- CAROSELLO MOBILE -->
 <div class="container one-time my-5">
   <div id="mobile-slider" class="carousel slide d-md-none" >
     <div class="carousel-inner">
@@ -231,8 +228,6 @@
   </div>
 </div>
 
-
-  <!-- Desktop Tabs -->
   <div class="container col-lg-12 pb-lg-5 pt-lg-5">
   <ul class="nav nav-tabs justify-content-between d-none d-md-flex">
     <li class="nav-item nav-item-tab tab_purple_nav">
@@ -395,8 +390,6 @@
       </div>
   </div>
 
-
-
 <!-- footer-->
 <div class="container-fluid px-0 col-12">
   <svg class="waves mb-0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
@@ -413,7 +406,6 @@
 
 
   <footer class="container-fluid mt-lg-0 unique-color-background px-lg-5 justify-content-center d-flex px-0">
-    <!-- Sei immagini visibili solo in modalità mobile -->
     <div class="container flex-nowrap">
       <div class="row mt-5 d-flex justify-content-center  justify-content-md-start ">
         <div class="col-4 col-lg-12 text-center text-lg-start align-self-center">
@@ -443,7 +435,6 @@
       </div>
     </div>
     <div class="col-8  justify-content-end d-none d-lg-inline-flex">
-      <!-- Immagine solo in modalità desktop -->
       <img class="img-fluid" src="img/gemtopia_footer.png" alt="Mappa di Gemtopia footer">
     </div>
 
@@ -478,7 +469,6 @@
           $('.navbar').addClass('scrolled-nav');
           $(".navbar-brand").addClass('col-lg-2');
 
-
         } else if (scrollTop < 100) {
           $('.navbar').removeClass('scrolled-nav');
           $(".navbar-brand").removeClass('col-lg-2')
@@ -487,8 +477,6 @@
     });
   </script>
 
-
-<!-- SCRIPT CAMBIO TAB GENIUS-HILL MOBILE-->
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     let originalContent;
@@ -515,8 +503,8 @@
 
     let littleImage = document.getElementById("little_genius");
     littleImage.addEventListener("click", function () {
-  activeSlide.innerHTML = originalContent;
-  gemImage = document.getElementById("gemtour_bimbo_viola_mobile");
+    activeSlide.innerHTML = originalContent;
+    gemImage = document.getElementById("gemtour_bimbo_viola_mobile");
         addClickEventToGemImage();
       });
     });
@@ -525,8 +513,6 @@
   });
 </script>
 
-
-<!-- SCRIPT CAMBIO TAB CUDDLEHOOD MOBILE-->
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     let originalContent;
@@ -562,7 +548,6 @@
   });
 </script>
 
-<!-- SCRIPT CAMBIO TAB INTREPIDARIA MOBILE-->
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     let originalContent;
@@ -598,8 +583,6 @@
   });
 </script>
 
-
-<!-- SCRIPT CAMBIO TAB DREAMSTRICT MOBILE-->
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     let originalContent;
@@ -635,10 +618,6 @@
   });
 </script>
 
-
-
-
-<!-- SCRIPT CAMBIO TAB GENIUS-HILL DESKTOP-->
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       let originalContent;
@@ -656,14 +635,14 @@
                           <h2>Genius-hill</h2>
                       </div>
                       <div class="col-md-5">
-                          <img id="gemtour_bimbo_viola_big" src="img/gemtour_bimbo_viola_big.svg" alt="Immagine Sagae" class="col-12">
+                          <img id="gemtour_bimbo_viola_big" src="img/gemtour_bimbo_viola_big.svg" alt="Immagine di Sagae" class="col-12">
                       </div>
                       <div class="col-md-7 px-lg-5">
                           <h3>Sagae</h3>
                           <p>Buongiorno sono Sagae, la guida del quartiere della Gemma Viola. Questo luogo è un mare di cultura e conoscenza, in cui potersi completamente immergere. La conoscenza spruzza (letteralmente) da ogni poro. Se sei appassionato di arte, storia e sapere e se non ti stanchi mai di scoprire cose nuove, beh, questo è il quartiere che fa per te!</p>
                           <div class="row justify-content-end pt-1">
                               <div class="col-md-6 d-flex justify-content-end">
-                                  <img id="gemtour_genius_little" src="img/gemtour_genius_little.svg" alt="Immagine Genius-hill" class="col-7 pt-lg-4">
+                                  <img id="gemtour_genius_little" src="img/gemtour_genius_little.svg" alt="Immagine di Genius-hill" class="col-7 pt-lg-4">
                               </div>
                           </div>
                       </div>
@@ -681,7 +660,6 @@
     });
   </script>
 
-<!-- SCRIPT CAMBIO TAB CUDDLEHOOD -->
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       let originalContent;
@@ -699,14 +677,14 @@
                             <h2>Cuddlehood</h2>
                         </div>
                         <div class="col-md-5">
-                            <img id="gemtour_bimbo_fuxia_big" src="img/gemtour_bimbo_fuxia_big.svg" alt="Immaginne Morbidario" class="col-12">
+                            <img id="gemtour_bimbo_fuxia_big" src="img/gemtour_bimbo_fuxia_big.svg" alt="Immaginne di Morbidario" class="col-12">
                         </div>
                         <div class="col-md-7 px-lg-5">
                             <h3>Morbidario</h3>
                             <p>Ciao! Sono Morbidario, rappresentante del quartiere della Gemma Rosa. Questo posto è una poesia piena di amore, e ogni angolo sembra essere fatto apposta per coccole e gesti romantici. Ideale per le coppie ma non solo, se sei in cerca di calore e affetto il quartiere Cuddlehood può diventare il tuo rifugio ideale.</p>
                             <div class="row justify-content-end pt-1">
                                 <div class="col-md-6 d-flex justify-content-end">
-                                    <img id="gemtour_cuddle_little" src="img/gemtour_cuddle_little.svg" alt="Immagine Cuddlehood" class="col-7 pt-lg-4">
+                                    <img id="gemtour_cuddle_little" src="img/gemtour_cuddle_little.svg" alt="Immagine di Cuddlehood" class="col-7 pt-lg-4">
                                 </div>
                             </div>
                         </div>
@@ -724,7 +702,6 @@
     });
   </script>
 
-<!-- SCRIPT CAMBIO TAB INTREPIDARIA -->
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       let originalContent;
@@ -767,7 +744,6 @@
     });
   </script>
 
-  <!-- SCRIPT CAMBIO TAB DREAMSTRICT -->
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       let originalContent;
