@@ -1292,13 +1292,45 @@ cursor: pointer;
 
 }
 
-/* .form-control{
-    border-radius: 5px;
-    border: 2px solid rgba(255, 255, 255, 0.45);
-    background: radial-gradient(20707.45% 141.42% at 0% 0%, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.00) 100%);
-    box-shadow: 0px 0px 20px 10px rgba(45, 4, 74, 0.30);
-    backdrop-filter: blur(21px);
-} */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    border-radius: 25px;
+}
+
+.popup-content {
+    background: rgba(215, 209, 209, 0.28);
+    border-radius: 16px;
+    backdrop-filter: blur(40px);
+    -webkit-backdrop-filter: blur(40px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 60px;
+    text-align: center;
+    position: relative;
+    width: 500px; /* Aumentato da 300px a 500px per maggiore larghezza */
+    max-width: 90%; /* Limita la larghezza massima al 90% della finestra */
+}
+
+.close-btn2 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1050;
+    padding: 0.5em 1em;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.29);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+}
 
 .residence {
     border-radius: 1.875rem;
@@ -1399,7 +1431,7 @@ cursor: pointer;
 }
 
 .additional-content {
-    animation: fadeIn 0.5s; /* Animazione di comparsa */
+    animation: fadeIn 0.5s;
 }
 
 @keyframes fadeIn {
