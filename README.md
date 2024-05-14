@@ -12,6 +12,6 @@ Tecnologie utilizzate:
 - HTML5, CSS3, JavaScript
 - Framework Bootstrap per il design e lo stile
   
-> Per avere un anteprima del progetto visitare il seguente link: https://m03v01.github.io/root_gemtopia/root/4_livegem.html
+> Per avere un anteprima del progetto visitare il seguente link: [https://m03v01.github.io/root_gemtopia/root/index.html]
 
 All'interno della cartella [**validation**](https://github.com/ ) sono presenti i file di validazione HTML e CSS del progetto.
