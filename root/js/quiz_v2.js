@@ -78,7 +78,6 @@ function showQuestion(question) {
         section.style.backgroundImage = '';
 
         resultButton.addEventListener('click', () => {
-
     });
 }
 startQuiz();
