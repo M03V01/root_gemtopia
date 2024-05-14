@@ -1292,23 +1292,22 @@ cursor: pointer;
 }
 
 .details-content_pop {
-    width: 45%;
-    height: 35%;
+
     position: absolute;
     top: 50%;
     left: 50%;
-    border-radius: 20px;
-    border: 2px solid rgba(100, 204, 197, 0.40);
-    background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(93, 190, 183, 0.7) 0%, rgba(100, 204, 197, 0.00) 100%);
-    box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.25);
-    z-index: 1000;
+        z-index: 1000;
     display: none; /* Inizialmente nascosto */
     opacity: 0; /* Inizia completamente trasparente per l'effetto di dissolvenza */
     transform: translate(-50%, -50%) scale(0.9); /* Inizio con zoom ridotto */
     transition: transform 0.4s ease, opacity 0.4s ease-out; /* Transizioni per transform e opacity */
-    -webkit-backdrop-filter: blur(20px);
-    backdrop-filter: blur(20%);
-    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+    border: 2px solid rgba(255, 255, 255, 0.40);
+    background: radial-gradient(390.33% 137.55% at 10% 20%, rgba(45, 4, 74, 0.9) 0%, rgba(45, 4, 74, 0.70) 100%);
+    box-shadow: 0 0 30px 20px rgba(0, 0, 0, 0.25);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(40px);
+
 }
 
 .details-content_pop.visible {
