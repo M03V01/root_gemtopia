@@ -889,14 +889,14 @@
 <script>
     document.getElementById('accommodation-form').addEventListener('submit', function(event) {
         event.preventDefault();
-        var popup = document.getElementById('thank-you-popup');
+        let popup = document.getElementById('thank-you-popup');
         popup.style.display = 'flex';
         popup.style.opacity = '1';
         popup.style.transform = 'translate(-50%, -50%) scale(1)';
     });
 
     document.querySelector('.close-btn2').addEventListener('click', function() {
-        var popup = document.getElementById('thank-you-popup');
+        let popup = document.getElementById('thank-you-popup');
         popup.classList.remove('visible');
         popup.style.display = 'none';
         document.getElementById('accommodation-form').reset();
@@ -906,14 +906,14 @@
 <script>
     document.getElementById('accommodation-form').addEventListener('submit', function(event) {
         event.preventDefault();
-        var popup = document.getElementById('thank-you-popup2');
+        let popup = document.getElementById('thank-you-popup2');
         popup.style.display = 'flex';
         popup.style.opacity = '1';
         popup.style.transform = 'translate(-50%, -50%) scale(1)';
     });
 
     document.querySelector('.close-btn3').addEventListener('click', function() {
-        var popup = document.getElementById('thank-you-popup2');
+        let popup = document.getElementById('thank-you-popup2');
         popup.classList.remove('visible');
         popup.style.display = 'none';
         document.getElementById('accommodation-form').reset();
@@ -1090,15 +1090,7 @@
             });
         });
 
-        document.querySelectorAll('.close-detail').forEach(function(btn) {
-            btn.addEventListener('click', function() {
-                let targetId = btn.getAttribute('data-target');
-                document.querySelectorAll('.container-fluid').forEach(function(box) {
-                    box.style.display = 'block';
-                });
-                btn.parentElement.style.display = 'none';
-            });
-        });
+        
     </script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
