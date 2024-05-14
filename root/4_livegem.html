@@ -757,9 +757,9 @@
                                     </div>
                                 </div>
 
-                                <div class="row pt-lg-4 pt-3">
+                                <div class="row mt-3">
                                     <div class="col-md-12 d-flex justify-content-center">
-                                        <button type="submit" class="cta rounded-4 p-2 px-5 cta_form">Richiedi</button>
+                                        <a href="#" class="expand-link-pop cta rounded-4 p-2 px-5 cta_form" data-target="#thank-you-popup">Richiedi</a>
                                     </div>
                                 </div>
                             </form>
@@ -767,11 +767,9 @@
                     </div>
                 </div>
 
-                <div id="thank-you-popup" class="popup">
-                    <div class="popup-content">
+                <div id="thank-you-popup" class="details-content_pop">
                         <span class="close-btn2">&times;</span>
                         <h2 class="text-center">Grazie per aver compilato il form!</h2>
-                    </div>
                 </div>
             </div>
 
@@ -956,12 +954,18 @@
 <script>
     document.getElementById('accommodation-form').addEventListener('submit', function(event) {
         event.preventDefault();
-        document.getElementById('thank-you-popup').style.display = 'flex';
+        var popup = document.getElementById('thank-you-popup');
+        popup.style.display = 'flex';
+        popup.style.opacity = '1'; // Assicurati che l'opacità sia impostata per la visibilità
+        popup.style.transform = 'translate(-50%, -50%) scale(1)'; // Assicurati che la trasformazione sia corretta
     });
 
     document.querySelector('.close-btn2').addEventListener('click', function() {
-        document.getElementById('thank-you-popup').style.display = 'none';
+        var popup = document.getElementById('thank-you-popup');
+        popup.classList.remove('visible');
+        popup.style.display = 'none';
         document.getElementById('accommodation-form').reset();
+
     });
 </script>
 
@@ -1134,6 +1138,24 @@
 <script>
     $(document).ready(function() {
         $('.expand-link').click(function(e) {
+            e.preventDefault();
+            let targetId = $(this).data('target');
+            $(targetId).fadeIn(100, function() {
+                $(this).addClass('visible'); // Assicurati che 'visible' venga aggiunta dopo che fadeIn è completo
+            });
+        });
+
+        $('.close-btn').click(function() {
+            let detailContent = $(this).parent();
+            detailContent.removeClass('visible');
+            detailContent.fadeOut(150); // Usa fadeOut per una chiusura più fluida
+        });
+    });
+
+</script>
+<script>
+    $(document).ready(function() {
+        $('.expand-link-pop').click(function(e) {
             e.preventDefault();
             let targetId = $(this).data('target');
             $(targetId).fadeIn(100, function() {
