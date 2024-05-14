@@ -14,4 +14,4 @@ Tecnologie utilizzate:
   
 > Per avere un anteprima del progetto visitare il seguente link: [https://m03v01.github.io/root_gemtopia/root/index.html]
 
-All'interno della cartella [**validation**](https://github.com/ ) sono presenti i file di validazione HTML e CSS del progetto.
+All'interno della cartella [**validation**](https://github.com/M03V01/root_gemtopia/tree/main/validation) sono presenti i file di validazione HTML e CSS del progetto.
