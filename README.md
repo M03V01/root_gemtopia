@@ -6,7 +6,7 @@ Gemtopia è una città delle meraviglie, dove l’insolito diventa la normalità
 Al centro della città batte il cuore magico delle Gemme Meravigliose che sono al fonte di sostentamento di Gemtopia.
 
 La città si divide in 4 quartieri: Dreamstrict è il quartiere del relax e dei sognatori. Intrepidaria è il quartiere dell’avventura e dei coraggiosi. Genius-hill è il quartiere della cultura e dei saggi. Cuddlehood è il quartiere delle coccole e dei romantici.
-<img src="img/GEMTOPIA.png" alt="Gemtopia Logo"/>
+<img src="root/img/GEMTOPIA.png" alt="Gemtopia Logo"/>
 
 Tecnologie utilizzate:
 
