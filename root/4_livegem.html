@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="it" xmlns="http://www.w3.org/1999/html">
+<html lang="it" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -59,11 +59,11 @@
     <div class="container col-12 align-items-center parallax2 " id="main-content">
         <div class="row align-items-center">
             <div class="col-12 col-lg-6 d-flex align-items-center">
-                <hgroup class="col-12">
+                <div class="col-12">
                     <h2 >Pianifica il tuo </h2>
                     <h1 >Soggiorno</h1>
                     <h2> nella fantastica Gemtopia</h2>
-                </hgroup>
+                </div>
             </div>
             <div class="col-12 col-lg-6">
                 <img src="img/soggiorni.png" class="img-fluid col-12" alt="Foto header dei soggiorni raffigurante una piccola cittá">
@@ -74,7 +74,7 @@
         <div class="row-12 row-waves">
             <svg class="waves mb-0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
                 <defs>
-                    <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                    <path class="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
                 </defs>
                 <g class="parallax">
                     <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(219,29,118,0.7)" />
@@ -89,7 +89,7 @@
             </div>
             <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto" style="transform: scaleY(-1);">
                 <defs>
-                    <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                    <path class="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
                 </defs>
                 <g class="parallax">
                     <use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(219,29,118,0.7)">
@@ -127,7 +127,7 @@
             </div>
             <div id="answer-buttons" class="btn-container px-3 p-0 pb-lg-3"></div>
             <div class="col-6 d-flex justify-content-center align-self-center">
-                <a href="mailto:gemtopia@example.com"><button id="result-button" class="btn" style="display: none">Prenota ora</button></a>
+                <a href="mailto:gemtopia@example.com" id="result-button" class="btn" style="display: none">Prenota ora</a>
             </div>
         </div>
     </div>
@@ -182,7 +182,7 @@
                                                 <form>
                                                     <div class="row pt-lg-4 pb-lg-5 pt-3">
                                                         <div class="col-md-12">
-                                                            <button type="button" class="cta rounded-4 p-2 px-5 cta_form"> <a href="mailto:gemtopia@example.com">Richiedi</a></button>
+                                                            <a href="mailto:gemtopia@example.com" class="cta rounded-4 p-2 px-5 cta_form">Richiedi</a>
                                                         </div>
                                                     </div>
                                                 </form>
