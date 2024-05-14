@@ -903,6 +903,37 @@
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
+        let myCarousel2 = document.querySelector('#mobileCarousel');
+
+        function checkCarouselSlide() {
+            let items = myCarousel2.querySelectorAll('.carousel-item');
+            let totalItems = items.length;
+            let activeItem = myCarousel2.querySelector('.carousel-item.active');
+            let activeIndex = [...items].indexOf(activeItem);
+
+            if (activeIndex === 0) {
+                myCarousel2.querySelector('.carousel-control-prev').classList.add('d-none');
+            } else {
+                myCarousel2.querySelector('.carousel-control-prev').classList.remove('d-none');
+            }
+
+            if (activeIndex === totalItems - 1) {
+                myCarousel2.querySelector('.carousel-control-next').classList.add('d-none');
+            } else {
+                myCarousel2.querySelector('.carousel-control-next').classList.remove('d-none');
+            }
+        }
+
+        checkCarouselSlide();
+
+        myCarousel2.addEventListener('slid.bs.carousel', function () {
+            checkCarouselSlide();
+        });
+    });
+</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
         let myCarousel2 = document.querySelector('#carouselExample');
 
         function checkCarouselSlide() {
