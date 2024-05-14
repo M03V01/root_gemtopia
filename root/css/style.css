@@ -1292,7 +1292,6 @@ cursor: pointer;
 }
 
 .details-content_pop {
-    backdrop-filter: blur(40px);
     width: 45%;
     height: 35%;
     position: absolute;
@@ -1308,6 +1307,8 @@ cursor: pointer;
     transform: translate(-50%, -50%) scale(0.9); /* Inizio con zoom ridotto */
     transition: transform 0.4s ease, opacity 0.4s ease-out; /* Transizioni per transform e opacity */
     -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20%);
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 .details-content_pop.visible {
