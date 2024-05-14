@@ -10,7 +10,7 @@ La città si divide in 4 quartieri: Dreamstrict è il quartiere del relax e dei 
 Tecnologie utilizzate:
 
 - HTML5, CSS3, JavaScript
-- Framework Bootstrap per il design e lo stile reattivi
+- Framework Bootstrap per il design e lo stile
 - 
 
 > Per avere un anteprima del progetto visitare il seguente link: https://m03v01.github.io/root_gemtopia/root/4_livegem.html
