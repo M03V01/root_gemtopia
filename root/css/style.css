@@ -1055,7 +1055,6 @@ cursor: pointer;
     border-radius: 20px;
 }
 
-/* for Mobile Slider */
 .carousel-caption {
     text-align: center;
 }
@@ -1065,7 +1064,6 @@ cursor: pointer;
     margin: 0;
 }
 
-/* for Desktop Tabs */
 .nav-tabs .nav-item-tab {
     display: flex;
     width: 25%;
@@ -1084,7 +1082,6 @@ cursor: pointer;
     border: none;
 }
 
-/* Media query per mostrare i tab solo su dispositivi più grandi */
 @media (min-width: 768px) {
     .nav-tabs .nav-item-tab {
         display: flex;
@@ -1203,7 +1200,7 @@ cursor: pointer;
 
 /* Altezza base per tutti i dispositivi */
 .carousel-item-holiday {
-    height: 700px; /* Altezza di default */
+    height: 700px;
 }
 
 .carousel-item-house {
@@ -1243,7 +1240,7 @@ cursor: pointer;
 
 @media only screen and (min-width: 768px) {
     .carousel-item-holiday {
-        height: 800px; /* Altezza per tablet in orientamento portrait */
+        height: 800px;
     }
 
     .carousel-item-change{
@@ -1257,7 +1254,7 @@ cursor: pointer;
 
 @media only screen and (min-width: 992px) {
     .central-text {
-        padding: 1px 1px; /* esempio di margini più larghi */
+        padding: 1px 1px;
     }
 
     .carousel-item-holiday{
@@ -1275,7 +1272,7 @@ cursor: pointer;
 
 @media only screen and (min-width: 1200px) {
     .carousel-item-holiday {
-        height: 620px; /* Altezza per laptop e desktop di dimensioni normali */
+        height: 620px;
     }
 
     .carousel-item-change{
@@ -1338,8 +1335,8 @@ cursor: pointer;
     padding: 60px;
     text-align: center;
     position: relative;
-    width: 500px; /* Aumentato da 300px a 500px per maggiore larghezza */
-    max-width: 90%; /* Limita la larghezza massima al 90% della finestra */
+    width: 500px;
+    max-width: 90%;
 }
 
 .close-btn2 {
@@ -1553,17 +1550,17 @@ cursor: pointer;
     box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(40px);
     z-index: 1000;
-    display: none; /* Inizialmente nascosto */
-    opacity: 0; /* Inizia completamente trasparente per l'effetto di dissolvenza */
-    transform: translate(-50%, -50%) scale(0.9); /* Inizio con zoom ridotto */
-    transition: transform 0.4s ease, opacity 0.4s ease-out; /* Transizioni per transform e opacity */
+    display: none;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.9);
+    transition: transform 0.4s ease, opacity 0.4s ease-out;
     -webkit-backdrop-filter: blur(20px);
 }
 
 .details-content1.visible {
     display: block;
     opacity: 1;
-    transform: translate(-50%, -50%) scale(1); /* Zoom normale alla fine della transizione */
+    transform: translate(-50%, -50%) scale(1);
 }
 
 .details-content2 {
@@ -1578,10 +1575,10 @@ cursor: pointer;
     box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(40px);
     z-index: 1000;
-    display: none; /* Inizialmente nascosto */
-    opacity: 0; /* Inizia completamente trasparente per l'effetto di dissolvenza */
-    transform: translate(-50%, -50%) scale(0.9); /* Inizio con zoom ridotto */
-    transition: transform 0.4s ease, opacity 0.4s ease-out; /* Transizioni per transform e opacity */
+    display: none;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.9);
+    transition: transform 0.4s ease, opacity 0.4s ease-out;
     -webkit-backdrop-filter: blur(20px);
 }
 
@@ -1603,10 +1600,10 @@ cursor: pointer;
     box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(40px);
     z-index: 1000;
-    display: none; /* Inizialmente nascosto */
-    opacity: 0; /* Inizia completamente trasparente per l'effetto di dissolvenza */
-    transform: translate(-50%, -50%) scale(0.9); /* Inizio con zoom ridotto */
-    transition: transform 0.4s ease, opacity 0.4s ease-out; /* Transizioni per transform e opacity */
+    display: none;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.9);
+    transition: transform 0.4s ease, opacity 0.4s ease-out;
     -webkit-backdrop-filter: blur(20px);
 }
 
@@ -1628,17 +1625,17 @@ cursor: pointer;
     box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(40px);
     z-index: 1000;
-    display: none; /* Inizialmente nascosto */
-    opacity: 0; /* Inizia completamente trasparente per l'effetto di dissolvenza */
-    transform: translate(-50%, -50%) scale(0.9); /* Inizio con zoom ridotto */
-    transition: transform 0.4s ease, opacity 0.4s ease-out; /* Transizioni per transform e opacity */
+    display: none;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.9);
+    transition: transform 0.4s ease, opacity 0.4s ease-out;
     -webkit-backdrop-filter: blur(20px);
 }
 
 .details-content4.visible {
     display: block;
     opacity: 1;
-    transform: translate(-50%, -50%) scale(1); /* Zoom normale alla fine della transizione */
+    transform: translate(-50%, -50%) scale(1);
 }
 
 .close-btn {
