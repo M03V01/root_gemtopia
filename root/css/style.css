@@ -1052,7 +1052,7 @@ cursor: pointer;
 }
 
 .carousel-item{
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 .carousel-caption {
@@ -1375,7 +1375,7 @@ cursor: pointer;
 }
 
 .dolce_dormizio {
-    border-radius: 1.25rem;
+    border-radius: 1.875rem;
     border: 2px solid rgba(100, 204, 197, 0.50);
     background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(100, 204, 197, 0.40) 0%, rgba(100, 204, 197, 0.00) 100%);
     box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.25);
@@ -1384,7 +1384,7 @@ cursor: pointer;
 }
 
 .casa_audacia {
-    border-radius: 1.25rem;
+    border-radius: 1.875rem;
     border: 2px solid rgba(255, 147, 97, 0.50);
     background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(255, 147, 97, 0.40) 0%, rgba(255, 147, 97, 0.00) 100%);
     box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.25);
@@ -1393,7 +1393,7 @@ cursor: pointer;
 }
 
 .villa_sapientia {
-    border-radius: 1.25rem;
+    border-radius: 1.875rem;
     border: 2px solid rgba(148, 11, 146, 0.50);
     background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(148, 11, 146, 0.40) 0%, rgba(148, 11, 146, 0.00) 100%);
     box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.25);
@@ -1402,7 +1402,7 @@ cursor: pointer;
 }
 
 .love_nest {
-    border-radius: 1.25rem;
+    border-radius: 1.875rem;
     border: 2px solid rgba(219, 29, 118, 0.50);
     background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(219, 29, 118, 0.40) 0%, rgba(219, 29, 118, 0.00) 100%);
     box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.25);
@@ -1544,7 +1544,7 @@ cursor: pointer;
     position: absolute;
     top: 50%;
     left: 50%;
-    border-radius: 20px;
+    border-radius: 30px;
     border: 2px solid rgba(100, 204, 197, 0.40);
     background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(93, 190, 183, 0.7) 0%, rgba(100, 204, 197, 0.00) 100%);
     box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.25);
@@ -1569,7 +1569,7 @@ cursor: pointer;
     position: absolute;
     top: 50%;
     left: 50%;
-    border-radius: 20px;
+    border-radius: 30px;
     border: 2px solid rgba(255, 147, 97, 0.40);
     background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(255, 147, 97, 0.40) 0%, rgba(255, 147, 97, 0.00) 100%);
     box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.25);
@@ -1594,7 +1594,7 @@ cursor: pointer;
     position: absolute;
     top: 50%;
     left: 50%;
-    border-radius: 20px;
+    border-radius: 30px;
     border: 2px solid rgba(148, 11, 146, 0.40);
     background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(148, 11, 146, 0.40) 0%, rgba(148, 11, 146, 0.00) 100%);
     box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.25);
@@ -1619,7 +1619,7 @@ cursor: pointer;
     position: absolute;
     top: 50%;
     left: 50%;
-    border-radius: 20px;
+    border-radius: 30px;
     border: 2px solid rgba(219, 29, 118, 0.40);
     background: radial-gradient(379.91% 134.12% at 0% 5.07%, rgba(219, 29, 118, 0.40) 0%, rgba(219, 29, 118, 0.00) 100%);
     box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.25);
